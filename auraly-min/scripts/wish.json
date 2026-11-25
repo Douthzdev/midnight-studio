@@ -1,0 +1,109 @@
+{
+ "head": [
+  "MAKE A WISH",
+  "*in the next 5 seconds*"
+ ],
+ "accent": [
+  "miracle",
+  "wish",
+  "universe",
+  "karma",
+  "energy",
+  "reading",
+  "48"
+ ],
+ "beats": [
+  {
+   "at": "a massive miracle",
+   "art": "sparkle",
+   "label": "THE UNIVERSE IS SENDING",
+   "big": "A massive *miracle*",
+   "dur": 2.6
+  },
+  {
+   "at": "48 hours",
+   "art": "hourglass",
+   "label": "IT ARRIVES IN",
+   "big": "48",
+   "sub": "hours",
+   "dur": 2.2
+  },
+  {
+   "at": "five four",
+   "label": "MAKE YOUR WISH NOW",
+   "big": "5,4,3,2,1",
+   "count": [
+    "five",
+    "four",
+    "three",
+    "two",
+    "one"
+   ]
+  },
+  {
+   "at": [
+    "comment thank you",
+    "thank you universe"
+   ],
+   "cta": "comment",
+   "type": "Thank you, Universe",
+   "label": "COMMENT THIS",
+   "dur": 2.8
+  },
+  {
+   "at": [
+    "tap my profile",
+    "profile picture and"
+   ],
+   "cta": "stories",
+   "label": "TAP MY PROFILE PICTURE",
+   "big": "3-card *reading*",
+   "sub": "a special reading is waiting for you",
+   "dur": 99
+  }
+ ],
+ "stickers": [
+  {
+   "at": "listen to me",
+   "icon": "moon",
+   "text": "LISTEN CAREFULLY",
+   "side": "r"
+  },
+  {
+   "at": "exactly what you want",
+   "icon": "star",
+   "text": "ASK FOR EXACTLY IT",
+   "side": "l"
+  },
+  {
+   "at": [
+    "send this video",
+    "send this"
+   ],
+   "icon": "send",
+   "text": "SEND TO 3 PEOPLE",
+   "side": "r"
+  },
+  {
+   "at": "karma is real",
+   "icon": "sparkle",
+   "text": "KARMA IS REAL",
+   "side": "r"
+  },
+  {
+   "at": [
+    "you receive good",
+    "receive good energy"
+   ],
+   "icon": "sparkle",
+   "text": "GOOD ENERGY",
+   "side": "l"
+  },
+  {
+   "at": "your wish will",
+   "icon": "star",
+   "text": "YOUR WISH COMES TRUE",
+   "side": "r"
+  }
+ ]
+}

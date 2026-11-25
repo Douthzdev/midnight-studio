@@ -1,0 +1,42 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="fit" data-width="1080" data-height="1920">
+<div class="wrap" id="fit-w"><div class="cam" id="fit-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<text id="fit-t0" x="540" y="420" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="34" font-weight="500" letter-spacing="0.3em" fill="#F4B860">SIGN 03 · THE HARDEST</text>
+<path id="fit-p1" d="M260,520 H820 V980 H260 Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="fit-p2" d="M640,750 m-110,0 a110,110 0 1,1 220,0 a110,110 0 1,1 -220,0" fill="none" stroke="#79B6E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<g id="fit-sq3">
+<path id="fit-p4" d="M310,670 H470 V830 H310 Z" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<path id="fit-p5" d="M590,700 L690,800 M690,700 L590,800" fill="none" stroke="#EF7F6B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fit-t0",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.100);
+tl.fromTo("#fit-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},0.150);
+tl.fromTo("#fit-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.400);
+tl.fromTo("#fit-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},3.477);
+tl.to("#fit-sq3",{x:150,duration:0.35,ease:"power2.in"},5.77);
+tl.to("#fit-sq3",{x:20,rotation:-8,svgOrigin:"390 750",duration:0.6,ease:"back.out(2)"},6.12);
+tl.fromTo("#fit-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},6.517);
+tl.to("#fit-w",{opacity:0,duration:0.2,ease:"power1.in"},7.190);
+tl.fromTo("#fit-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#fit-cam",{scale:1.045,x:-14,y:-10,duration:6.910,ease:"sine.inOut"},0.5);
+tl.to("#fit-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},7.190);
+tl.set({}, {}, 7.41);
+window.__timelines["fit"] = tl;
+</script>
+</template>

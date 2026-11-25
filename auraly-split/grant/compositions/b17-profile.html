@@ -1,0 +1,28 @@
+<template>
+<style>#root{position:absolute;inset:0;} .wrap{position:absolute;inset:0;} svg.art{position:absolute;inset:0;width:1080px;height:560px;overflow:visible;filter:drop-shadow(0 0 6px rgba(255,236,214,0.25));}</style>
+<div id="root" data-composition-id="b17-profile" data-width="1080" data-height="560">
+<div class="wrap" id="b17-profile-w"><svg class="art" viewBox="0 0 1080 560" xmlns="http://www.w3.org/2000/svg">
+<path id="b17-profile-p0" d="M540,95 a115,115 0 1,1 -0.1,0" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b17-profile-p1" d="M540,75 a135,135 0 1,1 -0.1,0" fill="none" stroke="#EF7F6B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b17-profile-p2" d="M540,142 a38,38 0 1,1 -0.1,0" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b17-profile-p3" d="M465,300 Q470,235 540,235 Q610,235 615,300" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b17-profile-p4" d="M640,268 a22,22 0 1,1 -0.1,0 M640,246 a44,44 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b17-profile-p5" d="M640,224 a66,66 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5"/>
+<text id="b17-profile-t6" x="540" y="515" text-anchor="middle" style="font-family:'Montserrat'" font-size="44" font-weight="800" letter-spacing="0.02em" fill="#F2EFE8">TAP MY PROFILE PICTURE</text>
+</svg></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#b17-profile-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.245);
+tl.fromTo("#b17-profile-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.545);
+tl.fromTo("#b17-profile-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},0.645);
+tl.fromTo("#b17-profile-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},0.745);
+tl.fromTo("#b17-profile-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},0.120);
+tl.fromTo("#b17-profile-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},0.270);
+tl.fromTo("#b17-profile-t6",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.445);
+tl.fromTo("#b17-profile-w",{scale:1},{scale:1.04,duration:3.567,ease:"none",transformOrigin:"540px 250px"},0);
+tl.to("#b17-profile-w",{opacity:0,duration:0.16,ease:"power1.in"},3.407);
+tl.set({}, {}, 3.567);
+window.__timelines["b17-profile"] = tl;
+</script>
+</template>

@@ -1,0 +1,37 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(244,184,96,0.4));}</style>
+<div id="root" data-composition-id="key" data-width="1080" data-height="1920">
+<div class="wrap" id="key-w"><div class="cam" id="key-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="key-p0e" d="M330,640 a80,80 0 1,1 -0.1,0 M410,720 H800 M720,720 V790 M770,720 V770" fill="none" stroke="#EF7F6B" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="key-p0" d="M330,640 a80,80 0 1,1 -0.1,0 M410,720 H800 M720,720 V790 M770,720 V770" fill="none" stroke="#F4B860" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="key-t1" x="540" y="470" text-anchor="middle" style="font-family:'Montserrat'" font-size="54" font-weight="800" letter-spacing="0em" fill="#F4B860">THE KEY</text>
+<text id="key-t2" x="540" y="950" text-anchor="middle" style="font-family:'Montserrat'" font-size="44" font-weight="800" letter-spacing="0em" fill="#F2EFE8">I NOTICE IT EVERYWHERE</text>
+<path id="key-p3" d="M260,975 H820" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#key-p0, #key-p0e",{strokeDashoffset:1},{strokeDashoffset:0,duration:1,ease:"power2.out"},0.375);
+tl.fromTo("#key-t1",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.375);
+tl.fromTo("#key-t2",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.455);
+tl.fromTo("#key-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},3.095);
+tl.to("#key-w",{opacity:0,duration:0.2,ease:"power1.in"},3.757);
+tl.fromTo("#key-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#key-cam",{scale:1.045,x:-14,y:-10,duration:3.477,ease:"sine.inOut"},0.5);
+tl.to("#key-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},3.757);
+tl.set({}, {}, 3.977);
+window.__timelines["key"] = tl;
+</script>
+</template>

@@ -1,0 +1,48 @@
+<template>
+<style>#root{position:absolute;inset:0;} .wrap{position:absolute;inset:0;} svg.art{position:absolute;inset:0;width:1080px;height:560px;overflow:visible;filter:drop-shadow(0 0 6px rgba(255,236,214,0.25));}</style>
+<div id="root" data-composition-id="b4-calendar" data-width="1080" data-height="560">
+<div class="wrap" id="b4-calendar-w"><svg class="art" viewBox="0 0 1080 560" xmlns="http://www.w3.org/2000/svg">
+<path id="b4-calendar-p0" d="M308,70 H492 Q510,70 510,88 V332 Q510,350 492,350 H308 Q290,350 290,332 V88 Q290,70 308,70Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b4-calendar-p1" d="M290,130 H510" fill="none" stroke="#F2EFE8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b4-calendar-p2" d="M350,55 V85 M450,55 V85" fill="none" stroke="#F2EFE8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="b4-calendar-t3" x="400" y="115" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="34" font-weight="600" letter-spacing="0.12em" fill="#8C8A86">NOV</text>
+<text id="b4-calendar-t4" x="400" y="300" text-anchor="middle" style="font-family:'League Gothic'" font-size="170" font-weight="500" letter-spacing="0em" fill="#F2EFE8">20</text>
+<path id="b4-calendar-p5" d="M588,70 H772 Q790,70 790,88 V332 Q790,350 772,350 H588 Q570,350 570,332 V88 Q570,70 588,70Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b4-calendar-p6" d="M570,130 H790" fill="none" stroke="#F2EFE8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b4-calendar-p7" d="M630,55 V85 M730,55 V85" fill="none" stroke="#F2EFE8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="b4-calendar-t8" x="680" y="115" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="34" font-weight="600" letter-spacing="0.12em" fill="#8C8A86">NOV</text>
+<text id="b4-calendar-t9" x="680" y="300" text-anchor="middle" style="font-family:'League Gothic'" font-size="170" font-weight="500" letter-spacing="0em" fill="#F2EFE8">21</text>
+<path id="b4-calendar-p10" d="M400,90 C200,95 230,350 400,360 C560,370 600,110 400,90 M680,90 C860,95 850,350 680,360 C520,365 500,110 690,92" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b4-calendar-p11" d="M765,56.24934601597488 Q765,66 774.7506539840251,66 Q765,66 765,75.75065398402512 Q765,66 755.2493460159749,66 Q765,66 765,56.24934601597488Z" fill="#F4B860" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b4-calendar-p12" d="M158,343.6877523707226 Q158,357 171.3122476292774,357 Q158,357 158,370.3122476292774 Q158,357 144.6877523707226,357 Q158,357 158,343.6877523707226Z" fill="#F4B860" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b4-calendar-p13" d="M737,53.57454164349474 Q737,66 749.4254583565053,66 Q737,66 737,78.42545835650526 Q737,66 724.5745416434947,66 Q737,66 737,53.57454164349474Z" fill="#F4B860" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b4-calendar-p14" d="M850,130.08258216781542 Q850,144 863.9174178321846,144 Q850,144 850,157.91741783218458 Q850,144 836.0825821678154,144 Q850,144 850,130.08258216781542Z" fill="#F4B860" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="b4-calendar-t15" x="540" y="515" text-anchor="middle" style="font-family:'Montserrat'" font-size="44" font-weight="800" letter-spacing="0.02em" fill="#F2EFE8">NOT EVERYONE WILL SEE THIS</text>
+</svg></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#b4-calendar-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.080);
+tl.fromTo("#b4-calendar-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.280);
+tl.fromTo("#b4-calendar-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.380);
+tl.fromTo("#b4-calendar-t4",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.480);
+tl.fromTo("#b4-calendar-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.230);
+tl.fromTo("#b4-calendar-p6",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.430);
+tl.fromTo("#b4-calendar-p7",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.380);
+tl.fromTo("#b4-calendar-t9",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.630);
+tl.fromTo("#b4-calendar-p10",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},1.080);
+tl.fromTo("#b4-calendar-p11",{fillOpacity:0},{fillOpacity:1,duration:0.4,ease:"power1.in"},1.157);
+tl.fromTo("#b4-calendar-p11",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},1.157);
+tl.fromTo("#b4-calendar-p12",{fillOpacity:0},{fillOpacity:1,duration:0.4,ease:"power1.in"},1.411);
+tl.fromTo("#b4-calendar-p12",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},1.411);
+tl.fromTo("#b4-calendar-p13",{fillOpacity:0},{fillOpacity:1,duration:0.4,ease:"power1.in"},1.488);
+tl.fromTo("#b4-calendar-p13",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},1.488);
+tl.fromTo("#b4-calendar-p14",{fillOpacity:0},{fillOpacity:1,duration:0.4,ease:"power1.in"},1.547);
+tl.fromTo("#b4-calendar-p14",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},1.547);
+tl.fromTo("#b4-calendar-t15",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.280);
+tl.fromTo("#b4-calendar-w",{scale:1},{scale:1.04,duration:5.929,ease:"none",transformOrigin:"540px 250px"},0);
+
+tl.set({}, {}, 5.929);
+window.__timelines["b4-calendar"] = tl;
+</script>
+</template>

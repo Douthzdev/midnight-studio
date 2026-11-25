@@ -1,0 +1,41 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(244,184,96,0.35));}</style>
+<div id="root" data-composition-id="now" data-width="1080" data-height="1920">
+<div class="wrap" id="now-w"><div class="cam" id="now-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g id="now-g0">
+<text id="now-t1" x="540" y="700" text-anchor="middle" style="font-family:'Montserrat'" font-size="110" font-weight="800" letter-spacing="0em" fill="#8C8A86">SOMEDAY</text>
+<path id="now-p2" d="M260,720 L820,640" fill="none" stroke="#EF7F6B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<text id="now-b3" data-layout-allow-overlap x="533" y="860" text-anchor="middle" style="font-family:'League Gothic'" font-size="380" fill="none" stroke="#F4B860" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">NOW</text>
+<text id="now-b4" data-layout-allow-overlap x="547" y="860" text-anchor="middle" style="font-family:'League Gothic'" font-size="380" fill="none" stroke="#EF7F6B" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">NOW</text>
+<text id="now-b5" data-layout-allow-overlap x="540" y="860" text-anchor="middle" style="font-family:'League Gothic'" font-size="380" fill="none" stroke="#F2EFE8" stroke-width="3.2" stroke-dasharray="2600 2600" opacity="1" stroke-linejoin="round">NOW</text>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#now-t1",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.779);
+tl.fromTo("#now-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},1.379);
+tl.to("#now-g0",{opacity:0,y:-30,duration:0.3,ease:"power2.in"},1.83);
+tl.fromTo("#now-b3",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.9,ease:"power2.inOut"},2.079);
+tl.fromTo("#now-b4",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.9,ease:"power2.inOut"},2.079);
+tl.fromTo("#now-b5",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.9,ease:"power2.inOut"},2.079);
+tl.to("#now-w",{opacity:0,duration:0.2,ease:"power1.in"},2.556);
+tl.fromTo("#now-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#now-cam",{scale:1.045,x:-14,y:-10,duration:2.276,ease:"sine.inOut"},0.5);
+tl.to("#now-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},2.556);
+tl.set({}, {}, 2.776);
+window.__timelines["now"] = tl;
+</script>
+</template>

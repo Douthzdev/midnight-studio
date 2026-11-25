@@ -1,0 +1,233 @@
+{
+ "hook": 6.067,
+ "headDur": 5.8,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/øneheart x antent - rain inside.mp3",
+ "head": [
+  "First in your family",
+  "*to have a lot of money*"
+ ],
+ "accent": [
+  "money",
+  "heaven",
+  "phone",
+  "end",
+  "shut",
+  "final",
+  "prosperity",
+  "love",
+  "portal",
+  "abundance",
+  "wonderful",
+  "fist",
+  "chose",
+  "chains",
+  "blockage",
+  "seven",
+  "seal",
+  "222",
+  "tomorrow",
+  "news",
+  "Envy",
+  "stories",
+  "profile"
+ ],
+ "pops": [
+  {
+   "type": "card",
+   "at": "family member who",
+   "icon": "wings",
+   "title": "From heaven",
+   "sub": "a message for you",
+   "dur": 3.2
+  },
+  {
+   "type": "chip",
+   "at": "woman lying down",
+   "icon": "phone",
+   "text": "Lying down *right now?*",
+   "dur": 2.8
+  },
+  {
+   "type": "chip",
+   "at": "She's the one",
+   "pos": "ml",
+   "icon": "wings",
+   "text": "*St. Michael* sent this",
+   "dur": 2.6
+  },
+  {
+   "type": "chip",
+   "at": "watch until the very end",
+   "icon": "eye",
+   "text": "Watch *till the end*",
+   "dur": 2.4
+  },
+  {
+   "type": "card",
+   "at": "November 25th and",
+   "icon": "calendar",
+   "title": "Before Nov 25 · 26",
+   "sub": "not everyone sees this",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "final sign",
+   "pos": "ml",
+   "icon": "spark",
+   "text": "Your *final sign*",
+   "dur": 2.4
+  },
+  {
+   "type": "list",
+   "at": "wave of prosperity",
+   "title": "COMING YOUR WAY",
+   "check": true,
+   "end": "coming your way",
+   "items": [
+    {
+     "at": "prosperity",
+     "icon": "star",
+     "text": "Prosperity"
+    },
+    {
+     "at": "love",
+     "icon": "heart",
+     "text": "Love"
+    },
+    {
+     "at": "money",
+     "icon": "money",
+     "text": "Money"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "at": "portal of abundance",
+   "pos": "ml",
+   "icon": "portal",
+   "title": "Abundance portal",
+   "sub": "is open",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "into your home",
+   "icon": "home",
+   "text": "Money *at home*",
+   "dur": 2.4
+  },
+  {
+   "type": "card",
+   "at": "right hand into",
+   "pos": "ml",
+   "icon": "fist",
+   "title": "Close your right hand",
+   "sub": "into a fist",
+   "end": "very end"
+  },
+  {
+   "type": "chip",
+   "at": "not for everyone",
+   "icon": "star",
+   "text": "Not for *everyone*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "universe chose you",
+   "pos": "ml",
+   "icon": "spark",
+   "text": "The universe *chose you*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "chains of scarcity",
+   "icon": "unlock",
+   "text": "Chains *breaking*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "going back to whoever",
+   "pos": "ml",
+   "icon": "shield",
+   "text": "Returned to *sender*",
+   "dur": 2.6
+  },
+  {
+   "type": "stats",
+   "at": "next seven minutes",
+   "end": "disappear forever",
+   "items": [
+    {
+     "at": "seven minutes",
+     "big": "7",
+     "small": "minutes",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "open your hand",
+   "title": "YOUR SEALS",
+   "check": true,
+   "end": "you did it",
+   "items": [
+    {
+     "at": "save this video",
+     "icon": "save",
+     "text": "Save · 1st seal"
+    },
+    {
+     "at": "Double tap",
+     "icon": "heart",
+     "text": "Double tap · 2nd seal"
+    },
+    {
+     "at": "Comment 222",
+     "icon": "chat",
+     "text": "Comment 222"
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "Comment 222",
+   "text": "222",
+   "dur": 3
+  },
+  {
+   "type": "card",
+   "at": "Tomorrow at 11",
+   "pos": "ml",
+   "icon": "bell",
+   "title": "Tomorrow, 11 a.m.",
+   "sub": "very good news",
+   "dur": 3.2
+  },
+  {
+   "type": "chip",
+   "at": "Envy can break",
+   "icon": "shield",
+   "text": "Protect it from *envy*",
+   "dur": 2.4
+  },
+  {
+   "type": "stories",
+   "at": "Tap my profile picture",
+   "sub": "watch *before they disappear*"
+  }
+ ],
+ "fix": {
+  "111": "1111",
+  "227": "2027",
+  "hot": "heart",
+  "seas": "season",
+  "Puniverse": "The universe",
+  "Puniverse.": "The universe"
+ }
+}

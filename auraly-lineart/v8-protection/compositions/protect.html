@@ -1,0 +1,32 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="protect" data-width="1080" data-height="1920">
+<div class="wrap" id="protect-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="protect-p0" d="M548.8,771.8 C555.8,773.4 566.0,777.5 573,781.15 C580.0,784.8 586.6,786.0 590.6,793.8 C594.6,801.6 595.7,814.9 597.2,827.9 C598.7,840.9 599.4,858.1 599.4,871.9 C599.4,885.6 598.3,901.0 597.2,910.4 C596.1,919.8 594.6,925.4 592.8,928 C591.0,930.6 587.5,930.6 586.2,925.8 C584.9,921.0 585.5,910.2 585.1,899.4 C584.7,888.6 585.5,874.6 584,860.9 C582.5,847.1 578.1,818.7 576.3,816.9 C574.5,815.1 574.1,838.0 573,849.9 C571.9,861.8 569.5,877.4 569.7,888.4 C569.9,899.4 573.7,904.0 574.1,915.9 C574.5,927.8 573.0,946.1 571.9,959.9 C570.8,973.6 569.0,983.7 567.5,998.4 C566.0,1013.1 562.9,1037.8 563.1,1047.9 C563.3,1058.0 571.2,1056.9 568.6,1058.9 C566.0,1060.9 551.2,1061.8 547.7,1060 C544.2,1058.2 547.5,1058.2 547.7,1047.9 C547.9,1037.6 549.0,1014.9 548.8,998.4 C548.6,981.9 548.1,959.9 546.6,948.9 C545.1,937.9 542.2,932.4 540,932.4 C537.8,932.4 534.9,937.9 533.4,948.9 C531.9,959.9 531.4,981.9 531.2,998.4 C531.0,1014.9 532.1,1037.6 532.3,1047.9 C532.5,1058.2 535.8,1058.2 532.3,1060 C528.8,1061.8 514.0,1060.9 511.4,1058.9 C508.8,1056.9 516.7,1058.0 516.9,1047.9 C517.1,1037.8 514.0,1013.1 512.5,998.4 C511.0,983.7 509.2,973.6 508.1,959.9 C507.0,946.1 505.5,927.8 505.9,915.9 C506.3,904.0 510.1,899.4 510.3,888.4 C510.5,877.4 508.1,861.8 507,849.9 C505.9,838.0 505.5,815.1 503.7,816.9 C501.9,818.7 497.5,847.1 496,860.9 C494.5,874.6 495.3,888.6 494.9,899.4 C494.5,910.2 495.1,921.0 493.8,925.8 C492.5,930.6 489.0,930.6 487.2,928 C485.4,925.4 483.9,919.8 482.8,910.4 C481.7,901.0 480.6,885.6 480.6,871.9 C480.6,858.1 481.3,840.9 482.8,827.9 C484.3,814.9 485.4,801.6 489.4,793.8 C493.4,786.0 500.0,784.8 507,781.15 C514.0,777.5 524.2,773.4 531.2,771.8 C538.2,770.2 541.8,770.2 548.8,771.8Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="protect-p1" d="M540,730 a19.8,19.8 0 1,1 0,39.6 a19.8,19.8 0 1,1 0,-39.6" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="protect-p2" d="M540,520 L761,611 V780 Q748,975 540,1053 Q332,975 319,780 V611 Z" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="protect-t3" x="540" y="470" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="40" font-weight="700" letter-spacing="0.12em" fill="#F4B860">COMMENT 222</text>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#protect-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.000);
+tl.fromTo("#protect-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.48,ease:"power2.out"},0.000);
+tl.fromTo("#protect-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:1.1,ease:"power2.out"},2.789);
+tl.fromTo("#protect-t3",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.709);
+tl.to("#protect-w",{opacity:0,duration:0.2,ease:"power1.in"},7.015);
+tl.set({}, {}, 7.235);
+window.__timelines["protect"] = tl;
+</script>
+</template>

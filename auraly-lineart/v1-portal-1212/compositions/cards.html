@@ -1,0 +1,63 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="cards" data-width="1080" data-height="1920">
+<div class="wrap" id="cards-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(290,740) rotate(-10)">
+<g id="cards-tc0">
+<path id="cards-p1" d="M-86,-160 H86 Q100,-160 100,-146 V146 Q100,160 86,160 H-86 Q-100,160 -100,146 V-146 Q-100,-160 -86,-160 Z" fill="#0E0E10" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="cards-p2" d="M-86,-146 H86 V146 H-86 Z" fill="none" stroke="#B79CF0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.8"/>
+</g></g>
+<g transform="translate(540,740) rotate(0)">
+<g id="cards-tc3">
+<path id="cards-p4" d="M-86,-160 H86 Q100,-160 100,-146 V146 Q100,160 86,160 H-86 Q-100,160 -100,146 V-146 Q-100,-160 -86,-160 Z" fill="#0E0E10" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="cards-p5" d="M-86,-146 H86 V146 H-86 Z" fill="none" stroke="#B79CF0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.8"/>
+</g></g>
+<g transform="translate(790,740) rotate(10)">
+<g id="cards-tc6">
+<path id="cards-p7" d="M-86,-160 H86 Q100,-160 100,-146 V146 Q100,160 86,160 H-86 Q-100,160 -100,146 V-146 Q-100,-160 -86,-160 Z" fill="#0E0E10" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="cards-p8" d="M-86,-146 H86 V146 H-86 Z" fill="none" stroke="#B79CF0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.8"/>
+</g></g>
+<g transform="translate(290,740) rotate(-10)">
+<path id="cards-p9" d="M0,-40 a40,40 0 1,1 -0.1,0 M0,-6 a6,6 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<g transform="translate(540,740) rotate(0)">
+<path id="cards-p10" d="M14,-70 L-22,4 H10 L-14,70" fill="none" stroke="#EF7F6B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<g transform="translate(790,740) rotate(10)">
+<path id="cards-p11" d="M0,-62 L14,-14 L62,0 L14,14 L0,62 L-14,14 L-62,0 L-14,-14 Z" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<text id="cards-t12" x="290" y="960" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="30" font-weight="500" letter-spacing="0.12em" fill="#F4B860">NOW</text>
+<text id="cards-t13" x="540" y="960" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="30" font-weight="500" letter-spacing="0.12em" fill="#EF7F6B">BREAK</text>
+<text id="cards-t14" x="790" y="960" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="30" font-weight="500" letter-spacing="0.12em" fill="#F4B860">NEXT</text>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#cards-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.100);
+tl.fromTo("#cards-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.250);
+tl.fromTo("#cards-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.250);
+tl.fromTo("#cards-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.400);
+tl.fromTo("#cards-p7",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.400);
+tl.fromTo("#cards-p8",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.550);
+tl.fromTo("#cards-p9",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},2.431);
+tl.fromTo("#cards-p10",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},3.951);
+tl.fromTo("#cards-p11",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},5.151);
+tl.fromTo("#cards-t12",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.431);
+tl.fromTo("#cards-t13",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},3.951);
+tl.fromTo("#cards-t14",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},5.151);
+tl.to("#cards-w",{opacity:0,duration:0.2,ease:"power1.in"},5.760);
+tl.set({}, {}, 5.98);
+window.__timelines["cards"] = tl;
+</script>
+</template>

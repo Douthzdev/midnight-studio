@@ -1,0 +1,15 @@
+GRANT BODY.mp4|body|Grant|hook grant.mp4
+Isaiah Body.mp4|body|Isaiah|hook isaiah.mp4
+Marva body.mp4|body|Marva|hook marva.mp4
+Selena Body.mp4|body|Selena|hook selena.mp4
+grant_candle_complete.mp4|candle|Grant|
+isaiah_candle_complete.mp4|candle|Isaiah|
+marva_candle_complete.mp4|candle|Marva|
+selena_candle_complete.mp4|candle|Selena|
+grant_money_complete.mp4|money|Grant|
+isaiah_money_complete.mp4|money|Isaiah|
+marva_money_complete.mp4|money|Marva|
+selena_money_complete.mp4|money|Selena|
+grant_selfie_FINAL.mp4|selfie|Grant|
+isaiah_brooks_selfie_FINAL.mp4|selfie|Isaiah|
+selena_blake_selfie_FINAL_v2.mp4|selfie|Selena|

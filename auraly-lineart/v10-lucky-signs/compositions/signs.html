@@ -1,0 +1,38 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="signs" data-width="1080" data-height="1920">
+<div class="wrap" id="signs-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="signs-p0" d="M320,520 a160,160 0 1,1 -0.1,0" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="signs-p1" d="M320,778 V666 M320,666 C308.8,568 194,554 194,638 C194,680 236,694 257,680 M320,666 C331.2,568 446,554 446,638 C446,680 404,694 383,680" fill="none" stroke="#F4B860" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="signs-t2" x="320" y="920" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="34" font-weight="500" letter-spacing="0.12em" fill="#F4B860">ARIES</text>
+<path id="signs-p3" d="M760,520 a160,160 0 1,1 -0.1,0" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="signs-p4" d="M704,708 a32,32 0 1,1 0.1,0 M746,694 C718,596 774,554 816,582 C872,624 802,694 816,750 C824.4,792 872,792 886,764" fill="none" stroke="#F4B860" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="signs-t5" x="760" y="920" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="34" font-weight="500" letter-spacing="0.12em" fill="#F4B860">LEO</text>
+<text id="signs-t6" x="540" y="1030" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="32" font-weight="500" letter-spacing="0.12em" fill="#F2EFE8">CONGRATULATIONS</text>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#signs-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.902);
+tl.fromTo("#signs-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:1,ease:"power2.out"},1.002);
+tl.fromTo("#signs-t2",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},1.302);
+tl.fromTo("#signs-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},1.782);
+tl.fromTo("#signs-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:1,ease:"power2.out"},1.882);
+tl.fromTo("#signs-t5",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.182);
+tl.fromTo("#signs-t6",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.662);
+tl.to("#signs-w",{opacity:0,duration:0.2,ease:"power1.in"},7.921);
+tl.set({}, {}, 8.141);
+window.__timelines["signs"] = tl;
+</script>
+</template>

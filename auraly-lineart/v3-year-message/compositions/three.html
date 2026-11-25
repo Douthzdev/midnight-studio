@@ -1,0 +1,45 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="three" data-width="1080" data-height="1920">
+<div class="wrap" id="three-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(290,740) rotate(-10)">
+<g id="three-tc0">
+<path id="three-p1" d="M-86,-160 H86 Q100,-160 100,-146 V146 Q100,160 86,160 H-86 Q-100,160 -100,146 V-146 Q-100,-160 -86,-160 Z" fill="#0E0E10" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="three-p2" d="M-86,-146 H86 V146 H-86 Z" fill="none" stroke="#B79CF0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.8"/>
+</g></g>
+<g transform="translate(540,740) rotate(0)">
+<g id="three-tc3">
+<path id="three-p4" d="M-86,-160 H86 Q100,-160 100,-146 V146 Q100,160 86,160 H-86 Q-100,160 -100,146 V-146 Q-100,-160 -86,-160 Z" fill="#0E0E10" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="three-p5" d="M-86,-146 H86 V146 H-86 Z" fill="none" stroke="#B79CF0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.8"/>
+</g></g>
+<g transform="translate(790,740) rotate(10)">
+<g id="three-tc6">
+<path id="three-p7" d="M-86,-160 H86 Q100,-160 100,-146 V146 Q100,160 86,160 H-86 Q-100,160 -100,146 V-146 Q-100,-160 -86,-160 Z" fill="#0E0E10" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="three-p8" d="M-86,-146 H86 V146 H-86 Z" fill="none" stroke="#B79CF0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.8"/>
+</g></g>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#three-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.050);
+tl.fromTo("#three-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.200);
+tl.fromTo("#three-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.200);
+tl.fromTo("#three-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.350);
+tl.fromTo("#three-p7",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.350);
+tl.fromTo("#three-p8",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.500);
+tl.to("#three-w",{opacity:0,duration:0.2,ease:"power1.in"},1.730);
+tl.set({}, {}, 1.95);
+window.__timelines["three"] = tl;
+</script>
+</template>

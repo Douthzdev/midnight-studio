@@ -1,0 +1,112 @@
+{
+ "look": "glow",
+ "head": [
+  "AN OLD MAN",
+  "*is thinking of you*"
+ ],
+ "accent": [
+  "document",
+  "inheritance",
+  "treasure",
+  "fortune",
+  "yes",
+  "stories",
+  "message",
+  "wonderful"
+ ],
+ "fix": {
+  "treasureful.": "treasure."
+ },
+ "beats": [
+  {
+   "at": [
+    "a document"
+   ],
+   "art": "doc",
+   "label": "HE WANTS TO GIVE YOU",
+   "big": "A *document*",
+   "sub": "an inheritance · land · a treasure",
+   "dur": 3.2
+  },
+  {
+   "at": [
+    "good fortune",
+    "moment of good"
+   ],
+   "art": "chest",
+   "label": "THIS IS YOUR MOMENT",
+   "big": "Good *fortune*",
+   "dur": 2
+  },
+  {
+   "at": [
+    "write yes"
+   ],
+   "cta": "comment",
+   "type": "YES",
+   "label": "WRITE THIS",
+   "dur": 1.8
+  },
+  {
+   "at": [
+    "click on my",
+    "my profile picture"
+   ],
+   "cta": "stories",
+   "label": "TAP MY PROFILE PICTURE",
+   "big": "The *message*",
+   "sub": "is waiting in my stories",
+   "dur": 99
+  }
+ ],
+ "stickers": [
+  {
+   "at": [
+    "something great"
+   ],
+   "icon": "sparkle",
+   "text": "SOMETHING GREAT",
+   "side": "l",
+   "dur": 1
+  },
+  {
+   "at": [
+    "something wonderful",
+    "wonderful"
+   ],
+   "icon": "gift",
+   "text": "WONDERFUL",
+   "side": "r",
+   "dur": 1.2
+  },
+  {
+   "at": [
+    "willing to receive",
+    "are you willing"
+   ],
+   "icon": "star",
+   "text": "READY TO RECEIVE?",
+   "side": "r",
+   "dur": 1.6
+  },
+  {
+   "at": [
+    "send this video"
+   ],
+   "icon": "send",
+   "text": "SEND TO YOURSELF",
+   "side": "l",
+   "dur": 1.4
+  },
+  {
+   "at": [
+    "to seal it",
+    "seal it"
+   ],
+   "icon": "doc",
+   "text": "SEAL IT",
+   "side": "r",
+   "dur": 1
+  }
+ ]
+}

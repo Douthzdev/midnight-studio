@@ -1,0 +1,50 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="scroll" data-width="1080" data-height="1920">
+<div class="wrap" id="scroll-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="scroll-clip0"><rect x="362" y="430" width="356" height="640" rx="18"/></clipPath></defs>
+<path id="scroll-p1" d="M390,400 H690 Q740,400 740,450 V1050 Q740,1100 690,1100 H390 Q340,1100 340,1050 V450 Q340,400 390,400 Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="scroll-p2" d="M500,418 H580" fill="none" stroke="#F2EFE8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<g clip-path="url(#scroll-clip0)"><g id="scroll-feed3">
+<rect x="386" y="450" width="308" height="200" rx="12" fill="none" stroke="#8C8A86" stroke-width="2"/>
+<path d="M410,600 H560 M410,622 H520" stroke="#8C8A86" stroke-width="3"/>
+<rect x="386" y="680" width="308" height="200" rx="12" fill="none" stroke="#8C8A86" stroke-width="2"/>
+<path d="M410,830 H601 M410,852 H520" stroke="#8C8A86" stroke-width="3"/>
+<rect x="386" y="910" width="308" height="200" rx="12" fill="none" stroke="#8C8A86" stroke-width="2"/>
+<path d="M410,1060 H642 M410,1082 H520" stroke="#8C8A86" stroke-width="3"/>
+<rect x="386" y="1140" width="308" height="200" rx="12" fill="none" stroke="#8C8A86" stroke-width="2"/>
+<path d="M410,1290 H573 M410,1312 H520" stroke="#8C8A86" stroke-width="3"/>
+<rect x="386" y="1370" width="308" height="200" rx="12" fill="none" stroke="#F4B860" stroke-width="3"/>
+<text x="540" y="1495" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="64" font-weight="700" fill="#F4B860">222</text>
+<rect x="386" y="1600" width="308" height="200" rx="12" fill="none" stroke="#8C8A86" stroke-width="2"/>
+<path d="M410,1750 H655 M410,1772 H520" stroke="#8C8A86" stroke-width="3"/>
+<rect x="386" y="1830" width="308" height="200" rx="12" fill="none" stroke="#8C8A86" stroke-width="2"/>
+<path d="M410,1980 H586 M410,2002 H520" stroke="#8C8A86" stroke-width="3"/>
+<rect x="386" y="2060" width="308" height="200" rx="12" fill="none" stroke="#8C8A86" stroke-width="2"/>
+<path d="M410,2210 H627 M410,2232 H520" stroke="#8C8A86" stroke-width="3"/>
+<rect x="386" y="2290" width="308" height="200" rx="12" fill="none" stroke="#8C8A86" stroke-width="2"/>
+<path d="M410,2440 H668 M410,2462 H520" stroke="#8C8A86" stroke-width="3"/>
+</g></g>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#scroll-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.000);
+tl.fromTo("#scroll-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},0.300);
+tl.fromTo("#scroll-feed3",{y:0},{y:-1520,duration:3.28,ease:"power1.in"},0.1);
+tl.to("#scroll-w",{opacity:0,duration:0.2,ease:"power1.in"},3.260);
+tl.set({}, {}, 3.48);
+window.__timelines["scroll"] = tl;
+</script>
+</template>

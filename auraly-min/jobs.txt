@@ -1,0 +1,12 @@
+grant_zodiac_c|Grant|zodiac|grant_zodiac_cancer_scorpio_FINAL
+isaiah_brooks|Isaiah|zodiac|isaiah_brooks_zodiac_cancer_scorpio_FINAL
+marva_zodiac_c|Marva|zodiac|marva_zodiac_cancer_scorpio_FINAL
+selena_blake_z|Selena|zodiac|selena_blake_zodiac_cancer_scorpio_FINAL
+3c265a3c_0086|Isaiah|wish|3c265a3c-0086-43c9-8f57-a2f5fc2cbdbd
+6bbd9178_8f12|Grant|wish|6bbd9178-8f12-4a54-b3d9-84c74a56f35a
+d7788368_e5e4|Selena|wish|d7788368-e5e4-4d3c-bf97-27ac338bd979
+marva_redcandl|Marva|wish|marva_redcandle_complete
+47919caa_ab30|Marva|archangel|47919caa-ab30-4e66-9bcc-8ad34c99e20e
+52fcb3eb_70df|Grant|archangel|52fcb3eb-70df-4307-beb4-da6652833b78
+9b7125e5_c7fd|Selena|archangel|9b7125e5-c7fd-4945-9f11-635a93e5df4b
+fc5f2b7b_e8c7|Isaiah|archangel|fc5f2b7b-e8c7-4838-87a6-264549502113

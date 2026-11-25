@@ -1,0 +1,104 @@
+{
+ "look": "glow",
+ "head": [
+  "THIS WASN'T",
+  "*an accident*"
+ ],
+ "accent": [
+  "accident",
+  "attention",
+  "seven",
+  "feeling",
+  "stories",
+  "cards",
+  "deeper"
+ ],
+ "beats": [
+  {
+   "at": [
+    "don't ignore"
+   ],
+   "art": "karma",
+   "label": "DON'T IGNORE IT",
+   "big": "A second *time*",
+   "dur": 2.4
+  },
+  {
+   "at": [
+    "comment seven"
+   ],
+   "cta": "comment",
+   "type": "7",
+   "label": "COMMENT THIS",
+   "dur": 2.8
+  },
+  {
+   "at": [
+    "tap my profile"
+   ],
+   "cta": "stories",
+   "label": "TAP MY PROFILE PICTURE",
+   "big": "3 *cards*",
+   "sub": "what's been trying to reach you",
+   "dur": 99
+  }
+ ],
+ "stickers": [
+  {
+   "at": [
+    "already left"
+   ],
+   "icon": "crowd",
+   "text": "MOST PEOPLE LEFT",
+   "side": "l",
+   "dur": 0.9
+  },
+  {
+   "at": [
+    "you didn't"
+   ],
+   "icon": "heart",
+   "text": "BUT YOU STAYED",
+   "side": "r",
+   "dur": 1.6
+  },
+  {
+   "at": [
+    "your attention",
+    "get your"
+   ],
+   "icon": "bell",
+   "text": "SOMETHING IS CALLING",
+   "side": "l",
+   "dur": 1.3
+  },
+  {
+   "at": [
+    "repeating numbers",
+    "repeating number"
+   ],
+   "icon": "sparkle",
+   "text": "11:11 · 222 · 333",
+   "side": "r",
+   "dur": 1
+  },
+  {
+   "at": [
+    "a name"
+   ],
+   "icon": "chat",
+   "text": "A NAME THAT RETURNS",
+   "side": "l",
+   "dur": 1
+  },
+  {
+   "at": [
+    "a feeling"
+   ],
+   "icon": "moon",
+   "text": "A FEELING",
+   "side": "r",
+   "dur": 1.3
+  }
+ ]
+}

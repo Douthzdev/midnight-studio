@@ -1,0 +1,9 @@
+{"head":["MAKE A WISH","*in the next 5 seconds*"],
+ "accent":["miracle","wish","universe","karma","energy","reading","48"],
+ "beats":[
+  {"at":"a massive miracle","label":"THE UNIVERSE IS SENDING","big":"A massive *miracle*","dur":2.6},
+  {"at":"48 hours","label":"IT ARRIVES IN","big":"48","sub":"hours","dur":2.4},
+  {"at":"five four","label":"MAKE YOUR WISH","big":"5,4,3,2,1","count":["five","four","three","two","one"],"end":"one"},
+  {"at":"karma is real","big":"Karma is *real*","dur":2.0},
+  {"at":"profile picture and","label":"TAP MY PROFILE","big":"3-card *reading*","sub":"waiting in my link","dur":99}
+ ]}

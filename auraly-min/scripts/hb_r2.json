@@ -1,0 +1,215 @@
+{
+ "hook": 5.767,
+ "headDur": 5.5,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Snowfall.mp3",
+ "head": [
+  "Lying down with your phone?",
+  "*this message is for you*"
+ ],
+ "accent": [
+  "Michael",
+  "message",
+  "faith",
+  "turnaround",
+  "money",
+  "prosperity",
+  "wonderful",
+  "strong",
+  "reward",
+  "victory",
+  "chains",
+  "doors",
+  "seal",
+  "believe",
+  "chance",
+  "one?",
+  "fight?",
+  "path?",
+  "2027",
+  "stories",
+  "profile",
+  "harvest"
+ ],
+ "pops": [
+  {
+   "type": "chip",
+   "at": "Archangel Michael asked",
+   "icon": "wings",
+   "text": "A message from *St. Michael*",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "lying down right now",
+   "pos": "ml",
+   "icon": "phone",
+   "text": "Lying down? *It's you*",
+   "dur": 2.6
+  },
+  {
+   "type": "card",
+   "at": "Wednesday November",
+   "icon": "calendar",
+   "title": "Nov *25* or *26*",
+   "sub": "Wednesday · Thursday",
+   "end": "26th"
+  },
+  {
+   "type": "list",
+   "at": "Money prosperity",
+   "title": "COMING YOUR WAY",
+   "check": true,
+   "end": "least expect it",
+   "items": [
+    {
+     "at": "Money",
+     "icon": "money",
+     "text": "Money"
+    },
+    {
+     "at": "prosperity",
+     "icon": "star",
+     "text": "Prosperity"
+    },
+    {
+     "at": "someone incredibly wonderful",
+     "icon": "heart",
+     "text": "Someone wonderful"
+    }
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "you kept going",
+   "pos": "ml",
+   "icon": "shield",
+   "text": "You *kept going*",
+   "dur": 2.6
+  },
+  {
+   "type": "chip",
+   "at": "going to reward you",
+   "icon": "star",
+   "text": "Your *reward* is coming",
+   "dur": 2.6
+  },
+  {
+   "type": "chip",
+   "at": "season of victory",
+   "pos": "ml",
+   "icon": "sprout",
+   "text": "A season of *victory*",
+   "dur": 2.8
+  },
+  {
+   "type": "card",
+   "at": "chains that kept",
+   "pos": "ml",
+   "icon": "unlock",
+   "title": "Chains breaking",
+   "sub": "out of scarcity",
+   "dur": 3
+  },
+  {
+   "type": "card",
+   "at": "doors that wouldn't",
+   "icon": "door",
+   "title": "Doors opening",
+   "sub": "finally",
+   "dur": 2.8
+  },
+  {
+   "type": "list",
+   "at": "Save it",
+   "title": "YOUR SEALS",
+   "check": true,
+   "end": "sees your faith",
+   "items": [
+    {
+     "at": "Save it",
+     "icon": "save",
+     "text": "Save · 1st seal"
+    },
+    {
+     "at": "Double tap",
+     "icon": "heart",
+     "text": "Double tap · 2nd seal"
+    },
+    {
+     "at": "write I believe",
+     "icon": "chat",
+     "text": "Write “I believe”"
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "write I believe",
+   "text": "I believe",
+   "dur": 3.4
+  },
+  {
+   "type": "chip",
+   "at": "happens by chance",
+   "icon": "spark",
+   "text": "Nothing happens *by chance*",
+   "dur": 2.8
+  },
+  {
+   "type": "list",
+   "at": "Is he the one",
+   "title": "QUESTIONS YOU CARRY",
+   "end": "right path",
+   "items": [
+    {
+     "at": "Is he the one",
+     "icon": "heart",
+     "text": "Is he the one?"
+    },
+    {
+     "at": "When does money",
+     "icon": "money",
+     "text": "When does money stop being a fight?"
+    },
+    {
+     "at": "Am I finally",
+     "icon": "sprout",
+     "text": "Am I on the right path?"
+    }
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "reading in my stories",
+   "pos": "ml",
+   "icon": "book",
+   "text": "A reading *in my stories*",
+   "dur": 2.4
+  },
+  {
+   "type": "stats",
+   "at": "2027 is bringing",
+   "dur": 3,
+   "items": [
+    {
+     "at": "2027",
+     "big": "2027",
+     "small": "what it brings"
+    }
+   ]
+  },
+  {
+   "type": "stories",
+   "at": "Tap my profile picture",
+   "sub": "open it before *Fri, Nov 27*"
+  }
+ ],
+ "fix": {
+  "111": "1111",
+  "227": "2027",
+  "hot": "heart",
+  "seas": "season",
+  "Puniverse": "The universe",
+  "Puniverse.": "The universe"
+ }
+}

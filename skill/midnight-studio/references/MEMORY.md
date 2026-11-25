@@ -1,0 +1,22 @@
+- [Video cleanup after render](video-cleanup-after-render.md) — delete previews/tests/intermediates, keep final MP4 outside renders/
+- [HyperFrames setup on M:](hyperframes-setup-on-m-drive.md) — FFmpeg + caches live in M:\CLAUDE\tools, never C:
+- [Auraly video edit playbook](auraly-video-edit-playbook.md) — default brief for Auraly Reels: hook→headline→body→CTA, captions, 222 trigger, LUFS, export
+- [Caption style: simple](caption-style-kinetic-clean.md) — old rule (simple white captions) for line-art; avatar batches now use dynamic glow captions (see Midnight note)
+- [Use skills automatically](use-skills-automatically.md) — invoke matching skills (HyperFrames, Remotion) without being asked
+- [Avatar roster](avatar-roster.md) — Clara, Ryan, Selena, Isaiah, Grant, Sean, Astra; ask names if avatars change
+- [Hook recreation workflow](hook-recreation-workflow.md) — A/B/C prompts per avatar for Flow; hard cuts OK when ref uses them
+- [Line-art motion pipeline](lineart-motion-pipeline.md) — faceless neon line-art Reels: scripts→Kokoro→build.mjs in auraly-lineart/
+- [Split-panel talking-head format](split-panel-talking-head-format.md) — reference edit: top animated panel slides in, face pushed down, white outlined captions
+- [Viral motion format](viral-motion-format.md) — tools/viral.mjs: glass pop-ups, glowing numbers, split screen; test pending verdict
+- [Clean kinetic format](clean-kinetic-format.md) — tools/clean.mjs: Apple-style word-by-word serif captions, light takeovers, split, red impact (from user's reference)
+- [Midnight folders + MD naming](midnight-folder-and-md-naming.md) — MD <n> + "Midnight Videos" ONLY for line-art; avatar edits = avatar name only (Grant.mp4); projects in hyperframes/Midnight-Studio
+- [Avatar batch editor](avatar-batch-editor.md) — tools/batch.mjs: viral+split+glow captions per script; output VIDEOS EDITADOS/<Avatar>.mp4
+- [No breaths, hard cuts](no-breaths-hard-cuts.md) — never leave breaths/pauses in talking-head edits; batch.mjs cut logic + verify
+- [AI avatar glitch cleanup](ai-avatar-glitch-cleanup.md) — cut repeated/garbled lines via edits.json; verify with gap-padded ASR (Parakeet fails on gapless audio)
+- [Story-arc diagram format](story-arc-diagram-format.md) — edit OPTION, built as tools/arc.mjs (Selena candle test): neon chart + face card
+- [Thread particle format](thread-particle-format.md) — edit OPTION 'fio de partículas' (faceless, continuous descent, karaoke captions): tools/thread.mjs, test MD 18
+- [Minimal headline format](minimal-headline-format.md) — edit OPTION: tools/minimal.mjs, headline 5 s only, panels w/ drawn icons + face card, stickers, full-screen 1 s/number countdown, acted-out CTAs
+- [Moon ritual line-art ref](moon-ritual-lineart-format.md) — edit OPTION tools/ritual.mjs (MD 19): dotted glow line-art, elements ALWAYS rebuilt from each copy, pill captions, hidden-phrase blanks
+- [Kinetic type + icon-map ref](kinetic-iconmap-format.md) — edit OPTION from "triple hook" ref: word-sized type is the art, line icons, 1 neon accent, step icon-map; ref-saveclip2/DECUPAGEM.md, not built yet
+- [Instagram Reels UI layout](instagram-reels-ui-layout.md) — where IG buttons sit (rail, profile pic bottom-left) for aiming taps/arrows/CTAs
+- [Glass Clean (overlay pop-ups)](overlay-popups-format.md) — edit OPTION, user loved it: footage untouched + dark-glass pop-ups, tools/overlay.mjs, template laura.json

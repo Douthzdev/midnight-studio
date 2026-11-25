@@ -1,0 +1,33 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="spotlight" data-width="1080" data-height="1920">
+<div class="wrap" id="spotlight-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="spotlight-p0" d="M470,380 L300,1000 M610,380 L780,1000" fill="none" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.8"/>
+<path id="spotlight-p1" d="M540,1000 m-240,0 a240,50 0 1,0 480,0 a240,50 0 1,0 -480,0" fill="none" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="spotlight-p2" d="M549.6,745.5999999999999 C557.2,747.3 568.4,751.8 576,755.8 C583.6,759.8 590.8,761.1 595.2,769.5999999999999 C599.6,778.1 600.8,792.6 602.4,806.8 C604.0,821.0 604.8,839.8 604.8,854.8 C604.8,869.8 603.6,886.6 602.4,896.8 C601.2,907.0 599.6,913.2 597.6,916 C595.6,918.8 591.8,918.8 590.4,913.5999999999999 C589.0,908.4 589.6,896.6 589.2,884.8 C588.8,873.0 589.6,857.8 588,842.8 C586.4,827.8 581.6,796.8 579.6,794.8 C577.6,792.8 577.2,817.8 576,830.8 C574.8,843.8 572.2,860.8 572.4,872.8 C572.6,884.8 576.8,889.8 577.2,902.8 C577.6,915.8 576.0,935.8 574.8,950.8 C573.6,965.8 571.6,976.8 570,992.8 C568.4,1008.8 565.0,1035.8 565.2,1046.8 C565.4,1057.8 574.0,1056.6 571.2,1058.8 C568.4,1061.0 552.2,1062.0 548.4,1060 C544.6,1058.0 548.2,1058.0 548.4,1046.8 C548.6,1035.6 549.8,1010.8 549.6,992.8 C549.4,974.8 548.8,950.8 547.2,938.8 C545.6,926.8 542.4,920.8 540,920.8 C537.6,920.8 534.4,926.8 532.8,938.8 C531.2,950.8 530.6,974.8 530.4,992.8 C530.2,1010.8 531.4,1035.6 531.6,1046.8 C531.8,1058.0 535.4,1058.0 531.6,1060 C527.8,1062.0 511.6,1061.0 508.8,1058.8 C506.0,1056.6 514.6,1057.8 514.8,1046.8 C515.0,1035.8 511.6,1008.8 510,992.8 C508.4,976.8 506.4,965.8 505.2,950.8 C504.0,935.8 502.4,915.8 502.8,902.8 C503.2,889.8 507.4,884.8 507.6,872.8 C507.8,860.8 505.2,843.8 504,830.8 C502.8,817.8 502.4,792.8 500.4,794.8 C498.4,796.8 493.6,827.8 492,842.8 C490.4,857.8 491.2,873.0 490.8,884.8 C490.4,896.6 491.0,908.4 489.6,913.5999999999999 C488.2,918.8 484.4,918.8 482.4,916 C480.4,913.2 478.8,907.0 477.6,896.8 C476.4,886.6 475.2,869.8 475.2,854.8 C475.2,839.8 476.0,821.0 477.6,806.8 C479.2,792.6 480.4,778.1 484.8,769.5999999999999 C489.2,761.1 496.4,759.8 504,755.8 C511.6,751.8 522.8,747.3 530.4,745.5999999999999 C538.0,743.9 542.0,743.9 549.6,745.5999999999999Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="spotlight-p3" d="M540,700 a21.599999999999998,21.599999999999998 0 1,1 0,43.199999999999996 a21.599999999999998,21.599999999999998 0 1,1 0,-43.199999999999996" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#spotlight-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},1.905);
+tl.fromTo("#spotlight-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},2.205);
+tl.fromTo("#spotlight-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:1,ease:"power2.out"},0.000);
+tl.fromTo("#spotlight-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.000);
+tl.to("#spotlight-p2, #spotlight-p3",{attr:{stroke:"#F4B860"},duration:0.6},7.50);
+tl.to("#spotlight-w",{opacity:0,duration:0.2,ease:"power1.in"},8.189);
+tl.set({}, {}, 8.409);
+window.__timelines["spotlight"] = tl;
+</script>
+</template>

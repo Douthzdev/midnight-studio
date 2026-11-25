@@ -1,0 +1,39 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="right" data-width="1080" data-height="1920">
+<div class="wrap" id="right-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="right-p0" d="M459.5,1050 C457.6,1019.3 463.3,910.1 448,866 C432.7,821.9 384.4,807.0 367.5,785.5 C350.6,764.0 344.1,747.6 346.8,737.2 C349.5,726.9 365.2,714.2 383.6,723.4 C402.0,732.6 446.1,799.3 457.2,792.4 C468.3,785.5 448.0,721.9 450.3,682 C452.6,642.1 461.8,575.4 471,553.2 C480.2,531.0 498.2,529.1 505.5,548.6 C512.8,568.1 511.6,653.3 514.7,670.5 C517.8,687.8 518.9,678.2 523.9,652.1 C528.9,626.0 536.2,537.1 544.6,514.1 C553.0,491.1 568.0,490.0 574.5,514.1 C581.0,538.3 580.6,634.1 583.7,659 C586.8,683.9 588.3,683.9 592.9,663.6 C597.5,643.3 603.3,557.8 611.3,537.1 C619.3,516.4 635.1,516.0 641.2,539.4 C647.3,562.8 645.8,651.3 648.1,677.4 C650.4,703.5 650.4,708.4 655,695.8 C659.6,683.1 668.0,616.1 675.7,601.5 C683.4,586.9 696.8,588.9 701,608.4 C705.2,627.9 703.7,675.9 701,718.8 C698.3,761.7 694.1,810.8 684.9,866 C675.7,921.2 652.3,1019.3 645.8,1050" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="right-p1" d="M471,843 Q551.5,774 655,762.5 M482.5,912 Q563,831.5 643.5,831.5" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="right-t2" x="540" y="440" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="32" font-weight="500" letter-spacing="0.12em" fill="#EF7F6B">RIGHT PALM</text>
+<g id="right-coin3">
+<path id="right-p4" d="M560,726 a54,54 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="right-p5" d="M560,741.12 a38.879999999999995,38.879999999999995 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="right-t6" x="560" y="797.28" text-anchor="middle" style="font-family:'League Gothic'" font-size="51.3" font-weight="500" letter-spacing="0em" fill="#F4B860">$</text>
+</g>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#right-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},0.000);
+tl.fromTo("#right-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.500);
+tl.fromTo("#right-t2",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.200);
+tl.fromTo("#right-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},2.393);
+tl.fromTo("#right-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},2.493);
+tl.fromTo("#right-t6",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.643);
+tl.to("#right-coin3",{x:260,y:-300,opacity:0,duration:1.4,ease:"power2.in"},3.59);
+tl.to("#right-w",{opacity:0,duration:0.2,ease:"power1.in"},4.391);
+tl.set({}, {}, 4.611);
+window.__timelines["right"] = tl;
+</script>
+</template>

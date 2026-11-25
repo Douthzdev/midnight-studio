@@ -1,0 +1,102 @@
+{
+ "head": [
+  "DON'T IGNORE",
+  "*Archangel Michael*"
+ ],
+ "accent": [
+  "archangel",
+  "michael",
+  "faith",
+  "miracle",
+  "breakthrough",
+  "victory",
+  "blessing",
+  "scarcity",
+  "stories"
+ ],
+ "beats": [
+  {
+   "at": [
+    "the universe saw",
+    "verse saw your"
+   ],
+   "art": "wings",
+   "big": "The universe saw *your faith*",
+   "dur": 2.6
+  },
+  {
+   "at": "a miracle is coming",
+   "art": "sparkle",
+   "big": "A *miracle* is coming",
+   "dur": 2.2
+  },
+  {
+   "at": "chain of scarcity",
+   "art": "chain",
+   "label": "TODAY",
+   "big": "The chain *breaks*",
+   "dur": 2.8
+  },
+  {
+   "at": "next seven minutes",
+   "art": "clock",
+   "label": "IN THE NEXT",
+   "big": "7:00",
+   "sub": "minutes",
+   "dur": 2.8
+  },
+  {
+   "at": "post the exact",
+   "cta": "comment",
+   "type": "Received at 9:41",
+   "label": "COMMENT THE TIME YOU SAW THIS",
+   "dur": 3.6
+  },
+  {
+   "at": "tap my profile",
+   "cta": "stories",
+   "label": "TAP MY PROFILE PICTURE",
+   "big": "Watch my *stories*",
+   "sub": "before they disappear",
+   "dur": 99
+  }
+ ],
+ "stickers": [
+  {
+   "at": "pay attention",
+   "icon": "moon",
+   "text": "PAY ATTENTION",
+   "side": "r"
+  },
+  {
+   "at": "breakthrough",
+   "icon": "sparkle",
+   "text": "BREAKTHROUGH",
+   "side": "l"
+  },
+  {
+   "at": "season of victory",
+   "icon": "star",
+   "text": "SEASON OF VICTORY",
+   "side": "r"
+  },
+  {
+   "at": "send this video",
+   "icon": "send",
+   "text": "SEND TO YOURSELF & SAVE",
+   "side": "l"
+  },
+  {
+   "at": "give it a",
+   "icon": "heart",
+   "text": "GIVE IT A HEART",
+   "side": "l"
+  },
+  {
+   "at": "share it with",
+   "icon": "people",
+   "text": "SHARE WITH 3 PEOPLE",
+   "side": "r"
+  }
+ ]
+}

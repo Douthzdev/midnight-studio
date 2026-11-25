@@ -1,0 +1,45 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="tower" data-width="1080" data-height="1920">
+<div class="wrap" id="tower-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="tower-p1" d="M300,1040 H780" fill="none" stroke="#F2EFE8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="tower-p2" d="M430.0,1040.0 V740.0 M630.0,1040.0 V740.0 M430.0,740.0 H630.0" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<g id="tower-top3">
+<path id="tower-p4" d="M440.0,740.0 V540.0 H460.0 V510.0 H490.0 V540.0 H515.0 V510.0 H545.0 V540.0 H570.0 V510.0 H600.0 V540.0 H620.0 V740.0" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="tower-p5" d="M510.0,620.0 V580.0 Q530.0,560.0 550.0,580.0 V620.0 Z" fill="none" stroke="#79B6E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<path id="tower-p6" d="M560,520 L535,590 L575,650 L520,730 L560,790" fill="none" stroke="#EF7F6B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="tower-p7" d="M820,480 L828.8,511.2 L860,520 L828.8,528.8 L820,560 L811.2,528.8 L780,520 L811.2,511.2 Z" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<circle id="tower-ring8" cx="820" cy="760" r="60" fill="none" stroke="#F4B860" stroke-width="3" pathLength="1" stroke-dasharray="1 1"/>
+<text id="tower-t9" x="820" y="772" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="30" font-weight="500" letter-spacing="0.12em" fill="#F4B860">30s</text>
+</svg>
+<div id="tower-hl0" class="hl">IF IT'S ALL FALLING APART</div>
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#tower-hl0",{opacity:0,y:-10},{opacity:1,y:0,duration:0.35,ease:"power3.out"},0.1);
+tl.to("#tower-hl0",{opacity:0,duration:0.3,ease:"power2.in"},4.3);
+tl.fromTo("#tower-p1",{strokeDashoffset:0.4},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},0.000);
+tl.fromTo("#tower-p2",{strokeDashoffset:0.4},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.000);
+tl.fromTo("#tower-p4",{strokeDashoffset:0.4},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.200);
+tl.fromTo("#tower-p5",{strokeDashoffset:0.4},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},0.400);
+tl.fromTo("#tower-p6",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.35,ease:"power3.in"},1.960);
+tl.to("#tower-top3",{x:-60,y:70,rotation:-14,svgOrigin:"440 740",duration:0.6,ease:"power2.in"},2.26);
+tl.fromTo("#tower-p7",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},3.360);
+tl.fromTo("#tower-ring8",{strokeDashoffset:0},{strokeDashoffset:1,duration:2.82,ease:"none"},6.96);
+tl.fromTo("#tower-t9",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},6.960);
+tl.to("#tower-w",{opacity:0,duration:0.2,ease:"power1.in"},9.559);
+tl.set({}, {}, 9.779);
+window.__timelines["tower"] = tl;
+</script>
+</template>

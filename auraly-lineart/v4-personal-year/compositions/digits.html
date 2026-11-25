@@ -1,0 +1,46 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="digits" data-width="1080" data-height="1920">
+<div class="wrap" id="digits-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<text id="digits-t0" x="540" y="470" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="28" font-weight="500" letter-spacing="0.12em" fill="#8C8A86">EXAMPLE · BORN JULY 14</text>
+<text id="digits-b1" data-layout-allow-overlap x="323" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="220" fill="none" stroke="#79B6E8" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">07</text>
+<text id="digits-b2" data-layout-allow-overlap x="337" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="220" fill="none" stroke="#B79CF0" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">07</text>
+<text id="digits-b3" data-layout-allow-overlap x="330" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="220" fill="none" stroke="#F2EFE8" stroke-width="3.2" stroke-dasharray="2600 2600" opacity="1" stroke-linejoin="round">07</text>
+<text id="digits-b4" data-layout-allow-overlap x="743" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="220" fill="none" stroke="#79B6E8" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">14</text>
+<text id="digits-b5" data-layout-allow-overlap x="757" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="220" fill="none" stroke="#B79CF0" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">14</text>
+<text id="digits-b6" data-layout-allow-overlap x="750" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="220" fill="none" stroke="#F2EFE8" stroke-width="3.2" stroke-dasharray="2600 2600" opacity="1" stroke-linejoin="round">14</text>
+<text id="digits-t7" x="330" y="790" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="28" font-weight="500" letter-spacing="0.12em" fill="#79B6E8">MONTH</text>
+<text id="digits-t8" x="750" y="790" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="28" font-weight="500" letter-spacing="0.12em" fill="#79B6E8">DAY</text>
+<text id="digits-t9" x="540" y="920" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="56" font-weight="600" letter-spacing="0.12em" fill="#F2EFE8">0 + 7 + 1 + 4</text>
+<text id="digits-t10" x="540" y="1010" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="56" font-weight="600" letter-spacing="0.12em" fill="#F4B860">+ 2 + 0 + 2 + 7</text>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#digits-t0",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.100);
+tl.fromTo("#digits-b1",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.8,ease:"power2.inOut"},1.093);
+tl.fromTo("#digits-b2",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.8,ease:"power2.inOut"},1.093);
+tl.fromTo("#digits-b3",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.8,ease:"power2.inOut"},1.093);
+tl.fromTo("#digits-b4",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.8,ease:"power2.inOut"},1.733);
+tl.fromTo("#digits-b5",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.8,ease:"power2.inOut"},1.733);
+tl.fromTo("#digits-b6",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.8,ease:"power2.inOut"},1.733);
+tl.fromTo("#digits-t7",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},1.393);
+tl.fromTo("#digits-t8",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.033);
+tl.fromTo("#digits-t9",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},3.733);
+tl.fromTo("#digits-t10",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},4.373);
+tl.to("#digits-w",{opacity:0,duration:0.2,ease:"power1.in"},6.698);
+tl.set({}, {}, 6.918);
+window.__timelines["digits"] = tl;
+</script>
+</template>

@@ -1,0 +1,58 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="blocked" data-width="1080" data-height="1920">
+<div class="wrap" id="blocked-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="blocked-p0" d="M160,620 H920" fill="none" stroke="#EF7F6B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<g id="blocked-sp1">
+<path id="blocked-p2" d="M220,874 L225.72,894.28 L246,900 L225.72,905.72 L220,926 L214.28,905.72 L194,900 L214.28,894.28 Z" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<g id="blocked-sp3">
+<path id="blocked-p4" d="M380,874 L385.72,894.28 L406,900 L385.72,905.72 L380,926 L374.28,905.72 L354,900 L374.28,894.28 Z" fill="none" stroke="#B79CF0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<g id="blocked-sp5">
+<path id="blocked-p6" d="M540,874 L545.72,894.28 L566,900 L545.72,905.72 L540,926 L534.28,905.72 L514,900 L534.28,894.28 Z" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<g id="blocked-sp7">
+<path id="blocked-p8" d="M700,874 L705.72,894.28 L726,900 L705.72,905.72 L700,926 L694.28,905.72 L674,900 L694.28,894.28 Z" fill="none" stroke="#B79CF0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<g id="blocked-sp9">
+<path id="blocked-p10" d="M860,874 L865.72,894.28 L886,900 L865.72,905.72 L860,926 L854.28,905.72 L834,900 L854.28,894.28 Z" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<text id="blocked-t11" x="540" y="560" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="32" font-weight="500" letter-spacing="0.12em" fill="#EF7F6B">BLOCKED</text>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#blocked-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},1.310);
+tl.fromTo("#blocked-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.100);
+tl.fromTo("#blocked-sp1",{y:120},{y:-200,duration:1.61,ease:"power1.out"},0);
+tl.to("#blocked-sp1",{opacity:0.3,duration:0.3},1.61);
+tl.fromTo("#blocked-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.200);
+tl.fromTo("#blocked-sp3",{y:120},{y:-200,duration:1.61,ease:"power1.out"},0);
+tl.to("#blocked-sp3",{opacity:0.3,duration:0.3},1.61);
+tl.fromTo("#blocked-p6",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.300);
+tl.fromTo("#blocked-sp5",{y:120},{y:-200,duration:1.61,ease:"power1.out"},0);
+tl.to("#blocked-sp5",{opacity:0.3,duration:0.3},1.61);
+tl.fromTo("#blocked-p8",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.400);
+tl.fromTo("#blocked-sp7",{y:120},{y:-200,duration:1.61,ease:"power1.out"},0);
+tl.to("#blocked-sp7",{opacity:0.3,duration:0.3},1.61);
+tl.fromTo("#blocked-p10",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.500);
+tl.fromTo("#blocked-sp9",{y:120},{y:-200,duration:1.61,ease:"power1.out"},0);
+tl.to("#blocked-sp9",{opacity:0.3,duration:0.3},1.61);
+tl.fromTo("#blocked-t11",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},1.310);
+tl.to("#blocked-w",{opacity:0,duration:0.2,ease:"power1.in"},4.541);
+tl.set({}, {}, 4.761);
+window.__timelines["blocked"] = tl;
+</script>
+</template>

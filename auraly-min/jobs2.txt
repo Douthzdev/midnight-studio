@@ -1,0 +1,12 @@
+y_grant|Grant|y2027|grant_2027_complete
+y_isaiah|Isaiah|y2027|isaiah_2027_complete
+y_marva|Marva|y2027|marva_2027_complete
+y_selena|Selena|y2027|selena_2027_complete
+s_grant|Grant|scroll|grant_nolan_copy2_FINAL
+s_isaiah|Isaiah|scroll|isaiah_brooks_copy2_FINAL
+s_marva|Marva|scroll|marva_lohris_copy2_FINAL
+s_selena|Selena|scroll|selena_blake_copy2_FINAL
+h_grant|Grant|heir|grant_copy3_final_4_blocks
+h_isaiah|Isaiah|heir|isaiah_copy3_final_4_blocks
+h_marva|Marva|heir|marva_copy3_final_4_blocks
+h_selena|Selena|heir|selena_copy3_final_4_blocks

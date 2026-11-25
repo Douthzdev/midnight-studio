@@ -1,0 +1,226 @@
+{
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/FKJ - Ylang Ylang - Fkj.mp3",
+ "head": [
+  "Bloated by dinner?",
+  "*it's not random*"
+ ],
+ "headDur": 4.4,
+ "fix": {
+  "O?": "all over?",
+  "Risley": "Risely",
+  "Risley's": "Risely's"
+ },
+ "accent": [
+  "socks",
+  "jeans",
+  "puffy",
+  "bloating",
+  "morning",
+  "lunch",
+  "salad",
+  "pattern",
+  "tonic",
+  "recipe",
+  "digestion",
+  "dinner",
+  "waistband",
+  "quiz",
+  "six",
+  "minute",
+  "free",
+  "answers"
+ ],
+ "pops": [
+  {
+   "type": "circle",
+   "at": "marks like these",
+   "x": 230,
+   "y": 1590,
+   "r": 175,
+   "label": "sock marks",
+   "end": "like these"
+  },
+  {
+   "type": "day",
+   "at": "feel your jeans",
+   "end": "Maybe you've tried",
+   "steps": [
+    {
+     "at": "after lunch",
+     "n": 1,
+     "warn": true,
+     "tag": "jeans tight"
+    },
+    {
+     "at": "By dinner",
+     "n": 2,
+     "warn": true,
+     "tag": "puffy"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "lemon water",
+   "pos": "ml",
+   "title": "TRIED IT ALL?",
+   "end": "set off the bloating",
+   "strike": "none of those",
+   "items": [
+    {
+     "at": "lemon water",
+     "icon": "drop",
+     "text": "Lemon water"
+    },
+    {
+     "at": "more fiber",
+     "icon": "leaf",
+     "text": "More fiber"
+    },
+    {
+     "at": "gut hack",
+     "icon": "bolt",
+     "text": "Gut hacks"
+    }
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "Here's what I'd pay",
+   "pos": "tr",
+   "icon": "eye",
+   "text": "What to watch",
+   "dur": 1.9
+  },
+  {
+   "type": "day",
+   "at": "feel fine in the morning",
+   "end": "Does it happen",
+   "steps": [
+    {
+     "at": "morning",
+     "n": 0,
+     "tag": "fine"
+    },
+    {
+     "at": "after lunch",
+     "n": 1,
+     "warn": true,
+     "tag": "changes"
+    }
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "eat a salad",
+   "pos": "tl",
+   "icon": "bowl",
+   "text": "Even with a salad?",
+   "dur": 2.6
+  },
+  {
+   "type": "pattern",
+   "at": "notice a pattern",
+   "pos": "tr",
+   "dur": 2.8
+  },
+  {
+   "type": "card",
+   "at": "morning tonic",
+   "pos": "tl",
+   "icon": "cup",
+   "title": "Morning tonic",
+   "sub": "in the Risely program",
+   "dur": 3.6
+  },
+  {
+   "type": "chip",
+   "at": "grocery store ingredients",
+   "pos": "ml",
+   "icon": "basket",
+   "text": "Simple grocery ingredients",
+   "dur": 2.2
+  },
+  {
+   "type": "chip",
+   "at": "recipe is inside",
+   "pos": "tr",
+   "icon": "book",
+   "text": "Recipe inside",
+   "dur": 2.4
+  },
+  {
+   "type": "question",
+   "at": "Do you know when",
+   "text": "When does your digestion feel *most off?*",
+   "end": "most off"
+  },
+  {
+   "type": "day",
+   "at": "right after lunch",
+   "end": "waistband feels",
+   "steps": [
+    {
+     "at": "lunch",
+     "n": 1,
+     "warn": true,
+     "tag": "right after?"
+    },
+    {
+     "at": "dinner",
+     "n": 2,
+     "warn": true,
+     "tag": "tight waistband"
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "Digestion Type Quiz asks",
+   "pos": "ml",
+   "title": "DIGESTION TYPE QUIZ",
+   "end": "bothers you most",
+   "items": [
+    {
+     "at": "How you feel",
+     "icon": "chat",
+     "text": "How you feel after meals"
+    },
+    {
+     "at": "what you tend",
+     "icon": "bowl",
+     "text": "What you tend to eat"
+    },
+    {
+     "at": "bothers you most",
+     "icon": "spark",
+     "text": "What bothers you most"
+    }
+   ]
+  },
+  {
+   "type": "stats",
+   "at": "six questions",
+   "end": "about a minute",
+   "items": [
+    {
+     "at": "six questions",
+     "big": "6",
+     "small": "questions"
+    },
+    {
+     "at": "about a minute",
+     "big": "1",
+     "small": "minute",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "at": "Tap the link",
+   "text": "Take the free quiz",
+   "sub": "1 minute · 6 questions"
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(244,184,96,0.4));}</style>
+<div id="root" data-composition-id="warn" data-width="1080" data-height="1920">
+<div class="wrap" id="warn-w"><div class="cam" id="warn-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="warn-p1e" d="M540,500 L780,920 H300 Z" fill="none" stroke="#79B6E8" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="warn-p1" d="M540,500 L780,920 H300 Z" fill="none" stroke="#EF7F6B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="warn-p2" d="M540,620 V790" fill="none" stroke="#F2EFE8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="warn-p3" d="M540,841 a9,9 0 1,1 -0.1,0" fill="none" stroke="#F2EFE8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</svg>
+<div id="warn-hl0" class="hl">DON'T IGNORE THIS</div>
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#warn-hl0",{opacity:0,y:-10},{opacity:1,y:0,duration:0.35,ease:"power3.out"},0.1);
+tl.to("#warn-hl0",{opacity:0,duration:0.3,ease:"power2.in"},3.337);
+tl.fromTo("#warn-p1, #warn-p1e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},0.200);
+tl.fromTo("#warn-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},0.800);
+tl.fromTo("#warn-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.2,ease:"power2.out"},1.000);
+tl.to("#warn-w",{opacity:0,duration:0.2,ease:"power1.in"},3.417);
+tl.fromTo("#warn-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#warn-cam",{scale:1.045,x:14,y:-10,duration:3.137,ease:"sine.inOut"},0.5);
+tl.to("#warn-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},3.417);
+tl.set({}, {}, 3.637);
+window.__timelines["warn"] = tl;
+</script>
+</template>

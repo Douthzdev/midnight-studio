@@ -1,0 +1,52 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(244,184,96,0.4));}</style>
+<div id="root" data-composition-id="brain" data-width="1080" data-height="1920">
+<div class="wrap" id="brain-w"><div class="cam" id="brain-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g id="brain-g0">
+<text id="brain-t1" x="540" y="700" text-anchor="middle" style="font-family:'Montserrat'" font-size="96" font-weight="800" letter-spacing="0em" fill="#8C8A86">$ 1,000,000?</text>
+<path id="brain-p2" d="M220,720 L860,640" fill="none" stroke="#EF7F6B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<path id="brain-p3e" d="M540,520 C573.3,520.0 606.7,493.3 640,500 C673.3,506.7 715.0,533.3 740,560 C765.0,586.7 786.7,623.3 790,660 C793.3,696.7 781.7,746.7 760,780 C738.3,813.3 696.7,850.0 660,860 C623.3,870.0 580.0,840.0 540,840 C500.0,840.0 456.7,870.0 420,860 C383.3,850.0 341.7,813.3 320,780 C298.3,746.7 286.7,696.7 290,660 C293.3,623.3 315.0,586.7 340,560 C365.0,533.3 406.7,506.7 440,500 C473.3,493.3 506.7,520.0 540,520Z" fill="none" stroke="#B79CF0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="brain-p3" d="M540,520 C573.3,520.0 606.7,493.3 640,500 C673.3,506.7 715.0,533.3 740,560 C765.0,586.7 786.7,623.3 790,660 C793.3,696.7 781.7,746.7 760,780 C738.3,813.3 696.7,850.0 660,860 C623.3,870.0 580.0,840.0 540,840 C500.0,840.0 456.7,870.0 420,860 C383.3,850.0 341.7,813.3 320,780 C298.3,746.7 286.7,696.7 290,660 C293.3,623.3 315.0,586.7 340,560 C365.0,533.3 406.7,506.7 440,500 C473.3,493.3 506.7,520.0 540,520Z" fill="none" stroke="#F2EFE8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="brain-p4" d="M540,520 V840 M440,600 Q500,640 460,700 M640,600 Q580,650 630,720 M380,720 Q440,740 420,800 M700,720 Q650,760 680,810" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<circle id="brain-syn5" cx="400" cy="620" r="9" fill="#F4B860" opacity="0"/>
+<circle id="brain-syn6" cx="680" cy="640" r="9" fill="#F4B860" opacity="0"/>
+<circle id="brain-syn7" cx="480" cy="780" r="9" fill="#F4B860" opacity="0"/>
+<circle id="brain-syn8" cx="620" cy="790" r="9" fill="#F4B860" opacity="0"/>
+<circle id="brain-syn9" cx="540" cy="680" r="9" fill="#F4B860" opacity="0"/>
+<text id="brain-t10" x="540" y="1000" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="32" font-weight="500" letter-spacing="0.2em" fill="#F4B860">TRAINING YOUR BRAIN</text>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#brain-t1",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},1.518);
+tl.fromTo("#brain-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},2.078);
+tl.to("#brain-g0",{opacity:0,y:-30,duration:0.3,ease:"power2.in"},4.10);
+tl.fromTo("#brain-p3, #brain-p3e",{strokeDashoffset:1},{strokeDashoffset:0,duration:1.2,ease:"power2.out"},4.398);
+tl.fromTo("#brain-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},4.898);
+tl.fromTo("#brain-syn5",{opacity:0,scale:0,svgOrigin:"400 620"},{opacity:1,scale:1.6,duration:0.25,yoyo:true,repeat:3,immediateRender:false},6.72);
+tl.fromTo("#brain-syn6",{opacity:0,scale:0,svgOrigin:"680 640"},{opacity:1,scale:1.6,duration:0.25,yoyo:true,repeat:3,immediateRender:false},6.82);
+tl.fromTo("#brain-syn7",{opacity:0,scale:0,svgOrigin:"480 780"},{opacity:1,scale:1.6,duration:0.25,yoyo:true,repeat:3,immediateRender:false},6.92);
+tl.fromTo("#brain-syn8",{opacity:0,scale:0,svgOrigin:"620 790"},{opacity:1,scale:1.6,duration:0.25,yoyo:true,repeat:3,immediateRender:false},7.02);
+tl.fromTo("#brain-syn9",{opacity:0,scale:0,svgOrigin:"540 680"},{opacity:1,scale:1.6,duration:0.25,yoyo:true,repeat:3,immediateRender:false},7.12);
+tl.fromTo("#brain-t10",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},4.698);
+tl.to("#brain-w",{opacity:0,duration:0.2,ease:"power1.in"},7.317);
+tl.fromTo("#brain-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#brain-cam",{scale:1.045,x:14,y:-10,duration:7.037,ease:"sine.inOut"},0.5);
+tl.to("#brain-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},7.317);
+tl.set({}, {}, 7.537);
+window.__timelines["brain"] = tl;
+</script>
+</template>

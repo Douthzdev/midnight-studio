@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1080, height=1920" />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>*{margin:0;padding:0;box-sizing:border-box;}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#050505;}
+.grid{position:absolute;inset:0;background-color:#050505;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:44px 44px;}
+#full{position:absolute;inset:0;overflow:hidden;} #fz{position:absolute;inset:0;transform-origin:540px 560px;} #full video{position:absolute;left:0;top:-17px;width:1080px;height:1954px;}
+#lA{position:absolute;inset:0;opacity:0;}
+#card{position:absolute;left:150px;top:1300px;width:780px;height:580px;border-radius:44px;overflow:hidden;border:2px solid rgba(255,255,255,.16);box-shadow:0 20px 60px rgba(0,0,0,.7);} #card video{position:absolute;left:0;top:-85px;width:780px;height:1412px;}
+.scene{position:absolute;left:0;top:0;width:1080px;height:1200px;opacity:0;}
+.title{position:absolute;left:0;top:150px;width:1080px;text-align:center;font-family:Inter;font-weight:900;font-size:68px;color:#fff;letter-spacing:-.01em;}
+.title i,.rtag i,.gtag i,.or i,.tsub i{font-family:'Instrument Serif';font-weight:400;font-style:italic;letter-spacing:0;} .title i{font-size:84px;}
+.win{position:absolute;left:0;top:270px;width:1080px;height:900px;overflow:hidden;} .cam{position:absolute;left:0;top:-50px;width:1080px;height:1000px;transform-origin:540px 500px;}
+.dia{position:absolute;left:0;top:0;width:1080px;height:1000px;overflow:visible;} #s1 .dia{top:220px;}
+.axis{fill:none;stroke:rgba(255,255,255,.85);stroke-width:4;}
+.neon{fill:none;stroke:#ff1f3d;stroke-width:9;stroke-linecap:round;filter:drop-shadow(0 0 8px #ff2a45) drop-shadow(0 0 26px rgba(255,20,50,.75));}
+.grey{fill:none;stroke:#9a9a9a;stroke-width:7;stroke-linecap:round;filter:drop-shadow(0 0 8px rgba(255,255,255,.35));}
+.magenta{fill:none;stroke:#ff2bd6;stroke-width:8;stroke-linecap:round;filter:drop-shadow(0 0 10px #ff2bd6) drop-shadow(0 0 26px rgba(255,43,214,.6));}
+.dot{fill:#fff;opacity:0;transform-box:fill-box;transform-origin:center;filter:drop-shadow(0 0 10px rgba(255,255,255,.9));} .dot.g{fill:#bbb;}
+.tag{position:absolute;transform:translate(-50%,0);padding:8px 16px;border-radius:8px;background:#fff;color:#0a0a0a;font-family:Inter;font-weight:800;font-size:32px;white-space:nowrap;opacity:0;box-shadow:0 6px 24px rgba(0,0,0,.6);}
+.rtag,.gtag{position:absolute;transform:translate(-50%,0);padding:10px 24px;border-radius:8px;background:#e3122f;color:#fff;font-family:Inter;font-weight:800;font-size:44px;white-space:nowrap;opacity:0;box-shadow:0 0 30px rgba(255,20,50,.6);} .rtag i,.gtag i{font-size:54px;}
+.gtag{background:#3a3a3a;box-shadow:0 0 24px rgba(255,255,255,.15);}
+.big{position:absolute;left:50%;transform:translate(-50%,0);padding:18px 70px;border-radius:14px;font-family:Inter;font-weight:900;font-size:130px;letter-spacing:.02em;opacity:0;}
+.rbig{background:#e3122f;color:#fff;box-shadow:0 0 50px rgba(255,20,50,.7);} .obig{border:5px solid #fff;color:#fff;box-shadow:0 0 30px rgba(255,255,255,.25);}
+.or{position:absolute;left:0;width:1080px;text-align:center;font-size:96px;color:rgba(255,255,255,.85);opacity:0;}
+.pf{position:absolute;left:390px;top:330px;width:300px;height:300px;opacity:0;} .ring{position:absolute;inset:0;border-radius:50%;background:conic-gradient(#ff1f3d,#ff2bd6,#ff9a1f,#ff1f3d);box-shadow:0 0 50px rgba(255,31,61,.6);}
+.pic{position:absolute;inset:14px;border-radius:50%;background:#161616;border:8px solid #050505;overflow:hidden;padding:30px;} .pic svg,.tcard svg{width:100%;height:100%;}
+.tap{position:absolute;right:10px;bottom:20px;width:90px;height:90px;border-radius:50%;border:5px solid #fff;opacity:0;}
+.tcard{position:absolute;top:560px;width:220px;height:360px;margin-left:-110px;opacity:0;transform-origin:50% 120%;filter:drop-shadow(0 0 22px rgba(255,31,61,.55));}
+.cb{fill:#120608;stroke:#ff1f3d;stroke-width:5;} .cbi{fill:none;stroke:rgba(255,80,100,.55);stroke-width:2;} .cst{fill:none;stroke:#ffd9de;stroke-width:4;}
+#timer{position:absolute;inset:0;opacity:0;} .tt{top:300px;}
+svg.tring{position:absolute;left:140px;top:560px;width:800px;height:800px;} .rbg{fill:none;stroke:rgba(255,255,255,.1);stroke-width:22;}
+.rfg{fill:none;stroke:#ff1f3d;stroke-width:22;stroke-linecap:round;filter:drop-shadow(0 0 12px #ff2a45) drop-shadow(0 0 40px rgba(255,20,50,.7));}
+.tnum{position:absolute;left:0;top:640px;width:1080px;text-align:center;font-family:Inter;font-weight:900;font-size:560px;line-height:640px;color:#fff;text-shadow:0 0 40px rgba(255,255,255,.35),0 0 120px rgba(255,31,61,.5);}
+.tsub{position:absolute;left:0;top:1460px;width:1080px;text-align:center;font-size:80px;color:rgba(255,255,255,.8);}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;}</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="27.85" data-width="1080" data-height="1920">
+<div class="grid"></div>
+<div id="lA"><div id="card"><video id="vcard" class="clip" src="assets/body.mp4" data-start="0" data-duration="27.85" data-media-start="0" data-track-index="1" muted playsinline></video></div>
+<div class="scene" id="s1"><div class="title" id="s1t">Make A <i>Wish</i></div>
+<svg class="dia" viewBox="0 0 1080 1000"><path id="s1ax" class="axis" d="M120 640H960" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1"/><path id="s1ln" class="neon" d="M120 640C300 640 330 380 540 380S780 640 960 640" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1"/>
+<circle id="s1d0" class="dot " cx="160" cy="640" r="13"/><circle id="s1d1" class="dot " cx="350" cy="640" r="13"/><circle id="s1d2" class="dot " cx="540" cy="640" r="13"/><circle id="s1d3" class="dot " cx="730" cy="640" r="13"/><circle id="s1d4" class="dot " cx="920" cy="640" r="13"/></svg>
+<div class="tag" id="s1n0" style="left:140px;top:1000px">5</div><div class="tag" id="s1n1" style="left:330px;top:1000px">4</div><div class="tag" id="s1n2" style="left:520px;top:1000px">3</div><div class="tag" id="s1n3" style="left:710px;top:1000px">2</div><div class="tag" id="s1n4" style="left:900px;top:1000px">1</div>
+<div class="rtag" id="s1r" style="left:540px;top:520px">In The Next 5 Seconds</div></div><div class="scene" id="s2"><div class="title" id="s2t">Be <i>Honest</i></div><div class="win"><div class="cam" id="s2c">
+<svg class="dia" viewBox="0 0 1080 1000"><path class="axis" id="s2ax" d="M110 90V900H1000" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1"/>
+<path id="s2st" class="neon" d="M150 600H420" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1"/><path id="s2up" class="neon" d="M420 600C560 600 600 330 880 330" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1"/>
+<path id="s2lo" class="grey" d="M420 600C560 600 600 820 880 820" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1"/>
+<path id="s2bk" class="magenta" d="M900 805C1050 700 1050 430 905 350" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1"/>
+<circle id="s2d0" class="dot " cx="150" cy="600" r="13"/><circle id="s2d1" class="dot " cx="880" cy="330" r="13"/><circle id="s2d2" class="dot g" cx="880" cy="820" r="13"/></svg>
+<div class="tag" id="s2a" style="left:760px;top:420px">First Thought</div><div class="tag" id="s2b" style="left:760px;top:900px">Changed It</div>
+<div class="rtag" id="s2h" style="left:700px;top:220px">What Your <i>Heart</i> Wants</div><div class="gtag" id="s2f" style="left:700px;top:870px">What Your <i>Fear</i> Allows</div>
+</div></div></div><div class="scene" id="s3"><div class="title">Comment <i>Below</i></div>
+<div class="big rbig" id="s3a" style="top:430px">FIRST</div><div class="or" id="s3o" style="top:650px"><i>or</i></div><div class="big obig" id="s3b" style="top:780px">SECOND</div></div><div class="scene" id="s4"><div class="title" id="s4t">Tap My <i>Profile</i></div>
+<div class="pf" id="s4p"><div class="ring"></div><div class="pic"><svg viewBox="0 0 64 64"><circle cx="32" cy="24" r="12" fill="#eee"/><path d="M8 60C10 42 54 42 56 60Z" fill="#eee"/></svg></div><div class="tap" id="s4tap"></div></div>
+<div class="tcard" id="s4c0" style="left:200px;--r:-9deg"><svg viewBox="0 0 220 360"><rect x="6" y="6" width="208" height="348" rx="18" class="cb"/><rect x="22" y="22" width="176" height="316" rx="10" class="cbi"/><path d="M110 120L124 166H172L133 194L148 240L110 212L72 240L87 194L48 166H96Z" class="cst"/><circle cx="110" cy="290" r="18" class="cst"/></svg></div><div class="tcard" id="s4c1" style="left:430px;--r:0deg"><svg viewBox="0 0 220 360"><rect x="6" y="6" width="208" height="348" rx="18" class="cb"/><rect x="22" y="22" width="176" height="316" rx="10" class="cbi"/><path d="M110 120L124 166H172L133 194L148 240L110 212L72 240L87 194L48 166H96Z" class="cst"/><circle cx="110" cy="290" r="18" class="cst"/></svg></div><div class="tcard" id="s4c2" style="left:660px;--r:9deg"><svg viewBox="0 0 220 360"><rect x="6" y="6" width="208" height="348" rx="18" class="cb"/><rect x="22" y="22" width="176" height="316" rx="10" class="cbi"/><path d="M110 120L124 166H172L133 194L148 240L110 212L72 240L87 194L48 166H96Z" class="cst"/><circle cx="110" cy="290" r="18" class="cst"/></svg></div>
+<div class="rtag" id="s4r" style="left:540px;top:1110px">Already Moving Toward <i>Your Wish</i></div></div></div>
+<div id="full"><div id="fz"><video id="vfull" class="clip" src="assets/body.mp4" data-start="0" data-duration="27.85" data-media-start="0" data-track-index="2" muted playsinline></video></div></div>
+<div class="grid" id="timer" style="opacity:0"><div class="title tt">Make Your <i>Wish</i></div>
+<svg class="tring" viewBox="0 0 800 800"><circle cx="400" cy="400" r="340" class="rbg"/><circle id="tring" cx="400" cy="400" r="340" class="rfg" pathLength="1" stroke-dasharray="1 1" transform="rotate(-90 400 400)"/></svg>
+<div class="tnum" id="tnum">5</div><div class="tsub"><i>close your eyes</i></div></div>
+<div id="flash"></div>
+<div id="caps" data-composition-id="caps" data-composition-src="compositions/caps.html" data-start="0" data-duration="27.85" data-track-index="3" data-track-kind="captions" data-width="1080" data-height="1920" style="z-index:50"></div>
+<audio id="vo" class="clip" src="assets/voice.wav" data-start="0" data-track-index="4" data-volume="1"></audio>
+<audio id="bgm" class="clip" src="assets/music.wav" data-start="0" data-duration="27.85" data-track-index="5" data-volume="1"></audio>
+<audio id="fx0" class="clip" src="assets/k_riser.wav" data-start="0.000" data-duration="2.4" data-track-index="7" data-volume="0.033"></audio>
+<audio id="fx1" class="clip" src="assets/k_pop.wav" data-start="1.140" data-duration="2.4" data-track-index="8" data-volume="0.237"></audio>
+<audio id="fx2" class="clip" src="assets/k_hit.wav" data-start="1.540" data-duration="2.4" data-track-index="9" data-volume="0.144"></audio>
+<audio id="fx3" class="clip" src="assets/k_tick.wav" data-start="1.818" data-duration="2.4" data-track-index="10" data-volume="0.219"></audio>
+<audio id="fx4" class="clip" src="assets/k_tick.wav" data-start="2.818" data-duration="2.4" data-track-index="7" data-volume="0.219"></audio>
+<audio id="fx5" class="clip" src="assets/k_tick.wav" data-start="3.818" data-duration="2.4" data-track-index="8" data-volume="0.219"></audio>
+<audio id="fx6" class="clip" src="assets/k_tick.wav" data-start="4.818" data-duration="2.4" data-track-index="9" data-volume="0.219"></audio>
+<audio id="fx7" class="clip" src="assets/k_tick.wav" data-start="5.818" data-duration="2.4" data-track-index="10" data-volume="0.219"></audio>
+<audio id="fx8" class="clip" src="assets/k_hit.wav" data-start="6.820" data-duration="2.4" data-track-index="7" data-volume="0.144"></audio>
+<audio id="fx9" class="clip" src="assets/k_pop.wav" data-start="7.390" data-duration="2.4" data-track-index="8" data-volume="0.237"></audio>
+<audio id="fx10" class="clip" src="assets/k_pop.wav" data-start="9.110" data-duration="2.4" data-track-index="9" data-volume="0.237"></audio>
+<audio id="fx11" class="clip" src="assets/k_pop.wav" data-start="11.110" data-duration="2.4" data-track-index="10" data-volume="0.237"></audio>
+<audio id="fx12" class="clip" src="assets/k_whoosh.wav" data-start="11.645" data-duration="2.4" data-track-index="7" data-volume="0.170"></audio>
+<audio id="fx13" class="clip" src="assets/k_hit.wav" data-start="13.470" data-duration="2.4" data-track-index="8" data-volume="0.144"></audio>
+<audio id="fx14" class="clip" src="assets/k_whoosh.wav" data-start="13.715" data-duration="2.4" data-track-index="9" data-volume="0.170"></audio>
+<audio id="fx15" class="clip" src="assets/k_pop.wav" data-start="15.520" data-duration="2.4" data-track-index="10" data-volume="0.237"></audio>
+<audio id="fx16" class="clip" src="assets/k_riser.wav" data-start="14.311" data-duration="2.4" data-track-index="7" data-volume="0.033"></audio>
+<audio id="fx17" class="clip" src="assets/k_whoosh.wav" data-start="16.515" data-duration="2.4" data-track-index="8" data-volume="0.170"></audio>
+<audio id="fx18" class="clip" src="assets/k_pop.wav" data-start="21.050" data-duration="2.4" data-track-index="9" data-volume="0.237"></audio>
+<audio id="fx19" class="clip" src="assets/k_pop.wav" data-start="21.610" data-duration="2.4" data-track-index="10" data-volume="0.237"></audio>
+<audio id="fx20" class="clip" src="assets/k_bell2.wav" data-start="22.020" data-duration="2.4" data-track-index="7" data-volume="0.079"></audio>
+<audio id="fx21" class="clip" src="assets/k_pop.wav" data-start="23.630" data-duration="2.4" data-track-index="8" data-volume="0.237"></audio>
+<audio id="fx22" class="clip" src="assets/k_pop.wav" data-start="23.780" data-duration="2.4" data-track-index="9" data-volume="0.237"></audio>
+<audio id="fx23" class="clip" src="assets/k_pop.wav" data-start="23.930" data-duration="2.4" data-track-index="10" data-volume="0.237"></audio>
+<audio id="fx24" class="clip" src="assets/k_bell1.wav" data-start="26.580" data-duration="2.4" data-track-index="7" data-volume="0.106"></audio>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.set("#full",{opacity:0},0.000);tl.set("#lA",{opacity:1},0.000);tl.set("#timer",{opacity:0},0.000);
+tl.set("#s1",{opacity:1},0.000);
+tl.set("#s2",{opacity:0},0.000);
+tl.set("#s3",{opacity:0},0.000);
+tl.set("#s4",{opacity:0},0.000);
+tl.set("#full",{opacity:0},1.820);tl.set("#lA",{opacity:0},1.820);tl.set("#timer",{opacity:1},1.820);
+tl.set("#full",{opacity:1},6.820);tl.set("#lA",{opacity:0},6.820);tl.set("#timer",{opacity:0},6.820);
+tl.set("#full",{opacity:0},7.290);tl.set("#lA",{opacity:1},7.290);tl.set("#timer",{opacity:0},7.290);
+tl.set("#s1",{opacity:0},7.290);
+tl.set("#s2",{opacity:1},7.290);
+tl.set("#s3",{opacity:0},7.290);
+tl.set("#s4",{opacity:0},7.290);
+tl.set("#full",{opacity:1},11.100);tl.set("#lA",{opacity:0},11.100);tl.set("#timer",{opacity:0},11.100);
+tl.set("#full",{opacity:0},12.010);tl.set("#lA",{opacity:1},12.010);tl.set("#timer",{opacity:0},12.010);
+tl.set("#s1",{opacity:0},12.010);
+tl.set("#s2",{opacity:1},12.010);
+tl.set("#s3",{opacity:0},12.010);
+tl.set("#s4",{opacity:0},12.010);
+tl.set("#full",{opacity:1},19.090);tl.set("#lA",{opacity:0},19.090);tl.set("#timer",{opacity:0},19.090);
+tl.set("#full",{opacity:0},20.670);tl.set("#lA",{opacity:1},20.670);tl.set("#timer",{opacity:0},20.670);
+tl.set("#s1",{opacity:0},20.670);
+tl.set("#s2",{opacity:0},20.670);
+tl.set("#s3",{opacity:1},20.670);
+tl.set("#s4",{opacity:0},20.670);
+tl.set("#full",{opacity:0},22.010);tl.set("#lA",{opacity:1},22.010);tl.set("#timer",{opacity:0},22.010);
+tl.set("#s1",{opacity:0},22.010);
+tl.set("#s2",{opacity:0},22.010);
+tl.set("#s3",{opacity:0},22.010);
+tl.set("#s4",{opacity:1},22.010);
+tl.fromTo("#s1ax",{attr:{"stroke-dashoffset":1}},{attr:{"stroke-dashoffset":0},duration:0.6,ease:"power2.inOut",immediateRender:false},0.050);
+tl.fromTo("#s1ln",{attr:{"stroke-dashoffset":1}},{attr:{"stroke-dashoffset":0},duration:1.1,ease:"power2.inOut",immediateRender:false},0.160);
+tl.fromTo("#s1d0",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.140);
+tl.fromTo("#s1n0",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.140);
+tl.fromTo("#s1d1",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.230);
+tl.fromTo("#s1n1",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.230);
+tl.fromTo("#s1d2",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.320);
+tl.fromTo("#s1n2",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.320);
+tl.fromTo("#s1d3",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.410);
+tl.fromTo("#s1n3",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.410);
+tl.fromTo("#s1d4",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.500);
+tl.fromTo("#s1n4",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.500);
+tl.fromTo("#s1r",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},1.540);
+tl.fromTo("#tring",{attr:{"stroke-dashoffset":0}},{attr:{"stroke-dashoffset":1},duration:5,ease:"none",immediateRender:false},1.820);
+tl.set("#tnum",{innerText:"5"},1.820);tl.fromTo("#tnum",{scale:1.25,opacity:0.4},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.4)",immediateRender:false},1.820);
+tl.set("#tnum",{innerText:"4"},2.820);tl.fromTo("#tnum",{scale:1.25,opacity:0.4},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.4)",immediateRender:false},2.820);
+tl.set("#tnum",{innerText:"3"},3.820);tl.fromTo("#tnum",{scale:1.25,opacity:0.4},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.4)",immediateRender:false},3.820);
+tl.set("#tnum",{innerText:"2"},4.820);tl.fromTo("#tnum",{scale:1.25,opacity:0.4},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.4)",immediateRender:false},4.820);
+tl.set("#tnum",{innerText:"1"},5.820);tl.fromTo("#tnum",{scale:1.25,opacity:0.4},{scale:1,opacity:1,duration:0.35,ease:"back.out(2.4)",immediateRender:false},5.820);
+tl.fromTo("#flash",{opacity:0},{opacity:0.75,duration:0.06,immediateRender:false},6.760);tl.to("#flash",{opacity:0,duration:0.35},6.820);
+tl.fromTo("#s2ax",{attr:{"stroke-dashoffset":1}},{attr:{"stroke-dashoffset":0},duration:0.5,ease:"power2.inOut",immediateRender:false},7.290);
+tl.fromTo("#s2d0",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},7.390);
+tl.fromTo("#s2st",{attr:{"stroke-dashoffset":1}},{attr:{"stroke-dashoffset":0},duration:0.5,ease:"power2.inOut",immediateRender:false},7.540);
+tl.fromTo("#s2up",{attr:{"stroke-dashoffset":1}},{attr:{"stroke-dashoffset":0},duration:0.7,ease:"power2.inOut",immediateRender:false},8.510);
+tl.fromTo("#s2d1",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},9.110);
+tl.fromTo("#s2a",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},9.110);
+tl.fromTo("#s2lo",{attr:{"stroke-dashoffset":1}},{attr:{"stroke-dashoffset":0},duration:0.7,ease:"power2.inOut",immediateRender:false},10.510);
+tl.fromTo("#s2d2",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},11.110);
+tl.fromTo("#s2b",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},11.110);
+tl.to("#s2c",{x:-312.000,y:182.000,scale:1.3,duration:0.9,ease:"power3.inOut"},11.810);
+tl.fromTo("#s2h",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},13.470);
+tl.to("#s2c",{x:-312.000,y:-364.000,scale:1.3,duration:0.9,ease:"power3.inOut"},13.880);
+tl.fromTo("#s2f",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},15.520);
+tl.set("#s2t",{innerHTML:"Go Back To The <i>First One</i>"},16.780);tl.fromTo("#s2t",{opacity:0,y:-16},{opacity:1,y:0,duration:0.3,ease:"power2.out",immediateRender:false},16.780);
+tl.to("#s2c",{x:-57.000,y:-57.000,scale:0.95,duration:0.9,ease:"power3.inOut"},16.680);
+tl.to("#s2lo,#s2d2",{opacity:0.25,duration:0.4},17.080);tl.to("#s2f,#s2b",{opacity:0,duration:0.4},17.080);
+tl.fromTo("#s2bk",{attr:{"stroke-dashoffset":1}},{attr:{"stroke-dashoffset":0},duration:0.8,ease:"power2.inOut",immediateRender:false},17.800);
+tl.fromTo("#s3a",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},21.050);
+tl.fromTo("#s3o",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},21.300);
+tl.fromTo("#s3b",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},21.610);
+tl.fromTo("#s4p",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},22.010);
+tl.fromTo("#s4tap",{scale:0.3,opacity:0.9},{scale:2.2,opacity:0,duration:0.7,repeat:1,ease:"power2.out",immediateRender:false},22.020);
+tl.to("#s4p",{scale:0.5,y:-90,duration:0.6,ease:"power3.inOut"},23.330);
+tl.set("#s4t",{innerHTML:"3 Cards In My <i>Stories</i>"},23.630);tl.fromTo("#s4t",{opacity:0,y:-16},{opacity:1,y:0,duration:0.3,ease:"power2.out",immediateRender:false},23.630);
+tl.fromTo("#s4c0",{opacity:0,y:120,rotation:0},{opacity:1,y:0,rotation:-9,duration:0.5,ease:"back.out(1.8)",immediateRender:false},23.630);
+tl.fromTo("#s4c1",{opacity:0,y:120,rotation:0},{opacity:1,y:0,rotation:0,duration:0.5,ease:"back.out(1.8)",immediateRender:false},23.780);
+tl.fromTo("#s4c2",{opacity:0,y:120,rotation:0},{opacity:1,y:0,rotation:9,duration:0.5,ease:"back.out(1.8)",immediateRender:false},23.930);
+tl.fromTo("#s4r",{opacity:0,scale:0.6,y:14},{opacity:1,scale:1,y:0,duration:0.32,ease:"back.out(2.6)",immediateRender:false},26.580);
+tl.set("#fz",{scale:1.08},6.820);
+tl.set("#fz",{scale:1},7.290);
+tl.set("#fz",{scale:1.08},8.080);
+tl.set("#fz",{scale:1},10.090);
+tl.set("#fz",{scale:1.08},11.100);
+tl.set("#fz",{scale:1},12.010);
+tl.set("#fz",{scale:1.08},14.080);
+tl.set("#fz",{scale:1},14.800);
+tl.set("#fz",{scale:1.08},16.780);
+tl.set("#fz",{scale:1},17.780);
+tl.set("#fz",{scale:1.08},19.090);
+tl.set("#fz",{scale:1},20.670);
+tl.set("#fz",{scale:1.08},22.010);
+tl.set("#fz",{scale:1},23.630);
+tl.set({}, {}, 27.85);
+window.__timelines["main"] = tl;
+</script></body></html>

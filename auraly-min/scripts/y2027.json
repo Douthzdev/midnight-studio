@@ -1,0 +1,114 @@
+{
+ "look": "glow",
+ "head": [
+  "3 THINGS TO DO",
+  "*before 2027*"
+ ],
+ "accent": [
+  "wallet",
+  "money",
+  "bill",
+  "universe",
+  "2027",
+  "cards",
+  "important",
+  "prosperous"
+ ],
+ "fix": {
+  "Mone": "Money"
+ },
+ "beats": [
+  {
+   "at": [
+    "clean out your",
+    "clean out"
+   ],
+   "art": "wallet",
+   "label": "STEP 1",
+   "big": "Clean your *wallet*",
+   "dur": 2.6
+  },
+  {
+   "at": [
+    "keep one bill"
+   ],
+   "art": "bill",
+   "label": "STEP 2",
+   "big": "Keep one *bill*",
+   "sub": "and never spend it",
+   "dur": 2.4
+  },
+  {
+   "at": [
+    "nobody does"
+   ],
+   "art": "cards",
+   "label": "STEP 3 · NOBODY DOES THIS",
+   "big": "See what *2027* brings",
+   "dur": 3
+  },
+  {
+   "at": [
+    "comment 2027"
+   ],
+   "cta": "comment",
+   "type": "2027",
+   "label": "COMMENT THIS",
+   "dur": 2.2,
+   "sub": "your 3 cards are in my stories"
+  },
+  {
+   "at": [
+    "tap my profile",
+    "your three cards",
+    "three cards"
+   ],
+   "cta": "stories",
+   "label": "TAP MY PROFILE PICTURE",
+   "big": "Your 3 *cards*",
+   "sub": "are waiting in my stories",
+   "dur": 99
+  }
+ ],
+ "stickers": [
+  {
+   "at": [
+    "most important"
+   ],
+   "icon": "star",
+   "text": "#3 IS THE KEY",
+   "side": "r",
+   "dur": 1.4
+  },
+  {
+   "at": [
+    "money doesn't stay",
+    "doesn't stay"
+   ],
+   "icon": "money",
+   "text": "MAKE ROOM FOR MONEY",
+   "side": "r",
+   "dur": 1.8
+  },
+  {
+   "at": [
+    "show the universe",
+    "to show the"
+   ],
+   "icon": "sparkle",
+   "text": "YOU ALREADY HAVE",
+   "side": "l",
+   "dur": 1.8
+  },
+  {
+   "at": [
+    "never saw coming",
+    "saw coming"
+   ],
+   "icon": "eye",
+   "text": "SEE IT COMING",
+   "side": "r",
+   "dur": 1.5
+  }
+ ]
+}

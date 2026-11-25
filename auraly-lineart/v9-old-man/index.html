@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-composition-variables='[
+ {"id":"color-ground","type":"color","label":"Background","default":"#0E0E10"},
+ {"id":"color-ink","type":"color","label":"Text","default":"#F2EFE8"},
+ {"id":"color-accent","type":"color","label":"Accent","default":"#F4B860"}
+]'>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+:root{--color-ground:#0E0E10;--color-ink:#F2EFE8;--color-accent:#F4B860;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--color-ground);}
+#bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 45% at 50% 40%, #1A1A1F 0%, #0E0E10 70%);}
+#grain{position:absolute;inset:0;opacity:0.07;}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="39.761" data-width="1080" data-height="1920">
+<div id="bg"></div>
+<svg id="grain" width="1080" height="1920" xmlns="http://www.w3.org/2000/svg"><filter id="nz"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7"/><feColorMatrix type="saturate" values="0"/></filter><rect width="1080" height="1920" filter="url(#nz)"/></svg>
+<div id="elder" data-composition-id="elder" data-composition-src="compositions/elder.html" data-start="0" data-duration="6.435" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="doc" data-composition-id="doc" data-composition-src="compositions/doc.html" data-start="6.435" data-duration="3.673" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="gifts" data-composition-id="gifts" data-composition-src="compositions/gifts.html" data-start="10.108" data-duration="3.545" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="fortune" data-composition-id="fortune" data-composition-src="compositions/fortune.html" data-start="13.653" data-duration="6.15" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="receive" data-composition-id="receive" data-composition-src="compositions/receive.html" data-start="19.803" data-duration="3.353" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="yes" data-composition-id="yes" data-composition-src="compositions/yes.html" data-start="23.156" data-duration="6.403" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="cta" data-composition-id="cta" data-composition-src="compositions/cta.html" data-start="29.559" data-duration="10.202" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="caps" data-composition-id="caps" data-composition-src="compositions/caps.html" data-start="0" data-duration="39.761" data-track-index="2" data-track-kind="captions" data-width="1080" data-height="1920" style="z-index:50"></div>
+<audio id="vo" class="clip" src="assets/vo.wav" data-start="0" data-track-index="3" data-volume="1"></audio>
+<audio id="bgm" class="clip" src="assets/music.wav" data-start="0" data-duration="39.761" data-track-index="4" data-volume="1"></audio>
+<audio id="sfx0" class="clip" src="assets/whoosh.mp3" data-start="7.608" data-duration="5.5" data-track-index="5" data-volume="0.28"></audio>
+<audio id="sfx1" class="clip" src="assets/chime.mp3" data-start="14.535" data-duration="2.5" data-track-index="5" data-volume="0.4"></audio>
+<audio id="sfx2" class="clip" src="assets/chime.mp3" data-start="23.738" data-duration="2.5" data-track-index="5" data-volume="0.4"></audio>
+</div>
+<script>
+window.__timelines["main"] = gsap.timeline({ paused: true });
+</script>
+</body>
+</html>

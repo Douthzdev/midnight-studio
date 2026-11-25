@@ -1,0 +1,43 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(121,182,232,0.45));}</style>
+<div id="root" data-composition-id="smile" data-width="1080" data-height="1920">
+<div class="wrap" id="smile-w"><div class="cam" id="smile-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="smile-p0e" d="M540,470 a170,170 0 1,1 -0.1,0" fill="none" stroke="#EF7F6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="smile-p0" d="M540,470 a170,170 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="smile-p1" d="M470,600 V620 M610,600 V620" fill="none" stroke="#F2EFE8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="smile-p2e" d="M450,690 Q540,770 630,690" fill="none" stroke="#B79CF0" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="smile-p2" d="M450,690 Q540,770 630,690" fill="none" stroke="#F2EFE8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="smile-t3" x="540" y="930" text-anchor="middle" style="font-family:'Montserrat'" font-size="52" font-weight="800" letter-spacing="0em" fill="#F4B860">THANK YOU, UNIVERSE</text>
+<path id="smile-p4e" d="M400,990 H680 Q700,990 700,1010 V1030 Q700,1050 680,1050 H400 Q380,1050 380,1030 V1010 Q380,990 400,990 Z" fill="none" stroke="#79B6E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="smile-p4" d="M400,990 H680 Q700,990 700,1010 V1030 Q700,1050 680,1050 H400 Q380,1050 380,1030 V1010 Q380,990 400,990 Z" fill="none" stroke="#79B6E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="smile-t5" x="540" y="1032" text-anchor="middle" style="font-family:'Montserrat'" font-size="30" font-weight="800" letter-spacing="0em" fill="#79B6E8">+ FOLLOW</text>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#smile-p0, #smile-p0e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.100);
+tl.fromTo("#smile-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},0.500);
+tl.fromTo("#smile-p2, #smile-p2e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},1.149);
+tl.fromTo("#smile-t3",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.429);
+tl.fromTo("#smile-p4, #smile-p4e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},3.709);
+tl.fromTo("#smile-t5",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},3.809);
+tl.to("#smile-w",{opacity:0,duration:0.2,ease:"power1.in"},4.290);
+tl.fromTo("#smile-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#smile-cam",{scale:1.045,x:14,y:-10,duration:4.010,ease:"sine.inOut"},0.5);
+tl.to("#smile-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},4.290);
+tl.set({}, {}, 4.51);
+window.__timelines["smile"] = tl;
+</script>
+</template>

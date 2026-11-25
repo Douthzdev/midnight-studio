@@ -1,0 +1,119 @@
+{
+ "head": [
+  "THE 2 LUCKIEST SIGNS",
+  "*of 2027*"
+ ],
+ "accent": [
+  "luckiest",
+  "2027",
+  "spotlight",
+  "cancer",
+  "scorpio",
+  "222",
+  "reading",
+  "stories",
+  "worth",
+  "congratulations"
+ ],
+ "fix": {
+  "Zodioc": "zodiac"
+ },
+ "beats": [
+  {
+   "at": "overlooked for a",
+   "art": "eye",
+   "big": "Overlooked *for years*",
+   "dur": 2.6
+  },
+  {
+   "at": "constantly underestimated",
+   "big": "Always *underestimated*",
+   "dur": 2.4
+  },
+  {
+   "at": "2027 is the year",
+   "art": "stars",
+   "label": "THE YEAR EVERYTHING CHANGES",
+   "big": "2027",
+   "dur": 2.8
+  },
+  {
+   "at": "into the spotlight",
+   "art": "spot",
+   "big": "Into the *spotlight*",
+   "dur": 2.4
+  },
+  {
+   "at": "a cancer or",
+   "art": "zodiac",
+   "label": "IF YOU'RE A",
+   "big": "Cancer *or* Scorpio",
+   "end": "congratulations"
+  },
+  {
+   "at": [
+    "comment 222",
+    "comment two two"
+   ],
+   "cta": "comment",
+   "type": "222",
+   "label": "COMMENT IF IT'S YOUR SIGN",
+   "dur": 3.4
+  },
+  {
+   "at": [
+    "go get your",
+    "get your reading"
+   ],
+   "cta": "stories",
+   "label": "TAP MY PROFILE PICTURE",
+   "big": "Your *reading*",
+   "sub": "it's waiting in my stories",
+   "dur": 99
+  }
+ ],
+ "stickers": [
+  {
+   "at": "start preparing",
+   "icon": "clock",
+   "text": "START PREPARING",
+   "side": "r"
+  },
+  {
+   "at": "behind the scenes",
+   "icon": "moon",
+   "text": "BEHIND THE SCENES",
+   "side": "l"
+  },
+  {
+   "at": "recognition",
+   "icon": "star",
+   "text": "RECOGNITION",
+   "side": "r"
+  },
+  {
+   "at": "actually worth",
+   "icon": "sparkle",
+   "text": "YOUR TRUE WORTH",
+   "side": "l"
+  },
+  {
+   "at": "nobody was betting",
+   "icon": "lock",
+   "text": "NOBODY BET ON THEM",
+   "side": "r"
+  },
+  {
+   "at": "luckiest signs of",
+   "icon": "star",
+   "text": "LUCKIEST SIGNS",
+   "side": "l"
+  },
+  {
+   "at": "full advantage",
+   "icon": "sparkle",
+   "text": "TAKE FULL ADVANTAGE",
+   "side": "r"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(244,184,96,0.4));}</style>
+<div id="root" data-composition-id="science" data-width="1080" data-height="1920">
+<div class="wrap" id="science-w"><div class="cam" id="science-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g id="science-g0">
+<path id="science-p1e" d="M330,860 L620,570 M600,550 L650,600" fill="none" stroke="#79B6E8" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="science-p1" d="M330,860 L620,570 M600,550 L650,600" fill="none" stroke="#B79CF0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="science-p2e" d="M650,504 L653.52,516.48 L666,520 L653.52,523.52 L650,536 L646.48,523.52 L634,520 L646.48,516.48 Z" fill="none" stroke="#79B6E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="science-p2" d="M650,504 L653.52,516.48 L666,520 L653.52,523.52 L650,536 L646.48,523.52 L634,520 L646.48,516.48 Z" fill="none" stroke="#B79CF0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="science-p3e" d="M700,574 L703.52,586.48 L716,590 L703.52,593.52 L700,606 L696.48,593.52 L684,590 L696.48,586.48 Z" fill="none" stroke="#79B6E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="science-p3" d="M700,574 L703.52,586.48 L716,590 L703.52,593.52 L700,606 L696.48,593.52 L684,590 L696.48,586.48 Z" fill="none" stroke="#B79CF0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="science-p4e" d="M610,454 L613.52,466.48 L626,470 L613.52,473.52 L610,486 L606.48,473.52 L594,470 L606.48,466.48 Z" fill="none" stroke="#79B6E8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="science-p4" d="M610,454 L613.52,466.48 L626,470 L613.52,473.52 L610,486 L606.48,473.52 L594,470 L606.48,466.48 Z" fill="none" stroke="#B79CF0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="science-t5" x="540" y="470" text-anchor="middle" style="font-family:'Montserrat'" font-size="70" font-weight="800" letter-spacing="0em" fill="#8C8A86">MAGIC?</text>
+<path id="science-p6" d="M380,490 L700,430" fill="none" stroke="#EF7F6B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<text id="science-b7" data-layout-allow-overlap x="533" y="760" text-anchor="middle" style="font-family:'League Gothic'" font-size="230" fill="none" stroke="#79B6E8" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">SCIENCE</text>
+<text id="science-b8" data-layout-allow-overlap x="547" y="760" text-anchor="middle" style="font-family:'League Gothic'" font-size="230" fill="none" stroke="#F4B860" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">SCIENCE</text>
+<text id="science-b9" data-layout-allow-overlap x="540" y="760" text-anchor="middle" style="font-family:'League Gothic'" font-size="230" fill="none" stroke="#F2EFE8" stroke-width="3.2" stroke-dasharray="2600 2600" opacity="1" stroke-linejoin="round">SCIENCE</text>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#science-p1, #science-p1e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},0.668);
+tl.fromTo("#science-p2, #science-p2e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.868);
+tl.fromTo("#science-p3, #science-p3e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.948);
+tl.fromTo("#science-p4, #science-p4e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},1.028);
+tl.fromTo("#science-t5",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.868);
+tl.fromTo("#science-p6",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},1.368);
+tl.to("#science-g0",{opacity:0,y:-30,duration:0.3,ease:"power2.in"},1.61);
+tl.fromTo("#science-b7",{strokeDashoffset:2600},{strokeDashoffset:0,duration:1,ease:"power2.inOut"},1.908);
+tl.fromTo("#science-b8",{strokeDashoffset:2600},{strokeDashoffset:0,duration:1,ease:"power2.inOut"},1.908);
+tl.fromTo("#science-b9",{strokeDashoffset:2600},{strokeDashoffset:0,duration:1,ease:"power2.inOut"},1.908);
+tl.to("#science-w",{opacity:0,duration:0.2,ease:"power1.in"},3.197);
+tl.fromTo("#science-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#science-cam",{scale:1.045,x:-14,y:-10,duration:2.917,ease:"sine.inOut"},0.5);
+tl.to("#science-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},3.197);
+tl.set({}, {}, 3.417);
+window.__timelines["science"] = tl;
+</script>
+</template>

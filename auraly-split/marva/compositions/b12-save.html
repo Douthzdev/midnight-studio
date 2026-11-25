@@ -1,0 +1,37 @@
+<template>
+<style>#root{position:absolute;inset:0;} .wrap{position:absolute;inset:0;} svg.art{position:absolute;inset:0;width:1080px;height:560px;overflow:visible;filter:drop-shadow(0 0 6px rgba(255,236,214,0.25));}</style>
+<div id="root" data-composition-id="b12-save" data-width="1080" data-height="560">
+<div class="wrap" id="b12-save-w"><svg class="art" viewBox="0 0 1080 560" xmlns="http://www.w3.org/2000/svg">
+<path id="b12-save-p0" d="M345,40 H495 Q525,40 525,70 V410 Q525,440 495,440 H345 Q315,440 315,410 V70 Q315,40 345,40Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b12-save-p1" d="M390,60 H450" fill="none" stroke="#F2EFE8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.6"/>
+<path id="b12-save-p2" d="M780,100 a40,40 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="b12-save-t3" x="780" y="153" text-anchor="middle" style="font-family:'League Gothic'" font-size="40" font-weight="500" letter-spacing="0em" fill="#F4B860">1</text>
+<path id="b12-save-p4" d="M780,210 a40,40 0 1,1 -0.1,0" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="b12-save-t5" x="780" y="263" text-anchor="middle" style="font-family:'League Gothic'" font-size="40" font-weight="500" letter-spacing="0em" fill="#8C8A86">2</text>
+<path id="b12-save-p6" d="M780,320 a40,40 0 1,1 -0.1,0" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="b12-save-t7" x="780" y="373" text-anchor="middle" style="font-family:'League Gothic'" font-size="40" font-weight="500" letter-spacing="0em" fill="#8C8A86">3</text>
+<path id="b12-save-p8" d="M370,150 H470 V320 L420,280 L370,320Z" fill="#F4B860" stroke="#F4B860" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b12-save-p9" d="M780,210 a40,40 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="b12-save-p10" d="M830,198 Q830,210 842,210 Q830,210 830,222 Q830,210 818,210 Q830,210 830,198Z" fill="#F4B860" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="b12-save-t11" x="540" y="515" text-anchor="middle" style="font-family:'Montserrat'" font-size="44" font-weight="800" letter-spacing="0.02em" fill="#F2EFE8">2ND SEAL: SAVE</text>
+</svg></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#b12-save-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.7,ease:"power2.out"},0.080);
+tl.fromTo("#b12-save-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.380);
+tl.fromTo("#b12-save-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},0.000);
+tl.fromTo("#b12-save-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},0.080);
+tl.fromTo("#b12-save-p6",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},0.080);
+tl.fromTo("#b12-save-p8",{fillOpacity:0},{fillOpacity:1,duration:0.6,ease:"power1.in"},0.380);
+tl.fromTo("#b12-save-p8",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.380);
+tl.fromTo("#b12-save-p9",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},1.950);
+tl.fromTo("#b12-save-p10",{fillOpacity:0},{fillOpacity:1,duration:0.4,ease:"power1.in"},2.250);
+tl.fromTo("#b12-save-p10",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},2.250);
+tl.fromTo("#b12-save-t11",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.280);
+tl.fromTo("#b12-save-w",{scale:1},{scale:1.04,duration:2.71,ease:"none",transformOrigin:"540px 250px"},0);
+tl.to("#b12-save-w",{opacity:0,duration:0.16,ease:"power1.in"},2.550);
+tl.set({}, {}, 2.71);
+window.__timelines["b12-save"] = tl;
+</script>
+</template>

@@ -1,0 +1,42 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="receipt" data-width="1080" data-height="1920">
+<div class="wrap" id="receipt-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="receipt-p0" d="M370,440 H710 V990 L710,990 L676,1010 L642,990 L608,1010 L574,990 L540,1010 L506,990 L472,1010 L438,990 L404,1010 L370,990 L370,990 Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="receipt-p1" d="M410,520 H560 M620,520 H670" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="receipt-p2" d="M410,580 H597 M620,580 H670" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="receipt-p3" d="M410,640 H634 M620,640 H670" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="receipt-p4" d="M410,700 H571 M620,700 H670" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="receipt-p5" d="M410,760 H608 M620,760 H670" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="receipt-s6" d="M410,830 H670" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-dasharray="0.1 8"/>
+<text id="receipt-t7" x="410" y="900" text-anchor="start" style="font-family:'IBM Plex Mono'" font-size="30" font-weight="500" letter-spacing="0.12em" fill="#F2EFE8">TOTAL</text>
+<text id="receipt-t8" x="670" y="905" text-anchor="end" style="font-family:'IBM Plex Mono'" font-size="44" font-weight="700" letter-spacing="0.12em" fill="#F4B860">$2.22</text>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#receipt-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.000);
+tl.fromTo("#receipt-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},0.200);
+tl.fromTo("#receipt-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},0.260);
+tl.fromTo("#receipt-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},0.320);
+tl.fromTo("#receipt-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},0.380);
+tl.fromTo("#receipt-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.3,ease:"power2.out"},0.440);
+tl.fromTo("#receipt-s6",{opacity:0},{opacity:0.7,duration:0.5,ease:"power2.out"},0.500);
+tl.fromTo("#receipt-t7",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.600);
+tl.fromTo("#receipt-t8",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.750);
+tl.to("#receipt-w",{opacity:0,duration:0.2,ease:"power1.in"},1.602);
+tl.set({}, {}, 1.822);
+window.__timelines["receipt"] = tl;
+</script>
+</template>

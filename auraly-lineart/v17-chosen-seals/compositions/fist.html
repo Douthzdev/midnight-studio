@@ -1,0 +1,38 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(244,184,96,0.4));}</style>
+<div id="root" data-composition-id="fist" data-width="1080" data-height="1920">
+<div class="wrap" id="fist-w"><div class="cam" id="fist-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g id="fist-g0">
+<path id="fist-p1e" d="M463,1040 C461.2,1010.7 466.7,906.2 452,864 C437.3,821.8 391.1,807.5 375,787 C358.9,766.5 352.6,750.7 355.2,740.8 C357.8,730.9 372.8,718.8 390.4,727.6 C408.0,736.4 450.2,800.2 460.8,793.6 C471.4,787.0 452.0,726.1 454.2,688 C456.4,649.9 465.2,586.1 474,564.8 C482.8,543.5 500.0,541.7 507,560.4 C514.0,579.1 512.9,660.5 515.8,677 C518.7,693.5 519.8,684.3 524.6,659.4 C529.4,634.5 536.3,549.4 544.4,527.4 C552.5,505.4 566.8,504.3 573,527.4 C579.2,550.5 578.9,642.2 581.8,666 C584.7,689.8 586.2,689.8 590.6,670.4 C595.0,651.0 600.5,569.2 608.2,549.4 C615.9,529.6 630.9,529.2 636.8,551.6 C642.7,574.0 641.2,658.7 643.4,683.6 C645.6,708.5 645.6,713.3 650,701.2 C654.4,689.1 662.5,624.9 669.8,611 C677.1,597.1 690.0,598.9 694,617.6 C698.0,636.3 696.6,682.1 694,723.2 C691.4,764.3 687.4,811.2 678.6,864 C669.8,916.8 647.4,1010.7 641.2,1040" fill="none" stroke="#B79CF0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="fist-p1" d="M463,1040 C461.2,1010.7 466.7,906.2 452,864 C437.3,821.8 391.1,807.5 375,787 C358.9,766.5 352.6,750.7 355.2,740.8 C357.8,730.9 372.8,718.8 390.4,727.6 C408.0,736.4 450.2,800.2 460.8,793.6 C471.4,787.0 452.0,726.1 454.2,688 C456.4,649.9 465.2,586.1 474,564.8 C482.8,543.5 500.0,541.7 507,560.4 C514.0,579.1 512.9,660.5 515.8,677 C518.7,693.5 519.8,684.3 524.6,659.4 C529.4,634.5 536.3,549.4 544.4,527.4 C552.5,505.4 566.8,504.3 573,527.4 C579.2,550.5 578.9,642.2 581.8,666 C584.7,689.8 586.2,689.8 590.6,670.4 C595.0,651.0 600.5,569.2 608.2,549.4 C615.9,529.6 630.9,529.2 636.8,551.6 C642.7,574.0 641.2,658.7 643.4,683.6 C645.6,708.5 645.6,713.3 650,701.2 C654.4,689.1 662.5,624.9 669.8,611 C677.1,597.1 690.0,598.9 694,617.6 C698.0,636.3 696.6,682.1 694,723.2 C691.4,764.3 687.4,811.2 678.6,864 C669.8,916.8 647.4,1010.7 641.2,1040" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="fist-p2" d="M474,842 Q551,776 650,765 M485,908 Q562,831 639,831" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<text id="fist-t3" x="540" y="470" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="34" font-weight="500" letter-spacing="0.12em" fill="#F4B860">CLOSE YOUR RIGHT HAND</text>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#fist-p1, #fist-p1e",{strokeDashoffset:1},{strokeDashoffset:0,duration:1.2,ease:"power2.out"},0.100);
+tl.fromTo("#fist-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.600);
+tl.to("#fist-g0",{scaleY:0.45,svgOrigin:"540 1000",duration:0.4,ease:"power2.in"},0.20);
+tl.fromTo("#fist-t3",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.004);
+tl.to("#fist-w",{opacity:0,duration:0.2,ease:"power1.in"},3.666);
+tl.fromTo("#fist-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#fist-cam",{scale:1.045,x:-14,y:-10,duration:3.386,ease:"sine.inOut"},0.5);
+tl.to("#fist-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},3.666);
+tl.set({}, {}, 3.886);
+window.__timelines["fist"] = tl;
+</script>
+</template>

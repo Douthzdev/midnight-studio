@@ -1,0 +1,32 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="send" data-width="1080" data-height="1920">
+<div class="wrap" id="send-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="send-p0" d="M428.79999999999995,500 H651.2 Q675.2,500 675.2,524 V996 Q675.2,1020 651.2,1020 H428.79999999999995 Q404.79999999999995,1020 404.79999999999995,996 V524 Q404.79999999999995,500 428.79999999999995,500 Z M510,518 H570" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="send-p1" d="M640,620 A120,120 0 1,0 660,780 M640,620 l-34,-4 M640,620 l4,34" fill="none" stroke="#F4B860" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="send-p2" d="M544.8,763.4 C548.6,764.3 554.2,766.5 558,768.5 C561.8,770.5 565.4,771.1 567.6,775.4 C569.8,779.6 570.4,786.9 571.2,794 C572.0,801.1 572.4,810.5 572.4,818 C572.4,825.5 571.8,833.9 571.2,839 C570.6,844.1 569.8,847.2 568.8,848.6 C567.8,850.0 565.9,850.0 565.2,847.4 C564.5,844.8 564.8,838.9 564.6,833 C564.4,827.1 564.8,819.5 564,812 C563.2,804.5 560.8,789.0 559.8,788 C558.8,787.0 558.6,799.5 558,806 C557.4,812.5 556.1,821.0 556.2,827 C556.3,833.0 558.4,835.5 558.6,842 C558.8,848.5 558.0,858.5 557.4,866 C556.8,873.5 555.8,879.0 555,887 C554.2,895.0 552.5,908.5 552.6,914 C552.7,919.5 557.0,918.9 555.6,920 C554.2,921.1 546.1,921.6 544.2,920.6 C542.3,919.6 544.1,919.6 544.2,914 C544.3,908.4 544.9,896.0 544.8,887 C544.7,878.0 544.4,866.0 543.6,860 C542.8,854.0 541.2,851.0 540,851 C538.8,851.0 537.2,854.0 536.4,860 C535.6,866.0 535.3,878.0 535.2,887 C535.1,896.0 535.7,908.4 535.8,914 C535.9,919.6 537.7,919.6 535.8,920.6 C533.9,921.6 525.8,921.1 524.4,920 C523.0,918.9 527.3,919.5 527.4,914 C527.5,908.5 525.8,895.0 525,887 C524.2,879.0 523.2,873.5 522.6,866 C522.0,858.5 521.2,848.5 521.4,842 C521.6,835.5 523.7,833.0 523.8,827 C523.9,821.0 522.6,812.5 522,806 C521.4,799.5 521.2,787.0 520.2,788 C519.2,789.0 516.8,804.5 516,812 C515.2,819.5 515.6,827.1 515.4,833 C515.2,838.9 515.5,844.8 514.8,847.4 C514.1,850.0 512.2,850.0 511.2,848.6 C510.2,847.2 509.4,844.1 508.8,839 C508.2,833.9 507.6,825.5 507.6,818 C507.6,810.5 508.0,801.1 508.8,794 C509.6,786.9 510.2,779.6 512.4,775.4 C514.6,771.1 518.2,770.5 522,768.5 C525.8,766.5 531.4,764.3 535.2,763.4 C539.0,762.5 541.0,762.5 544.8,763.4Z" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="send-p3" d="M540,740.6 a10.799999999999999,10.799999999999999 0 1,1 0,21.599999999999998 a10.799999999999999,10.799999999999999 0 1,1 0,-21.599999999999998" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#send-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.000);
+tl.fromTo("#send-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},1.479);
+tl.fromTo("#send-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.400);
+tl.fromTo("#send-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.36,ease:"power2.out"},0.400);
+tl.to("#send-w",{opacity:0,duration:0.2,ease:"power1.in"},4.669);
+tl.set({}, {}, 4.889);
+window.__timelines["send"] = tl;
+</script>
+</template>

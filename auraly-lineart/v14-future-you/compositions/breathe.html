@@ -1,0 +1,43 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(244,184,96,0.35));}</style>
+<div id="root" data-composition-id="breathe" data-width="1080" data-height="1920">
+<div class="wrap" id="breathe-w"><div class="cam" id="breathe-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g id="breathe-breath0">
+<path id="breathe-p1e" d="M540,520 a200,200 0 1,1 -0.1,0" fill="none" stroke="#79B6E8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="breathe-p1" d="M540,520 a200,200 0 1,1 -0.1,0" fill="none" stroke="#79B6E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="breathe-p2" d="M540,560 a160,160 0 1,1 -0.1,0" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.7"/>
+</g>
+<text id="breathe-t3" x="540" y="736" text-anchor="middle" style="font-family:'Montserrat'" font-size="54" font-weight="800" letter-spacing="0em" fill="#F2EFE8">INHALE</text>
+<text id="breathe-t4" x="540" y="736" text-anchor="middle" style="font-family:'Montserrat'" font-size="54" font-weight="800" letter-spacing="0em" fill="#F4B860">EXHALE</text>
+<text id="breathe-t5" x="540" y="430" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="32" font-weight="500" letter-spacing="0.25em" fill="#B79CF0">BREATHE WITH ME</text>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#breathe-p1, #breathe-p1e",{strokeDashoffset:1},{strokeDashoffset:0,duration:1,ease:"power2.out"},0.100);
+tl.fromTo("#breathe-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:1,ease:"power2.out"},0.300);
+tl.fromTo("#breathe-breath0",{scale:0.75,svgOrigin:"540 720"},{scale:1.2,duration:1.90,ease:"sine.inOut",immediateRender:false},2.27);tl.to("#breathe-breath0",{scale:0.75,svgOrigin:"540 720",duration:1.77,ease:"sine.inOut"},4.17);
+tl.fromTo("#breathe-t3",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.266);
+tl.to("#breathe-t3",{opacity:0,duration:0.2},3.97);
+tl.fromTo("#breathe-t4",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},4.168);
+tl.fromTo("#breathe-t5",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.200);
+tl.to("#breathe-w",{opacity:0,duration:0.2,ease:"power1.in"},5.870);
+tl.fromTo("#breathe-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#breathe-cam",{scale:1.045,x:14,y:-10,duration:5.590,ease:"sine.inOut"},0.5);
+tl.to("#breathe-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},5.870);
+tl.set({}, {}, 6.09);
+window.__timelines["breathe"] = tl;
+</script>
+</template>

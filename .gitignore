@@ -1,0 +1,20 @@
+# media and heavy intermediates stay on disk only (finals live in VIDEOS EDITADOS / Midnight Videos)
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.MP3
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.log
+node_modules/
+.hyperframes/
+snaps/
+renders/
+__pycache__/
+*.bak.mjs

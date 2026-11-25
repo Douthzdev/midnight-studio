@@ -1,0 +1,60 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="themes" data-width="1080" data-height="1920">
+<div class="wrap" id="themes-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<text id="themes-b0" data-layout-allow-overlap x="213" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#79B6E8" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">1</text>
+<text id="themes-b1" data-layout-allow-overlap x="227" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#B79CF0" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">1</text>
+<text id="themes-b2" data-layout-allow-overlap x="220" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#F2EFE8" stroke-width="3.2" stroke-dasharray="2600 2600" opacity="1" stroke-linejoin="round">1</text>
+<path id="themes-p3" d="M220,860 a46,46 0 1,1 -40,24 M180,884 l-6,-26 M180,884 l24,-8" fill="none" stroke="#79B6E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="themes-t4" x="220" y="990" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="28" font-weight="500" letter-spacing="0.12em" fill="#79B6E8">NEW START</text>
+<text id="themes-b5" data-layout-allow-overlap x="533" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#F4B860" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">8</text>
+<text id="themes-b6" data-layout-allow-overlap x="547" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#F4B860" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">8</text>
+<text id="themes-b7" data-layout-allow-overlap x="540" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#F2EFE8" stroke-width="3.2" stroke-dasharray="2600 2600" opacity="1" stroke-linejoin="round">8</text>
+<g id="themes-coin8">
+<path id="themes-p9" d="M540,861 a44,44 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="themes-p10" d="M540,873.32 a31.68,31.68 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="themes-t11" x="540" y="919.08" text-anchor="middle" style="font-family:'League Gothic'" font-size="41.8" font-weight="500" letter-spacing="0em" fill="#F4B860">$</text>
+</g>
+<text id="themes-t12" x="540" y="990" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="28" font-weight="500" letter-spacing="0.12em" fill="#F4B860">MONEY</text>
+<text id="themes-b13" data-layout-allow-overlap x="853" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#79B6E8" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">9</text>
+<text id="themes-b14" data-layout-allow-overlap x="867" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#B79CF0" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">9</text>
+<text id="themes-b15" data-layout-allow-overlap x="860" y="780" text-anchor="middle" style="font-family:'League Gothic'" font-size="260" fill="none" stroke="#F2EFE8" stroke-width="3.2" stroke-dasharray="2600 2600" opacity="1" stroke-linejoin="round">9</text>
+<path id="themes-p16" d="M820,950 V850 H900 V950 M820,950 H900" fill="none" stroke="#B79CF0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="themes-t17" x="860" y="990" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="28" font-weight="500" letter-spacing="0.12em" fill="#B79CF0">CLOSURE</text>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#themes-b0",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},0.392);
+tl.fromTo("#themes-b1",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},0.392);
+tl.fromTo("#themes-b2",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},0.392);
+tl.fromTo("#themes-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.692);
+tl.fromTo("#themes-t4",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.792);
+tl.fromTo("#themes-b5",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},2.472);
+tl.fromTo("#themes-b6",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},2.472);
+tl.fromTo("#themes-b7",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},2.472);
+tl.fromTo("#themes-p9",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},2.772);
+tl.fromTo("#themes-p10",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},2.872);
+tl.fromTo("#themes-t11",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},3.022);
+tl.fromTo("#themes-t12",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.872);
+tl.fromTo("#themes-b13",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},4.632);
+tl.fromTo("#themes-b14",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},4.632);
+tl.fromTo("#themes-b15",{strokeDashoffset:2600},{strokeDashoffset:0,duration:0.7,ease:"power2.inOut"},4.632);
+tl.fromTo("#themes-p16",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},4.932);
+tl.fromTo("#themes-t17",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},5.032);
+tl.to("#themes-w",{opacity:0,duration:0.2,ease:"power1.in"},6.915);
+tl.set({}, {}, 7.135);
+window.__timelines["themes"] = tl;
+</script>
+</template>

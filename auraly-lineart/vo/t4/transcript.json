@@ -1,0 +1,560 @@
+[
+  {
+    "id": "w0",
+    "text": "Before",
+    "start": 0.16,
+    "end": 0.64
+  },
+  {
+    "id": "w1",
+    "text": "this",
+    "start": 0.64,
+    "end": 0.8
+  },
+  {
+    "id": "w2",
+    "text": "year",
+    "start": 0.8,
+    "end": 1.12
+  },
+  {
+    "id": "w3",
+    "text": "ends,",
+    "start": 1.12,
+    "end": 1.68
+  },
+  {
+    "id": "w4",
+    "text": "there's",
+    "start": 1.68,
+    "end": 2.08
+  },
+  {
+    "id": "w5",
+    "text": "one",
+    "start": 2.08,
+    "end": 2.32
+  },
+  {
+    "id": "w6",
+    "text": "number",
+    "start": 2.32,
+    "end": 2.64
+  },
+  {
+    "id": "w7",
+    "text": "that",
+    "start": 2.64,
+    "end": 2.88
+  },
+  {
+    "id": "w8",
+    "text": "decides",
+    "start": 2.88,
+    "end": 3.44
+  },
+  {
+    "id": "w9",
+    "text": "how",
+    "start": 3.44,
+    "end": 3.68
+  },
+  {
+    "id": "w10",
+    "text": "your",
+    "start": 3.68,
+    "end": 3.84
+  },
+  {
+    "id": "w11",
+    "text": "next",
+    "start": 3.84,
+    "end": 4.08
+  },
+  {
+    "id": "w12",
+    "text": "one",
+    "start": 4.08,
+    "end": 4.4
+  },
+  {
+    "id": "w13",
+    "text": "begins.",
+    "start": 4.4,
+    "end": 5.44
+  },
+  {
+    "id": "w14",
+    "text": "Take",
+    "start": 5.44,
+    "end": 5.84
+  },
+  {
+    "id": "w15",
+    "text": "your",
+    "start": 5.84,
+    "end": 6.08
+  },
+  {
+    "id": "w16",
+    "text": "birth",
+    "start": 6.08,
+    "end": 6.48
+  },
+  {
+    "id": "w17",
+    "text": "month",
+    "start": 6.48,
+    "end": 6.8
+  },
+  {
+    "id": "w18",
+    "text": "and",
+    "start": 6.8,
+    "end": 6.96
+  },
+  {
+    "id": "w19",
+    "text": "your",
+    "start": 6.96,
+    "end": 7.12
+  },
+  {
+    "id": "w20",
+    "text": "birthday.",
+    "start": 7.12,
+    "end": 8.4
+  },
+  {
+    "id": "w21",
+    "text": "Add",
+    "start": 8.4,
+    "end": 8.8
+  },
+  {
+    "id": "w22",
+    "text": "every",
+    "start": 8.8,
+    "end": 9.12
+  },
+  {
+    "id": "w23",
+    "text": "digit,",
+    "start": 9.12,
+    "end": 9.76
+  },
+  {
+    "id": "w24",
+    "text": "plus",
+    "start": 9.76,
+    "end": 10.08
+  },
+  {
+    "id": "w25",
+    "text": "two,",
+    "start": 10.08,
+    "end": 10.4
+  },
+  {
+    "id": "w26",
+    "text": "zero,",
+    "start": 10.48,
+    "end": 10.96
+  },
+  {
+    "id": "w27",
+    "text": "two,",
+    "start": 10.96,
+    "end": 11.28
+  },
+  {
+    "id": "w28",
+    "text": "and",
+    "start": 11.28,
+    "end": 11.44
+  },
+  {
+    "id": "w29",
+    "text": "seven.",
+    "start": 11.44,
+    "end": 12.08
+  },
+  {
+    "id": "w30",
+    "text": "Keep",
+    "start": 12.32,
+    "end": 12.8
+  },
+  {
+    "id": "w31",
+    "text": "adding",
+    "start": 12.8,
+    "end": 13.28
+  },
+  {
+    "id": "w32",
+    "text": "until",
+    "start": 13.28,
+    "end": 13.68
+  },
+  {
+    "id": "w33",
+    "text": "only",
+    "start": 13.68,
+    "end": 14
+  },
+  {
+    "id": "w34",
+    "text": "one",
+    "start": 14,
+    "end": 14.24
+  },
+  {
+    "id": "w35",
+    "text": "digit",
+    "start": 14.24,
+    "end": 14.72
+  },
+  {
+    "id": "w36",
+    "text": "is",
+    "start": 14.72,
+    "end": 15.04
+  },
+  {
+    "id": "w37",
+    "text": "left.",
+    "start": 15.04,
+    "end": 15.84
+  },
+  {
+    "id": "w38",
+    "text": "That's",
+    "start": 15.84,
+    "end": 16.32
+  },
+  {
+    "id": "w39",
+    "text": "your",
+    "start": 16.32,
+    "end": 16.64
+  },
+  {
+    "id": "w40",
+    "text": "personal",
+    "start": 16.64,
+    "end": 17.2
+  },
+  {
+    "id": "w41",
+    "text": "year.",
+    "start": 17.2,
+    "end": 18.08
+  },
+  {
+    "id": "w42",
+    "text": "A",
+    "start": 18.08,
+    "end": 18.4
+  },
+  {
+    "id": "w43",
+    "text": "one",
+    "start": 18.4,
+    "end": 18.64
+  },
+  {
+    "id": "w44",
+    "text": "starts",
+    "start": 18.8,
+    "end": 19.36
+  },
+  {
+    "id": "w45",
+    "text": "over.",
+    "start": 19.36,
+    "end": 20.24
+  },
+  {
+    "id": "w46",
+    "text": "An",
+    "start": 20.24,
+    "end": 20.48
+  },
+  {
+    "id": "w47",
+    "text": "eight",
+    "start": 20.48,
+    "end": 20.96
+  },
+  {
+    "id": "w48",
+    "text": "brings",
+    "start": 20.96,
+    "end": 21.44
+  },
+  {
+    "id": "w49",
+    "text": "money.",
+    "start": 21.44,
+    "end": 22.4
+  },
+  {
+    "id": "w50",
+    "text": "A",
+    "start": 22.4,
+    "end": 22.64
+  },
+  {
+    "id": "w51",
+    "text": "nine",
+    "start": 22.64,
+    "end": 23.12
+  },
+  {
+    "id": "w52",
+    "text": "closes",
+    "start": 23.12,
+    "end": 23.6
+  },
+  {
+    "id": "w53",
+    "text": "a",
+    "start": 23.6,
+    "end": 23.68
+  },
+  {
+    "id": "w54",
+    "text": "chapter",
+    "start": 23.68,
+    "end": 24.16
+  },
+  {
+    "id": "w55",
+    "text": "for",
+    "start": 24.16,
+    "end": 24.4
+  },
+  {
+    "id": "w56",
+    "text": "good.",
+    "start": 24.4,
+    "end": 25.2
+  },
+  {
+    "id": "w57",
+    "text": "But",
+    "start": 25.2,
+    "end": 25.52
+  },
+  {
+    "id": "w58",
+    "text": "the",
+    "start": 25.52,
+    "end": 25.68
+  },
+  {
+    "id": "w59",
+    "text": "number",
+    "start": 25.68,
+    "end": 26.08
+  },
+  {
+    "id": "w60",
+    "text": "only",
+    "start": 26.08,
+    "end": 26.32
+  },
+  {
+    "id": "w61",
+    "text": "tells",
+    "start": 26.32,
+    "end": 26.72
+  },
+  {
+    "id": "w62",
+    "text": "you",
+    "start": 26.72,
+    "end": 26.88
+  },
+  {
+    "id": "w63",
+    "text": "the",
+    "start": 26.88,
+    "end": 27.04
+  },
+  {
+    "id": "w64",
+    "text": "theme,",
+    "start": 27.04,
+    "end": 27.6
+  },
+  {
+    "id": "w65",
+    "text": "not",
+    "start": 27.6,
+    "end": 27.84
+  },
+  {
+    "id": "w66",
+    "text": "what's",
+    "start": 27.84,
+    "end": 28.24
+  },
+  {
+    "id": "w67",
+    "text": "walking",
+    "start": 28.24,
+    "end": 28.72
+  },
+  {
+    "id": "w68",
+    "text": "through",
+    "start": 28.72,
+    "end": 28.96
+  },
+  {
+    "id": "w69",
+    "text": "the",
+    "start": 28.96,
+    "end": 29.2
+  },
+  {
+    "id": "w70",
+    "text": "door.",
+    "start": 29.2,
+    "end": 30
+  },
+  {
+    "id": "w71",
+    "text": "Comment",
+    "start": 30,
+    "end": 30.64
+  },
+  {
+    "id": "w72",
+    "text": "your",
+    "start": 30.64,
+    "end": 30.8
+  },
+  {
+    "id": "w73",
+    "text": "number",
+    "start": 30.8,
+    "end": 31.2
+  },
+  {
+    "id": "w74",
+    "text": "below.",
+    "start": 31.2,
+    "end": 32.24
+  },
+  {
+    "id": "w75",
+    "text": "Then",
+    "start": 32.24,
+    "end": 32.56
+  },
+  {
+    "id": "w76",
+    "text": "tap",
+    "start": 32.56,
+    "end": 32.8
+  },
+  {
+    "id": "w77",
+    "text": "my",
+    "start": 33.04,
+    "end": 33.28
+  },
+  {
+    "id": "w78",
+    "text": "profile",
+    "start": 33.28,
+    "end": 33.84
+  },
+  {
+    "id": "w79",
+    "text": "picture",
+    "start": 33.84,
+    "end": 34.56
+  },
+  {
+    "id": "w80",
+    "text": "in",
+    "start": 34.88,
+    "end": 35.2
+  },
+  {
+    "id": "w81",
+    "text": "my",
+    "start": 35.2,
+    "end": 35.44
+  },
+  {
+    "id": "w82",
+    "text": "stories,",
+    "start": 35.44,
+    "end": 36.24
+  },
+  {
+    "id": "w83",
+    "text": "three",
+    "start": 36.24,
+    "end": 36.64
+  },
+  {
+    "id": "w84",
+    "text": "cards",
+    "start": 36.64,
+    "end": 37.04
+  },
+  {
+    "id": "w85",
+    "text": "are",
+    "start": 37.04,
+    "end": 37.2
+  },
+  {
+    "id": "w86",
+    "text": "waiting",
+    "start": 37.2,
+    "end": 37.6
+  },
+  {
+    "id": "w87",
+    "text": "to",
+    "start": 37.6,
+    "end": 37.76
+  },
+  {
+    "id": "w88",
+    "text": "show",
+    "start": 37.76,
+    "end": 37.92
+  },
+  {
+    "id": "w89",
+    "text": "you",
+    "start": 37.92,
+    "end": 38.08
+  },
+  {
+    "id": "w90",
+    "text": "what",
+    "start": 38.08,
+    "end": 38.24
+  },
+  {
+    "id": "w91",
+    "text": "it's",
+    "start": 38.24,
+    "end": 38.56
+  },
+  {
+    "id": "w92",
+    "text": "bringing.",
+    "start": 38.56,
+    "end": 39.44
+  }
+]

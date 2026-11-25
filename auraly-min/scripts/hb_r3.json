@@ -1,0 +1,213 @@
+{
+ "hook": 3.433,
+ "headDur": 3.5,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Interistelar Theme Piano.mp3",
+ "head": [
+  "Does your name start with…",
+  "*one of these letters?*"
+ ],
+ "accent": [
+  "careful",
+  "fast",
+  "coincidence",
+  "shut",
+  "luckiest",
+  "wealthy",
+  "lottery",
+  "money",
+  "special",
+  "chose",
+  "1111",
+  "33",
+  "seals",
+  "2222",
+  "scarcity",
+  "disappears",
+  "harder",
+  "blocking",
+  "stories",
+  "profile",
+  "closer"
+ ],
+ "pops": [
+  {
+   "type": "letters",
+   "at": "letter",
+   "title": "YOUR INITIAL?",
+   "end": "Be very careful",
+   "letters": [
+    "A",
+    "J",
+    "M",
+    "K",
+    "C",
+    "E",
+    "S",
+    "L",
+    "R",
+    "T",
+    "H"
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "coming fast",
+   "icon": "bolt",
+   "text": "It's coming *fast*",
+   "dur": 2.3
+  },
+  {
+   "type": "card",
+   "at": "Wednesday November",
+   "icon": "calendar",
+   "title": "Nov *25* or *26*",
+   "sub": "Wednesday · Thursday",
+   "end": "26th"
+  },
+  {
+   "type": "chip",
+   "at": "Keep your mouth shut",
+   "icon": "lock",
+   "text": "Keep it *secret*",
+   "dur": 2.5
+  },
+  {
+   "type": "card",
+   "at": "luckiest days",
+   "pos": "ml",
+   "icon": "star",
+   "title": "The luckiest days",
+   "sub": "of your entire life",
+   "dur": 3.2
+  },
+  {
+   "type": "chip",
+   "at": "won the lottery",
+   "pos": "ml",
+   "icon": "money",
+   "text": "Like you *won the lottery*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "unexpected money",
+   "icon": "money",
+   "text": "Unexpected *money*",
+   "dur": 2.8
+  },
+  {
+   "type": "chip",
+   "at": "someone very special",
+   "pos": "ml",
+   "icon": "heart",
+   "text": "Someone *special*",
+   "dur": 2.4
+  },
+  {
+   "type": "stats",
+   "at": "1111 portal",
+   "end": "love life",
+   "items": [
+    {
+     "at": "1111",
+     "big": "1111",
+     "small": "portal open"
+    },
+    {
+     "at": "33 minutes",
+     "big": "33",
+     "small": "minutes",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "three seals",
+   "title": "3 SEALS",
+   "check": true,
+   "end": "your third",
+   "items": [
+    {
+     "at": "Like this video",
+     "icon": "heart",
+     "text": "Like · 1st seal"
+    },
+    {
+     "at": "Save it",
+     "icon": "save",
+     "text": "Save · 2nd seal"
+    },
+    {
+     "at": "Send it",
+     "icon": "send",
+     "text": "Send · 3rd seal"
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "comment",
+   "dur": 3.2
+  },
+  {
+   "type": "chip",
+   "at": "pay close attention",
+   "icon": "eye",
+   "text": "Pay close *attention*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "already coming",
+   "pos": "ml",
+   "icon": "money",
+   "text": "Money is *already coming*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "vibrating with scarcity",
+   "icon": "bolt",
+   "text": "Scarcity *frequency*",
+   "dur": 2.6
+  },
+  {
+   "type": "card",
+   "at": "comes in and disappears",
+   "pos": "ml",
+   "icon": "money",
+   "title": "It comes in…",
+   "sub": "and disappears",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "work harder",
+   "icon": "fist",
+   "text": "No need to *work harder*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "blocking it",
+   "pos": "ml",
+   "icon": "lock",
+   "text": "What's *blocking it?*",
+   "dur": 2.6
+  },
+  {
+   "type": "stories",
+   "at": "Tap my profile picture",
+   "sub": "check before *Fri, Nov 27*"
+  }
+ ],
+ "fix": {
+  "111": "1111",
+  "227": "2027",
+  "hot": "heart",
+  "seas": "season",
+  "Puniverse": "The universe",
+  "Puniverse.": "The universe"
+ }
+}

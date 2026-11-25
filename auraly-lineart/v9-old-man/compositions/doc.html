@@ -1,0 +1,45 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="doc" data-width="1080" data-height="1920">
+<div class="wrap" id="doc-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g id="doc-doc0">
+<path id="doc-p1" d="M420,450 H660 M420,750 H660 M430,450 V750 M650,450 V750" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="doc-p2" d="M400,432 H680 V468 H400 Z M400,732 H680 V768 H400 Z" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="doc-p3" d="M460,520 H620" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="doc-p4" d="M460,570 H570" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="doc-p5" d="M460,620 H620" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="doc-p6" d="M460,670 H570" fill="none" stroke="#8C8A86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="doc-p7" d="M590,660 a28,28 0 1,1 -0.1,0" fill="none" stroke="#EF7F6B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<path id="doc-p8" d="M578.5,1030 C579.4,1015.3 576.7,963.1 584,942 C591.3,920.9 614.4,913.8 622.5,903.5 C630.6,893.2 633.7,885.4 632.4,880.4 C631.1,875.4 623.6,869.4 614.8,873.8 C606.0,878.2 584.9,910.1 579.6,906.8 C574.3,903.5 584.0,873.1 582.9,854 C581.8,834.9 577.4,803.0 573,792.4 C568.6,781.8 560.0,780.9 556.5,790.2 C553.0,799.6 553.6,840.3 552.1,848.5 C550.6,856.8 550.1,852.2 547.7,839.7 C545.3,827.2 541.8,784.7 537.8,773.7 C533.8,762.7 526.6,762.2 523.5,773.7 C520.4,785.3 520.6,831.1 519.1,843 C517.6,854.9 516.9,854.9 514.7,845.2 C512.5,835.5 509.8,794.6 505.9,784.7 C502.0,774.8 494.5,774.6 491.6,785.8 C488.7,797.0 489.4,839.3 488.3,851.8 C487.2,864.3 487.2,866.6 485,860.6 C482.8,854.6 478.8,822.5 475.1,815.5 C471.4,808.5 465.0,809.4 463,818.8 C461.0,828.1 461.7,851.1 463,871.6 C464.3,892.1 466.3,915.6 470.7,942 C475.1,968.4 486.3,1015.3 489.4,1030" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="doc-p9" d="M573,931 Q534.5,898 485,892.5 M567.5,964 Q529,925.5 490.5,925.5" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#doc-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},0.100);
+tl.fromTo("#doc-p2",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},0.300);
+tl.fromTo("#doc-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},0.500);
+tl.fromTo("#doc-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},0.580);
+tl.fromTo("#doc-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},0.660);
+tl.fromTo("#doc-p6",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.4,ease:"power2.out"},0.740);
+tl.fromTo("#doc-p7",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},0.800);
+tl.fromTo("#doc-p8",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},2.845);
+tl.fromTo("#doc-p9",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},3.345);
+tl.to("#doc-doc0",{y:120,duration:0.8,ease:"power2.inOut"},3.05);
+tl.to("#doc-w",{opacity:0,duration:0.2,ease:"power1.in"},3.453);
+tl.set({}, {}, 3.673);
+window.__timelines["doc"] = tl;
+</script>
+</template>

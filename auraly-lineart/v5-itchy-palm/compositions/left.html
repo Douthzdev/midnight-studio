@@ -1,0 +1,35 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="left" data-width="1080" data-height="1920">
+<div class="wrap" id="left-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<path id="left-p0" d="M620.5,1050 C622.4,1019.3 616.7,910.1 632,866 C647.3,821.9 695.6,807.0 712.5,785.5 C729.4,764.0 735.9,747.6 733.2,737.2 C730.5,726.9 714.8,714.2 696.4,723.4 C678.0,732.6 633.9,799.3 622.8,792.4 C611.7,785.5 632.0,721.9 629.7,682 C627.4,642.1 618.2,575.4 609,553.2 C599.8,531.0 581.8,529.1 574.5,548.6 C567.2,568.1 568.4,653.3 565.3,670.5 C562.2,687.8 561.1,678.2 556.1,652.1 C551.1,626.0 543.8,537.1 535.4,514.1 C527.0,491.1 512.0,490.0 505.5,514.1 C499.0,538.3 499.4,634.1 496.3,659 C493.2,683.9 491.7,683.9 487.1,663.6 C482.5,643.3 476.8,557.8 468.7,537.1 C460.6,516.4 444.9,516.0 438.8,539.4 C432.7,562.8 434.2,651.3 431.9,677.4 C429.6,703.5 429.6,708.4 425,695.8 C420.4,683.1 412.0,616.1 404.3,601.5 C396.6,586.9 383.2,588.9 379,608.4 C374.8,627.9 376.3,675.9 379,718.8 C381.7,761.7 385.9,810.8 395.1,866 C404.3,921.2 427.7,1019.3 434.2,1050" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="left-p1" d="M609,843 Q528.5,774 425,762.5 M597.5,912 Q517,831.5 436.5,831.5" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<text id="left-t2" x="540" y="440" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="32" font-weight="500" letter-spacing="0.12em" fill="#F4B860">LEFT PALM</text>
+<g id="left-inc3">
+<path id="left-p4" d="M540,730 L551,769 L590,780 L551,791 L540,830 L529,791 L490,780 L529,769 Z" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#left-p0",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},0.000);
+tl.fromTo("#left-p1",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.6,ease:"power2.out"},0.500);
+tl.fromTo("#left-t2",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.200);
+tl.fromTo("#left-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},2.342);
+tl.fromTo("#left-inc3",{y:-320},{y:0,duration:1.6,ease:"power2.out"},2.34);
+tl.to("#left-w",{opacity:0,duration:0.2,ease:"power1.in"},4.029);
+tl.set({}, {}, 4.249);
+window.__timelines["left"] = tl;
+</script>
+</template>

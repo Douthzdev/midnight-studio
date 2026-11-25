@@ -1,0 +1,52 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(244,184,96,0.35));}</style>
+<div id="root" data-composition-id="coming" data-width="1080" data-height="1920">
+<div class="wrap" id="coming-w"><div class="cam" id="coming-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<text id="coming-b0" data-layout-allow-overlap x="533" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="190" fill="none" stroke="#F4B860" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">IT'S COMING</text>
+<text id="coming-b1" data-layout-allow-overlap x="547" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="190" fill="none" stroke="#B79CF0" stroke-width="2.5" stroke-dasharray="2600 2600" opacity="0.75" stroke-linejoin="round">IT'S COMING</text>
+<text id="coming-b2" data-layout-allow-overlap x="540" y="720" text-anchor="middle" style="font-family:'League Gothic'" font-size="190" fill="none" stroke="#F2EFE8" stroke-width="3.2" stroke-dasharray="2600 2600" opacity="1" stroke-linejoin="round">IT'S COMING</text>
+<path id="coming-p3" d="M540,840 a60,60 0 1,1 -0.1,0" fill="none" stroke="#79B6E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="coming-p4" d="M540,798 a102,102 0 1,1 -0.1,0" fill="none" stroke="#79B6E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="coming-p5" d="M540,756 a144,144 0 1,1 -0.1,0" fill="none" stroke="#79B6E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="coming-p6" d="M120,960 H380" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="coming-p7" d="M150,974 H440" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="coming-p8" d="M180,988 H500" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="coming-p9" d="M210,1002 H560" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="coming-p10" d="M240,1016 H620" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="coming-p11" d="M270,1030 H680" fill="none" stroke="#F4B860" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#coming-b0",{strokeDashoffset:2600},{strokeDashoffset:0,duration:1.1,ease:"power2.inOut"},2.691);
+tl.fromTo("#coming-b1",{strokeDashoffset:2600},{strokeDashoffset:0,duration:1.1,ease:"power2.inOut"},2.691);
+tl.fromTo("#coming-b2",{strokeDashoffset:2600},{strokeDashoffset:0,duration:1.1,ease:"power2.inOut"},2.691);
+tl.fromTo("#coming-p3",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},4.631);
+tl.fromTo("#coming-p4",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},4.751);
+tl.fromTo("#coming-p5",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.5,ease:"power2.out"},4.871);
+tl.fromTo("#coming-p6",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.25,ease:"power2.out"},6.311);
+tl.fromTo("#coming-p7",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.25,ease:"power2.out"},6.361);
+tl.fromTo("#coming-p8",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.25,ease:"power2.out"},6.411);
+tl.fromTo("#coming-p9",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.25,ease:"power2.out"},6.461);
+tl.fromTo("#coming-p10",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.25,ease:"power2.out"},6.511);
+tl.fromTo("#coming-p11",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.25,ease:"power2.out"},6.561);
+tl.to("#coming-w",{opacity:0,duration:0.2,ease:"power1.in"},8.652);
+tl.fromTo("#coming-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#coming-cam",{scale:1.045,x:14,y:-10,duration:8.372,ease:"sine.inOut"},0.5);
+tl.to("#coming-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},8.652);
+tl.set({}, {}, 8.872);
+window.__timelines["coming"] = tl;
+</script>
+</template>

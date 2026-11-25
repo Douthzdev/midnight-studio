@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" data-composition-variables='[
+ {"id":"color-ground","type":"color","label":"Background","default":"#0E0E10"},
+ {"id":"color-ink","type":"color","label":"Text","default":"#F2EFE8"},
+ {"id":"color-accent","type":"color","label":"Accent","default":"#F4B860"}
+]'>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<style>
+:root{--color-ground:#0E0E10;--color-ink:#F2EFE8;--color-accent:#F4B860;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:var(--color-ground);}
+#bg{position:absolute;inset:0;background:radial-gradient(ellipse 70% 45% at 50% 40%, #1A1A1F 0%, #0E0E10 70%);}
+#grain{position:absolute;inset:0;opacity:0.07;}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="49.027" data-width="1080" data-height="1920">
+<div id="bg"></div>
+<svg id="grain" width="1080" height="1920" xmlns="http://www.w3.org/2000/svg"><filter id="nz"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7"/><feColorMatrix type="saturate" values="0"/></filter><rect width="1080" height="1920" filter="url(#nz)"/></svg>
+<div id="date" data-composition-id="date" data-composition-src="compositions/date.html" data-start="0" data-duration="6.286" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="cycle" data-composition-id="cycle" data-composition-src="compositions/cycle.html" data-start="6.286" data-duration="6.961" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="sky" data-composition-id="sky" data-composition-src="compositions/sky.html" data-start="13.247" data-duration="6.492" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="orbit" data-composition-id="orbit" data-composition-src="compositions/orbit.html" data-start="19.739" data-duration="2.591" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="burn" data-composition-id="burn" data-composition-src="compositions/burn.html" data-start="22.33" data-duration="5.703" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="you" data-composition-id="you" data-composition-src="compositions/you.html" data-start="28.033" data-duration="4.343" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="teach" data-composition-id="teach" data-composition-src="compositions/teach.html" data-start="32.376" data-duration="4.633" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="cards" data-composition-id="cards" data-composition-src="compositions/cards.html" data-start="37.009" data-duration="5.98" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="cta" data-composition-id="cta" data-composition-src="compositions/cta.html" data-start="42.989" data-duration="6.038" data-track-index="1" data-track-kind="graphics" data-width="1080" data-height="1920"></div>
+<div id="caps" data-composition-id="caps" data-composition-src="compositions/caps.html" data-start="0" data-duration="49.027" data-track-index="2" data-track-kind="captions" data-width="1080" data-height="1920" style="z-index:50"></div>
+<audio id="vo" class="clip" src="assets/vo.wav" data-start="0" data-track-index="3" data-volume="1"></audio>
+<audio id="bgm" class="clip" src="assets/music.mp3" data-start="0" data-duration="49.027" data-media-start="0" data-track-index="4" data-volume="0.14" data-fade-in="0.4" data-fade-out="1.5"></audio>
+<audio id="sfx0" class="clip" src="assets/whoosh.mp3" data-start="10.747" data-duration="5.5" data-track-index="5" data-volume="0.3"></audio>
+<audio id="sfx1" class="clip" src="assets/whoosh.mp3" data-start="40.489" data-duration="5.5" data-track-index="5" data-volume="0.3"></audio>
+<audio id="sfx2" class="clip" src="assets/chime.mp3" data-start="44.471" data-duration="2.5" data-track-index="5" data-volume="0.45"></audio>
+</div>
+<script>
+window.__timelines["main"] = gsap.timeline({ paused: true });
+</script>
+</body>
+</html>

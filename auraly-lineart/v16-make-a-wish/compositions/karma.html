@@ -1,0 +1,43 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+.cam{position:absolute;inset:0;transform-origin:540px 760px;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+svg.art{filter:drop-shadow(0 0 3px rgba(255,236,214,0.55)) drop-shadow(0 0 22px rgba(121,182,232,0.45));}</style>
+<div id="root" data-composition-id="karma" data-width="1080" data-height="1920">
+<div class="wrap" id="karma-w"><div class="cam" id="karma-cam">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<g id="karma-loop0">
+<path id="karma-p1e" d="M320,730 A220,220 0 0,1 760,730 M730,690 L760,730 L790,690" fill="none" stroke="#EF7F6B" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="karma-p1" d="M320,730 A220,220 0 0,1 760,730 M730,690 L760,730 L790,690" fill="none" stroke="#F4B860" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="karma-p2e" d="M760,730 A220,220 0 0,1 320,730 M350,770 L320,730 L290,770" fill="none" stroke="#79B6E8" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1" opacity="0.5" transform="translate(4,3)"/>
+<path id="karma-p2" d="M760,730 A220,220 0 0,1 320,730 M350,770 L320,730 L290,770" fill="none" stroke="#79B6E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</g>
+<text id="karma-t3" x="540" y="710" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="34" font-weight="500" letter-spacing="0.12em" fill="#F4B860">GIVE</text>
+<text id="karma-t4" x="540" y="780" text-anchor="middle" style="font-family:'IBM Plex Mono'" font-size="34" font-weight="500" letter-spacing="0.12em" fill="#79B6E8">RECEIVE</text>
+<text id="karma-t5" x="540" y="460" text-anchor="middle" style="font-family:'Montserrat'" font-size="64" font-weight="800" letter-spacing="0em" fill="#F4B860">KARMA IS REAL</text>
+</svg>
+
+</div></div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#karma-p1, #karma-p1e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},0.481);
+tl.fromTo("#karma-p2, #karma-p2e",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.9,ease:"power2.out"},2.001);
+tl.fromTo("#karma-loop0",{rotation:0,svgOrigin:"540 730"},{rotation:360,duration:5.24,ease:"none"},0);
+tl.fromTo("#karma-t3",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},0.781);
+tl.fromTo("#karma-t4",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},2.301);
+tl.fromTo("#karma-t5",{opacity:0},{opacity:1,duration:0.35,ease:"power2.out"},3.681);
+tl.to("#karma-w",{opacity:0,duration:0.2,ease:"power1.in"},5.020);
+tl.fromTo("#karma-cam",{scale:1.09},{scale:1,duration:0.5,ease:"power3.out"},0);
+tl.to("#karma-cam",{scale:1.045,x:14,y:-10,duration:4.740,ease:"sine.inOut"},0.5);
+tl.to("#karma-w",{scale:1.06,filter:"blur(8px)",duration:0.22,ease:"power2.in"},5.020);
+tl.set({}, {}, 5.24);
+window.__timelines["karma"] = tl;
+</script>
+</template>

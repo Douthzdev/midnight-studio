@@ -1,0 +1,207 @@
+{
+ "hook": 5.367,
+ "headDur": 5.2,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Stargazing.mp3",
+ "head": [
+  "Don't tell anyone",
+  "*what's about to happen*"
+ ],
+ "accent": [
+  "shut",
+  "anyone",
+  "faith",
+  "turnaround",
+  "wonderful",
+  "warning",
+  "victory",
+  "prosperity",
+  "chains",
+  "doors",
+  "seven",
+  "abundance",
+  "yourself",
+  "seal",
+  "222",
+  "tomorrow",
+  "news",
+  "aligned",
+  "stories",
+  "profile",
+  "dreamed"
+ ],
+ "pops": [
+  {
+   "type": "card",
+   "at": "Wednesday November",
+   "icon": "calendar",
+   "title": "Nov *25* or *26*",
+   "sub": "Wednesday · Thursday",
+   "end": "26th"
+  },
+  {
+   "type": "chip",
+   "at": "don't tell anyone",
+   "pos": "ml",
+   "icon": "lock",
+   "text": "Keep it *secret*",
+   "dur": 2.3
+  },
+  {
+   "type": "chip",
+   "at": "major turnaround",
+   "icon": "spark",
+   "text": "A major *turnaround*",
+   "dur": 2.6
+  },
+  {
+   "type": "chip",
+   "at": "very unusual change",
+   "pos": "ml",
+   "icon": "spark",
+   "text": "A very *unusual change*",
+   "dur": 2.4
+  },
+  {
+   "type": "card",
+   "at": "someone incredibly wonderful",
+   "pos": "ml",
+   "icon": "heart",
+   "title": "Someone wonderful",
+   "sub": "showing up unexpectedly",
+   "dur": 3.2
+  },
+  {
+   "type": "chip",
+   "at": "turn your back",
+   "icon": "eye",
+   "text": "Don't *turn your back*",
+   "dur": 2.6
+  },
+  {
+   "type": "chip",
+   "at": "take this seriously",
+   "pos": "ml",
+   "icon": "bell",
+   "text": "Take this *seriously*",
+   "dur": 2.2
+  },
+  {
+   "type": "chip",
+   "at": "worst is finally",
+   "icon": "sun",
+   "text": "The worst is *behind you*",
+   "dur": 2.6
+  },
+  {
+   "type": "card",
+   "at": "chains that were",
+   "pos": "ml",
+   "icon": "unlock",
+   "title": "Chains breaking",
+   "sub": "no more scarcity",
+   "dur": 3.2
+  },
+  {
+   "type": "card",
+   "at": "doors that wouldn't",
+   "icon": "door",
+   "title": "Doors opening",
+   "sub": "the ones that stayed shut",
+   "dur": 3
+  },
+  {
+   "type": "stats",
+   "at": "next seven minutes",
+   "end": "rest of your life",
+   "items": [
+    {
+     "at": "seven minutes",
+     "big": "7",
+     "small": "minutes",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "send this video",
+   "pos": "ml",
+   "icon": "send",
+   "text": "Send it to *yourself*",
+   "dur": 2.8
+  },
+  {
+   "type": "chip",
+   "at": "come back and confirm",
+   "icon": "clock",
+   "text": "Come back in *7 min*",
+   "dur": 2.6
+  },
+  {
+   "type": "list",
+   "at": "save this video",
+   "title": "YOUR SEALS",
+   "check": true,
+   "end": "did everything",
+   "items": [
+    {
+     "at": "save this video",
+     "icon": "save",
+     "text": "Save · 1st seal"
+    },
+    {
+     "at": "double tap",
+     "icon": "heart",
+     "text": "Double tap · 2nd seal"
+    },
+    {
+     "at": "Comment 222",
+     "icon": "chat",
+     "text": "Comment 222"
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "Comment 222",
+   "text": "222",
+   "dur": 3.2
+  },
+  {
+   "type": "card",
+   "at": "tomorrow at 10",
+   "icon": "bell",
+   "title": "Tomorrow, 10 a.m.",
+   "sub": "good news arrives",
+   "dur": 3.4
+  },
+  {
+   "type": "chip",
+   "at": "receiving a warning",
+   "icon": "eye",
+   "text": "I'm receiving a *warning*",
+   "dur": 2.6
+  },
+  {
+   "type": "chip",
+   "at": "aligned with",
+   "pos": "tr",
+   "icon": "portal",
+   "text": "Is your energy *aligned?*",
+   "dur": 2.8
+  },
+  {
+   "type": "stories",
+   "at": "reading in my stories",
+   "sub": "the reading is in my stories"
+  }
+ ],
+ "fix": {
+  "111": "1111",
+  "227": "2027",
+  "hot": "heart",
+  "seas": "season",
+  "Puniverse": "The universe",
+  "Puniverse.": "The universe"
+ }
+}

@@ -1,0 +1,84 @@
+<template>
+<style>
+#root{position:absolute;inset:0;}
+.wrap{position:absolute;inset:0;}
+svg.art{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible;filter:drop-shadow(0 0 7px rgba(255,236,214,0.28));}
+.hl{position:absolute;top:330px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:50px;letter-spacing:0.03em;color:#F2EFE8;text-shadow:0 2px 12px rgba(0,0,0,.85);}
+.cta{position:absolute;top:300px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:800;font-size:96px;letter-spacing:0.02em;color:#F2EFE8;text-shadow:0 2px 14px rgba(0,0,0,.9);}
+.cta .gold{color:#F4B860;}
+.ctasub{position:absolute;top:430px;left:0;width:1080px;text-align:center;font-family:Montserrat;font-weight:600;font-size:42px;color:#CFCBC4;}
+</style>
+<div id="root" data-composition-id="pattern" data-width="1080" data-height="1920">
+<div class="wrap" id="pattern-w">
+<svg class="art" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+<circle id="pattern-dot0" cx="251.3" cy="857.6" r="10" fill="#F4B860"/>
+<circle id="pattern-dot1" cx="372.6" cy="907.2" r="10" fill="#F4B860"/>
+<circle id="pattern-dot2" cx="611.4" cy="734.6" r="10" fill="#F4B860"/>
+<circle id="pattern-dot3" cx="807.8" cy="587.2" r="10" fill="#F4B860"/>
+<circle id="pattern-dot4" cx="545.6" cy="462.1" r="10" fill="#F4B860"/>
+<circle id="pattern-dot5" cx="551.9" cy="471.4" r="10" fill="#F4B860"/>
+<circle id="pattern-dot6" cx="598.3" cy="574.3" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot7" cx="254.9" cy="1088.3" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot8" cx="702.5" cy="483.7" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot9" cx="227.4" cy="447.6" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot10" cx="587.0" cy="730.9" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot11" cx="752.3" cy="961.9" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot12" cx="153.3" cy="737.8" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot13" cx="421.2" cy="770.3" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot14" cx="389.7" cy="783.0" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot15" cx="224.7" cy="1022.6" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot16" cx="392.2" cy="933.2" r="10" fill="#F2EFE8"/>
+<circle id="pattern-dot17" cx="875.7" cy="778.0" r="10" fill="#F2EFE8"/>
+<path id="pattern-p18" d="M540,490 L773.8,895 L306.2,895Z" fill="none" stroke="#79B6E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="pattern-p19" d="M773.8,625 L540,1030 L306.2,625Z" fill="none" stroke="#B79CF0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+<path id="pattern-p20" d="M540,580 a180,180 0 1,1 -0.1,0" fill="none" stroke="#F4B860" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1 1"/>
+</svg>
+
+</div>
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.fromTo("#pattern-dot0",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.050);
+tl.to("#pattern-dot0",{attr:{cx:540.0,cy:670.0},duration:1.1,ease:"power3.inOut"},2.65);
+tl.fromTo("#pattern-dot1",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.090);
+tl.to("#pattern-dot1",{attr:{cx:617.9,cy:715.0},duration:1.1,ease:"power3.inOut"},2.67);
+tl.fromTo("#pattern-dot2",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.130);
+tl.to("#pattern-dot2",{attr:{cx:617.9,cy:805.0},duration:1.1,ease:"power3.inOut"},2.69);
+tl.fromTo("#pattern-dot3",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.170);
+tl.to("#pattern-dot3",{attr:{cx:540.0,cy:850.0},duration:1.1,ease:"power3.inOut"},2.71);
+tl.fromTo("#pattern-dot4",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.210);
+tl.to("#pattern-dot4",{attr:{cx:462.1,cy:805.0},duration:1.1,ease:"power3.inOut"},2.73);
+tl.fromTo("#pattern-dot5",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.250);
+tl.to("#pattern-dot5",{attr:{cx:462.1,cy:715.0},duration:1.1,ease:"power3.inOut"},2.75);
+tl.fromTo("#pattern-dot6",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.290);
+tl.to("#pattern-dot6",{attr:{cx:630.0,cy:604.1},duration:1.1,ease:"power3.inOut"},2.77);
+tl.fromTo("#pattern-dot7",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.330);
+tl.to("#pattern-dot7",{attr:{cx:720.0,cy:760.0},duration:1.1,ease:"power3.inOut"},2.79);
+tl.fromTo("#pattern-dot8",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.370);
+tl.to("#pattern-dot8",{attr:{cx:630.0,cy:915.9},duration:1.1,ease:"power3.inOut"},2.81);
+tl.fromTo("#pattern-dot9",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.410);
+tl.to("#pattern-dot9",{attr:{cx:450.0,cy:915.9},duration:1.1,ease:"power3.inOut"},2.83);
+tl.fromTo("#pattern-dot10",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.450);
+tl.to("#pattern-dot10",{attr:{cx:360.0,cy:760.0},duration:1.1,ease:"power3.inOut"},2.85);
+tl.fromTo("#pattern-dot11",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.490);
+tl.to("#pattern-dot11",{attr:{cx:450.0,cy:604.1},duration:1.1,ease:"power3.inOut"},2.87);
+tl.fromTo("#pattern-dot12",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.530);
+tl.to("#pattern-dot12",{attr:{cx:540.0,cy:490.0},duration:1.1,ease:"power3.inOut"},2.89);
+tl.fromTo("#pattern-dot13",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.570);
+tl.to("#pattern-dot13",{attr:{cx:773.8,cy:625.0},duration:1.1,ease:"power3.inOut"},2.91);
+tl.fromTo("#pattern-dot14",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.610);
+tl.to("#pattern-dot14",{attr:{cx:773.8,cy:895.0},duration:1.1,ease:"power3.inOut"},2.93);
+tl.fromTo("#pattern-dot15",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.650);
+tl.to("#pattern-dot15",{attr:{cx:540.0,cy:1030.0},duration:1.1,ease:"power3.inOut"},2.95);
+tl.fromTo("#pattern-dot16",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.690);
+tl.to("#pattern-dot16",{attr:{cx:306.2,cy:895.0},duration:1.1,ease:"power3.inOut"},2.97);
+tl.fromTo("#pattern-dot17",{opacity:0},{opacity:1,duration:0.3,ease:"power2.out"},0.730);
+tl.to("#pattern-dot17",{attr:{cx:306.2,cy:625.0},duration:1.1,ease:"power3.inOut"},2.99);
+tl.fromTo("#pattern-p18",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},4.250);
+tl.fromTo("#pattern-p19",{strokeDashoffset:1},{strokeDashoffset:0,duration:0.8,ease:"power2.out"},4.450);
+tl.fromTo("#pattern-p20",{strokeDashoffset:1},{strokeDashoffset:0,duration:1,ease:"power2.out"},4.650);
+tl.to("#pattern-w",{opacity:0,duration:0.2,ease:"power1.in"},5.105);
+tl.set({}, {}, 5.325);
+window.__timelines["pattern"] = tl;
+</script>
+</template>
