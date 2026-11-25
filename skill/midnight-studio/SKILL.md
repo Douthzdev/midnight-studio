@@ -10,6 +10,8 @@ Inputs arrive in `M:\Google\hyperframes\VIDEOS PARA EDITAR`. The user writes in 
 
 Detailed notes per topic are in `references/` (synced from Claude's memory). Read the one for the format you use.
 
+**Skills to load first:** `references/required-skills.md` — always `hyperframes`, `hyperframes-core`, `hyperframes-cli`, `earshot` (+ `hyperframes-animation` for motion changes). Copies of every needed skill are in `skill/deps/`.
+
 ## 0. Ground rules (always)
 - **Nothing on C:.** Tools, caches, temp → `M:\CLAUDE\tools` / `M:\CLAUDE\temp`. FFmpeg `M:\CLAUDE\tools\ffmpeg\bin` (prepend to PATH). Set `HYPERFRAMES_EXTRACT_CACHE_DIR=TMPDIR=TEMP=TMP=M:/CLAUDE/tools/hf-frames` for renders. → `references/hyperframes-setup-on-m-drive.md`
 - **Only edit**, never rewrite the script or regenerate voice. Copy risks (fear, urgency, money promises, engagement bait, expiring dates) → keep the words verbatim, flag them briefly in the final message.
