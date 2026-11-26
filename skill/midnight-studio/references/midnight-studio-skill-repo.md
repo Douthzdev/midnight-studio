@@ -1,13 +1,13 @@
 ---
 name: midnight-studio-skill-repo
-description: Midnight-Studio is a private git repo (github.com/Douthzdev/midnight-studio) + skill "midnight-studio"; sync it after every new format/feedback/tool change
+description: Midnight-Studio is a PUBLIC git repo (github.com/Douthzdev/midnight-studio) + skill "midnight-studio"; sync it after every new format/feedback/tool change
 metadata:
   type: project
 ---
 
 On 2026-11-25 the user asked: put all our work on git, make a skill with the whole creative process, and **keep that skill repo updated whenever needed**.
 
-- **Repo:** `M:\Google\hyperframes\Midnight-Studio`, private, pushed to `github.com/Douthzdev/midnight-studio` (branch main).
+- **Repo:** `M:\Google\hyperframes\Midnight-Studio`, made PUBLIC on 2026-11-26 at the user's request (they chose to leave the commit email visible). Never commit secrets, keys or private media. Pushed to `github.com/Douthzdev/midnight-studio` (branch main).
   - Code, configs, transcripts and notes only. Media is gitignored.
   - Local git identity: Vinicius / the email already set in M:\CLAUDE's git config.
 - **Skill:** `skill/midnight-studio/SKILL.md`.
