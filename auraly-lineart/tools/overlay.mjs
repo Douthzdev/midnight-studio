@@ -46,7 +46,7 @@ if (!fs.existsSync(BODY) || RENDER) {
   ff(["-hide_banner", "-y", "-i", RAW, "-i", WAV48, "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-c:v", "h264_nvenc", "-preset", "p5", "-rc", "vbr", "-cq", "18", "-b:v", "0", "-c:a", "aac", "-b:a", "192k", BODY]);
 }
 // profile picture for the stories CTA: square crop of the face, a few seconds into the body
-ff(["-hide_banner", "-y", "-ss", String((S.hook ?? 0) + (S.pfpAt ?? 6)), "-i", RAW, "-frames:v", "1", "-vf", "scale=1080:1920,crop=560:560:260:280,scale=300:300", P + "/assets/pfp.jpg"]);
+ff(["-hide_banner", "-y", "-ss", String((S.hook ?? 0) + (S.pfpAt ?? 6)), "-i", RAW, "-frames:v", "1", "-vf", "scale=1080:1920,crop=700:700:190:230,scale=300:300", P + "/assets/pfp.jpg"]);
 const rawWords = JSON.parse(fs.readFileSync(TR, "utf8"));
 const dropped = (w) => (ED.drop || []).some(([a, b]) => (w.start + w.end) / 2 > a && (w.start + w.end) / 2 < b);
 const retext = (w) => { const r = (ED.retext || []).find(([t]) => Math.abs(t - w.start) < 0.03); return r ? { ...w, text: r[1] } : w; }; // per-word caption fix by time, "" hides the word

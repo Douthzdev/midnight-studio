@@ -1,0 +1,272 @@
+[
+  {
+    "id": "w0",
+    "text": "Hey,",
+    "start": 0,
+    "end": 0.64
+  },
+  {
+    "id": "w1",
+    "text": "how",
+    "start": 0.64,
+    "end": 0.96
+  },
+  {
+    "id": "w2",
+    "text": "much",
+    "start": 0.96,
+    "end": 1.2
+  },
+  {
+    "id": "w3",
+    "text": "money",
+    "start": 1.2,
+    "end": 1.52
+  },
+  {
+    "id": "w4",
+    "text": "do",
+    "start": 1.52,
+    "end": 1.68
+  },
+  {
+    "id": "w5",
+    "text": "you",
+    "start": 1.68,
+    "end": 1.84
+  },
+  {
+    "id": "w6",
+    "text": "really",
+    "start": 1.84,
+    "end": 2.16
+  },
+  {
+    "id": "w7",
+    "text": "need",
+    "start": 2.16,
+    "end": 2.4
+  },
+  {
+    "id": "w8",
+    "text": "to",
+    "start": 2.4,
+    "end": 2.64
+  },
+  {
+    "id": "w9",
+    "text": "solve",
+    "start": 2.64,
+    "end": 3.04
+  },
+  {
+    "id": "w10",
+    "text": "all",
+    "start": 3.04,
+    "end": 3.2
+  },
+  {
+    "id": "w11",
+    "text": "of",
+    "start": 3.2,
+    "end": 3.36
+  },
+  {
+    "id": "w12",
+    "text": "your",
+    "start": 3.36,
+    "end": 3.52
+  },
+  {
+    "id": "w13",
+    "text": "problems?",
+    "start": 3.52,
+    "end": 4.24
+  },
+  {
+    "id": "w14",
+    "text": "Let",
+    "start": 4.24,
+    "end": 4.48
+  },
+  {
+    "id": "w15",
+    "text": "me",
+    "start": 4.48,
+    "end": 4.64
+  },
+  {
+    "id": "w16",
+    "text": "know",
+    "start": 4.64,
+    "end": 4.8
+  },
+  {
+    "id": "w17",
+    "text": "in",
+    "start": 4.8,
+    "end": 4.96
+  },
+  {
+    "id": "w18",
+    "text": "the",
+    "start": 4.96,
+    "end": 5.04
+  },
+  {
+    "id": "w19",
+    "text": "comments",
+    "start": 5.04,
+    "end": 5.44
+  },
+  {
+    "id": "w20",
+    "text": "and",
+    "start": 5.52,
+    "end": 5.76
+  },
+  {
+    "id": "w21",
+    "text": "I",
+    "start": 5.76,
+    "end": 5.92
+  },
+  {
+    "id": "w22",
+    "text": "might",
+    "start": 5.92,
+    "end": 6.16
+  },
+  {
+    "id": "w23",
+    "text": "just",
+    "start": 6.16,
+    "end": 6.24
+  },
+  {
+    "id": "w24",
+    "text": "have",
+    "start": 6.24,
+    "end": 6.4
+  },
+  {
+    "id": "w25",
+    "text": "your",
+    "start": 6.4,
+    "end": 6.56
+  },
+  {
+    "id": "w26",
+    "text": "answer.",
+    "start": 6.56,
+    "end": 7.12
+  },
+  {
+    "id": "w27",
+    "text": "Comment",
+    "start": 7.12,
+    "end": 7.52
+  },
+  {
+    "id": "w28",
+    "text": "333",
+    "start": 7.52,
+    "end": 8.4
+  },
+  {
+    "id": "w29",
+    "text": "and",
+    "start": 8.72,
+    "end": 8.96
+  },
+  {
+    "id": "w30",
+    "text": "see",
+    "start": 8.96,
+    "end": 9.2
+  },
+  {
+    "id": "w31",
+    "text": "what",
+    "start": 9.2,
+    "end": 9.36
+  },
+  {
+    "id": "w32",
+    "text": "I'll",
+    "start": 9.36,
+    "end": 9.68
+  },
+  {
+    "id": "w33",
+    "text": "sent",
+    "start": 9.68,
+    "end": 9.92
+  },
+  {
+    "id": "w34",
+    "text": "to",
+    "start": 9.92,
+    "end": 10.08
+  },
+  {
+    "id": "w35",
+    "text": "you.",
+    "start": 10.08,
+    "end": 10.4
+  },
+  {
+    "id": "w36",
+    "text": "Or",
+    "start": 10.64,
+    "end": 10.96
+  },
+  {
+    "id": "w37",
+    "text": "check",
+    "start": 11.28,
+    "end": 11.76
+  },
+  {
+    "id": "w38",
+    "text": "my",
+    "start": 11.76,
+    "end": 12
+  },
+  {
+    "id": "w39",
+    "text": "stories.",
+    "start": 12,
+    "end": 12.64
+  },
+  {
+    "id": "w40",
+    "text": "You'll",
+    "start": 12.64,
+    "end": 13.04
+  },
+  {
+    "id": "w41",
+    "text": "find",
+    "start": 13.04,
+    "end": 13.28
+  },
+  {
+    "id": "w42",
+    "text": "your",
+    "start": 13.28,
+    "end": 13.44
+  },
+  {
+    "id": "w43",
+    "text": "answer",
+    "start": 13.44,
+    "end": 13.92
+  },
+  {
+    "id": "w44",
+    "text": "there.",
+    "start": 13.92,
+    "end": 14.4
+  }
+]

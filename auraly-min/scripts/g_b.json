@@ -1,0 +1,46 @@
+{
+ "headDur": 3.4,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Snowfall.mp3",
+ "head": [
+  "How much money",
+  "*do you really need?*"
+ ],
+ "fix": {},
+ "accent": [
+  "money",
+  "problems?",
+  "comments",
+  "answer",
+  "answer.",
+  "333",
+  "stories"
+ ],
+ "pops": [
+  {
+   "type": "chip",
+   "at": "Let me know",
+   "icon": "chat",
+   "text": "Tell me in the *comments*",
+   "dur": 2.2
+  },
+  {
+   "type": "chip",
+   "at": "might just have",
+   "pos": "ml",
+   "icon": "spark",
+   "text": "I might have *your answer*",
+   "dur": 2
+  },
+  {
+   "type": "comment",
+   "at": "Comment",
+   "dur": 2.4
+  },
+  {
+   "type": "stories",
+   "at": "check my stories",
+   "title": "Check my *stories*",
+   "sub": "your answer is there"
+  }
+ ]
+}

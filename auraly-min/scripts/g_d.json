@@ -1,0 +1,69 @@
+{
+ "headDur": 3,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/øneheart x antent - rain inside.mp3",
+ "head": [
+  "Your guardian angels",
+  "*are watching right now*"
+ ],
+ "fix": {},
+ "accent": [
+  "angels",
+  "staring",
+  "drought",
+  "home",
+  "save",
+  "share",
+  "best",
+  "news",
+  "seven",
+  "777",
+  "7777",
+  "claim"
+ ],
+ "pops": [
+  {
+   "type": "card",
+   "at": "Ignore this",
+   "pos": "ml",
+   "icon": "eye",
+   "title": "Ignore this?",
+   "sub": "a drought at home",
+   "dur": 2.8
+  },
+  {
+   "type": "chip",
+   "at": "save and share",
+   "pos": "ml",
+   "icon": "save",
+   "text": "Save & *share*",
+   "dur": 2.2
+  },
+  {
+   "type": "card",
+   "at": "best news",
+   "pos": "ml",
+   "icon": "bell",
+   "title": "The best news",
+   "sub": "of your life",
+   "dur": 2
+  },
+  {
+   "type": "stats",
+   "at": "seven minutes",
+   "dur": 3,
+   "items": [
+    {
+     "at": "seven minutes",
+     "big": "7",
+     "small": "minutes",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "Type",
+   "dur": 2.8
+  }
+ ]
+}

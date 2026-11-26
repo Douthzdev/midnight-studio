@@ -1,0 +1,68 @@
+{
+ "headDur": 2.8,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Interistelar Theme Piano.mp3",
+ "head": [
+  "An ultimatum",
+  "*from the universe*"
+ ],
+ "fix": {},
+ "accent": [
+  "ultimatum",
+  "today",
+  "reject",
+  "blessing",
+  "bloodline",
+  "save",
+  "share",
+  "news",
+  "seven",
+  "555",
+  "5555",
+  "claim"
+ ],
+ "pops": [
+  {
+   "type": "card",
+   "at": "Skipping this",
+   "icon": "lock",
+   "title": "Skip it?",
+   "sub": "you reject the blessing",
+   "dur": 2.6
+  },
+  {
+   "type": "card",
+   "at": "biggest financial blessing",
+   "pos": "ml",
+   "icon": "money",
+   "title": "The biggest blessing",
+   "sub": "meant for your bloodline",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "save or share",
+   "pos": "ml",
+   "icon": "save",
+   "text": "Save or *share*",
+   "dur": 2
+  },
+  {
+   "type": "stats",
+   "at": "seven",
+   "dur": 3,
+   "items": [
+    {
+     "at": "seven",
+     "big": "7",
+     "small": "minutes",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "Type",
+   "dur": 2.8
+  }
+ ]
+}

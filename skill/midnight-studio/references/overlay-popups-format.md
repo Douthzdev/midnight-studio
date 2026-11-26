@@ -53,4 +53,13 @@ It was built as `auraly-lineart/tools/overlay.mjs <video> <Name> <slug> <script.
   - `list` with `check:true`: the seals list.
 - New zone `bot` (y 1060). edits.json also takes `retext:[[t,"word"|""]]` for per-word caption fixes.
 
+**Standalone short talking heads (2026-11-26 "GPT" batch):**
+- 14 videos of 12–25 s each, 4 scripts, no b-roll hook.
+- Tools: `scripts/mk_g.mjs` → `g_a..g_d.json`; build with `build_g.sh` (slug|Avatar|file list).
+- Settings: `hook` 0, `headDur` ~3 s, 4–6 pops per video.
+- File naming: "<Name> - GPT.mp4" and "<Name> - GPT - Fala.mp4" are NOT a hook+body pair. The user wants every file edited as its own video.
+- When a file name is ambiguous, ask the user.
+- Spoken numbers ("five five five") → use `retext` to show "555" on the first word and hide the other two.
+- The pfp crop is now 700×700 at (190, 230).
+
 **Verdict (2026-11-24): the user LOVED it** ("PERFEITO! DIVINO… cortes, popups, incrível qualidade"). This is now a proven format for multi-shot UGC ads: reuse overlay.mjs as is. Related: [[minimal-headline-format]], [[no-breaths-hard-cuts]], [[instagram-reels-ui-layout]].

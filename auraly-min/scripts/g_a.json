@@ -1,0 +1,67 @@
+{
+ "headDur": 3.2,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Stargazing.mp3",
+ "head": [
+  "All your debts paid",
+  "*and money left over*"
+ ],
+ "fix": {},
+ "accent": [
+  "debts",
+  "money",
+  "coming",
+  "rice",
+  "yourself",
+  "blessing",
+  "activated",
+  "1111",
+  "111",
+  "stories",
+  "surprise",
+  "hours"
+ ],
+ "pops": [
+  {
+   "type": "card",
+   "at": "money is coming",
+   "icon": "money",
+   "title": "Money is coming",
+   "sub": "a lot, a lot of it",
+   "dur": 2.8
+  },
+  {
+   "type": "chip",
+   "at": "grains of rice",
+   "pos": "ml",
+   "icon": "sprout",
+   "text": "Like *grains of rice*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "send this video",
+   "icon": "send",
+   "text": "Send it to *yourself*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "blessing will be activated",
+   "pos": "ml",
+   "icon": "spark",
+   "text": "Blessing *activated*",
+   "dur": 2
+  },
+  {
+   "type": "comment",
+   "at": "Comment",
+   "dur": 2.6
+  },
+  {
+   "type": "stories",
+   "at": "look on my stories",
+   "title": "Look at my *stories*",
+   "sub": "a surprise · next 24 hours"
+  }
+ ]
+}
