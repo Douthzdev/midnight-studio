@@ -20,3 +20,5 @@ User's AI avatar roster (registered 2026-11-04). Refer to them by these names in
 
 **Why:** the user wants stable names across sessions; the roster may change (avatars added/dropped).
 **How to apply:** if the user sends avatar images that don't match this list, or the list seems outdated, ask for their names before writing prompts. Related: [[hook-recreation-workflow]].
+
+**Unnamed, keep as ？ (user 2026-11-26):** Spanish-speaking woman, ~30s, short curly black bob, tortoiseshell glasses, striped white shirt, kitchen with a window. Deliver her edits as `？.mp4` / `？ 2.mp4` and do NOT ask her name again.
