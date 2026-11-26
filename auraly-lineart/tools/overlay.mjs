@@ -46,7 +46,7 @@ if (!fs.existsSync(BODY) || RENDER) {
   ff(["-hide_banner", "-y", "-i", RAW, "-i", WAV48, "-filter_complex", fc, "-map", "[v]", "-map", "[a]", "-c:v", "h264_nvenc", "-preset", "p5", "-rc", "vbr", "-cq", "18", "-b:v", "0", "-c:a", "aac", "-b:a", "192k", BODY]);
 }
 // profile picture for the stories CTA: square crop of the face, a few seconds into the body
-ff(["-hide_banner", "-y", "-ss", String((S.hook ?? 0) + (S.pfpAt ?? 6)), "-i", RAW, "-frames:v", "1", "-vf", "scale=1080:1920,crop=700:700:190:230,scale=300:300", P + "/assets/pfp.jpg"]);
+ff(["-hide_banner", "-y", "-ss", String((S.hook ?? 0) + (S.pfpAt ?? 6)), "-i", RAW, "-frames:v", "1", "-vf", `scale=1080:1920,crop=${S.pfpCrop ?? "700:700:190:230"},scale=300:300`, P + "/assets/pfp.jpg"]);
 const rawWords = JSON.parse(fs.readFileSync(TR, "utf8"));
 const dropped = (w) => (ED.drop || []).some(([a, b]) => (w.start + w.end) / 2 > a && (w.start + w.end) / 2 < b);
 const retext = (w) => { const r = (ED.retext || []).find(([t]) => Math.abs(t - w.start) < 0.03); return r ? { ...w, text: r[1] } : w; }; // per-word caption fix by time, "" hides the word
@@ -190,7 +190,7 @@ S.pops.forEach((p, k) => {
       tw += `tl.to("#${id} .x${j}",{backgroundColor:"#A8E6BE",color:"#16161A",scale:1.12,duration:0.25,ease:"back.out(3)"},${T(ts)});tl.to("#${id} .x${j}",{scale:1,duration:0.3},${T(ts + 0.25)});\n`; evs.push(ts); });
   } else if (p.type === "comment") { // comment bar typing the keyword (default: the word spoken after p.at), finger taps Post
     if (!p.text) { const i0 = words.findIndex((w) => w.start === t0); p.text = (words[i0 + p.at.split(" ").length]?.text || "222").replace(/[.,!?;:]+$/, ""); }
-    html += `<div id="${id}" class="${cls} gl cbar"><img src="assets/pfp.jpg"><div class="cin"><span class="ph">Add a comment…</span><span class="typed"></span><span class="caret"></span></div><div class="post">Post</div><div class="hand">${HAND}</div></div>\n`;
+    html += `<div id="${id}" class="${cls} gl cbar"><img src="assets/pfp.jpg"><div class="cin"><span class="ph">${esc(S.ui?.ph ?? "Add a comment…")}</span><span class="typed"></span><span class="caret"></span></div><div class="post">${esc(S.ui?.post ?? "Post")}</div><div class="hand">${HAND}</div></div>\n`;
     inn(`#${id}`, t); const t1 = t + 0.5, step = Math.min(0.14, 0.9 / p.text.length);
     tw += `tl.to("#${id} .ph",{opacity:0,duration:0.15},${T(t1 - 0.1)});\n`;
     [...p.text].forEach((_, j) => { tw += `tl.set("#${id} .typed",{textContent:${JSON.stringify(p.text.slice(0, j + 1))}},${T(t1 + j * step)});\n`; });
@@ -200,7 +200,7 @@ S.pops.forEach((p, k) => {
     cues.push({ kind: "tick", t: tp });
   } else if (p.type === "stories") { // profile pic with a spinning story ring, tap, arrow down-left to Instagram's own profile pic
     const fin = !p.end && !p.dur; if (fin) e = TOTAL;
-    html += `<div id="${id}" class="${cls} gl sto"><div class="pf"><div class="sring"></div><img src="assets/pfp.jpg"><div class="ripple"></div><div class="badge">NEW</div></div><div><div class="ct">${fmt(p.title || "Tap my *profile picture*")}</div><div class="cs">${fmt(p.sub || "the reading is in my stories")}</div></div><div class="hand">${HAND}</div></div>
+    html += `<div id="${id}" class="${cls} gl sto"><div class="pf"><div class="sring"></div><img src="assets/pfp.jpg"><div class="ripple"></div><div class="badge">${esc(S.ui?.badge ?? "NEW")}</div></div><div><div class="ct">${fmt(p.title || "Tap my *profile picture*")}</div><div class="cs">${fmt(p.sub || "the reading is in my stories")}</div></div><div class="hand">${HAND}</div></div>
 <svg id="${id}a" class="pop parr" viewBox="0 0 400 420" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M360 20C300 160 170 230 60 360" pathLength="1" stroke-dasharray="1 1" stroke-dashoffset="1"/><path class="hd" d="M40 300L58 364L122 350"/></svg>\n`;
     inn(`#${id}`, t); const tp = t + 0.9;
     tw += `tl.fromTo("#${id} .sring",{rotation:0},{rotation:${Math.round((e - t) * 90)},duration:${T(e - t)},ease:"none",immediateRender:false},${T(t)});tl.fromTo("#${id} .badge",{scale:0},{scale:1,duration:0.4,ease:"back.out(3)",immediateRender:false},${T(t + 0.5)});\n`;

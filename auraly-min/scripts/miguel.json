@@ -1,0 +1,302 @@
+{
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Interistelar Theme Piano.mp3",
+ "head": [
+  "Guárdalo en secreto",
+  "*un mensaje del cielo*"
+ ],
+ "headDur": 4,
+ "pfpCrop": "600:600:560:170",
+ "ui": {
+  "ph": "Añade un comentario…",
+  "post": "Publicar",
+  "badge": "NUEVO"
+ },
+ "fix": {},
+ "accent": [
+  "secreto.",
+  "cielo",
+  "mensaje",
+  "hermana.",
+  "razón.",
+  "advertencia",
+  "financiera",
+  "lista?",
+  "final.",
+  "bendiciones",
+  "selladas",
+  "prosperidad,",
+  "amor",
+  "dinero",
+  "nadie.",
+  "abundancia",
+  "Miguel.",
+  "derecha",
+  "eligió",
+  "escasez.",
+  "envió.",
+  "33",
+  "sellos",
+  "sello.",
+  "222",
+  "frágil",
+  "regalo",
+  "historias.",
+  "perfil."
+ ],
+ "pops": [
+  {
+   "type": "card",
+   "at": "Alguien de tu familia",
+   "icon": "wings",
+   "title": "Un mensaje del cielo",
+   "sub": "de alguien de tu familia",
+   "dur": 3
+  },
+  {
+   "type": "card",
+   "at": "26 27",
+   "icon": "calendar",
+   "title": "26 · 27 · 28 nov",
+   "sub": "no es casualidad",
+   "end": "por una razón"
+  },
+  {
+   "type": "chip",
+   "at": "última advertencia",
+   "pos": "ml",
+   "icon": "bell",
+   "text": "La *última* advertencia",
+   "dur": 2.6
+  },
+  {
+   "type": "card",
+   "at": "transformación financiera",
+   "icon": "money",
+   "title": "Transformación financiera",
+   "sub": "en cuestión de días",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "Estás lista",
+   "pos": "ml",
+   "icon": "question",
+   "text": "¿Estás *lista?*",
+   "dur": 2
+  },
+  {
+   "type": "chip",
+   "at": "quédate en este video",
+   "icon": "eye",
+   "text": "Quédate *hasta el final*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "Si pasas al siguiente",
+   "icon": "arrow",
+   "text": "No pases al *siguiente video*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "te envías este video",
+   "pos": "ml",
+   "icon": "send",
+   "text": "Envíatelo *a ti misma*",
+   "dur": 2.6
+  },
+  {
+   "type": "chip",
+   "at": "quedarán selladas",
+   "icon": "lock",
+   "text": "Bendiciones *selladas*",
+   "dur": 2.2
+  },
+  {
+   "type": "list",
+   "at": "ola de prosperidad",
+   "title": "VIENE HACIA TI",
+   "check": true,
+   "end": "hacia ti",
+   "items": [
+    {
+     "at": "prosperidad",
+     "icon": "star",
+     "text": "Prosperidad"
+    },
+    {
+     "at": "amor",
+     "icon": "heart",
+     "text": "Amor"
+    },
+    {
+     "at": "dinero",
+     "icon": "money",
+     "text": "Dinero"
+    }
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "No se lo cuentes",
+   "pos": "ml",
+   "icon": "lock",
+   "text": "No se lo *cuentes a nadie*",
+   "dur": 2.4
+  },
+  {
+   "type": "card",
+   "at": "portal de la abundancia",
+   "icon": "portal",
+   "title": "Portal de abundancia",
+   "sub": "enviado por el Arcángel Miguel",
+   "dur": 3.2
+  },
+  {
+   "type": "chip",
+   "at": "Lo más difícil",
+   "icon": "sun",
+   "text": "Lo más difícil *quedó atrás*",
+   "dur": 2.4
+  },
+  {
+   "type": "card",
+   "at": "cierra la mano derecha",
+   "pos": "ml",
+   "icon": "fist",
+   "title": "Cierra la mano derecha",
+   "sub": "y escucha hasta el final",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "universo te eligió",
+   "icon": "spark",
+   "text": "El universo *te eligió*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "algo realmente increíble",
+   "icon": "spark",
+   "text": "Algo *increíble* está pasando",
+   "dur": 2.4
+  },
+  {
+   "type": "card",
+   "at": "soltarse las ataduras",
+   "pos": "ml",
+   "icon": "unlock",
+   "title": "Las ataduras se sueltan",
+   "sub": "adiós a la escasez",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "regresando a quien",
+   "icon": "shield",
+   "text": "Regresa a *quien lo envió*",
+   "dur": 2.6
+  },
+  {
+   "type": "stats",
+   "at": "33 minutos",
+   "pos": "ml",
+   "end": "amorosa",
+   "items": [
+    {
+     "at": "33 minutos",
+     "big": "33",
+     "small": "minutos",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "at": "Abre la mano derecha",
+   "icon": "unlock",
+   "title": "Abre la mano derecha",
+   "sub": "activa los 3 sellos",
+   "dur": 2.8
+  },
+  {
+   "type": "chip",
+   "at": "tres sellos magnéticos",
+   "pos": "ml",
+   "icon": "star",
+   "text": "3 sellos *magnéticos*",
+   "dur": 2.4
+  },
+  {
+   "type": "list",
+   "at": "Dale me gusta",
+   "title": "3 SELLOS",
+   "check": true,
+   "end": "tercer sello",
+   "items": [
+    {
+     "at": "Dale me gusta",
+     "icon": "heart",
+     "text": "Me gusta · 1er sello"
+    },
+    {
+     "at": "Guarda este video",
+     "icon": "save",
+     "text": "Guardar · 2º sello"
+    },
+    {
+     "at": "Envíate este video",
+     "icon": "send",
+     "text": "Enviar · 3er sello"
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "escribe",
+   "text": "222",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "buena noticia llegará",
+   "pos": "ml",
+   "icon": "bell",
+   "text": "Buena noticia en *33 minutos*",
+   "dur": 2.6
+  },
+  {
+   "type": "card",
+   "at": "energía es muy frágil",
+   "icon": "shield",
+   "title": "Esta energía es frágil",
+   "sub": "necesitas un ancla",
+   "dur": 3
+  },
+  {
+   "type": "card",
+   "at": "ancla de manifestación",
+   "pos": "ml",
+   "icon": "sprout",
+   "title": "Un ancla de manifestación",
+   "sub": "para que todo se manifieste",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "Te dejé un regalo",
+   "pos": "ml",
+   "icon": "star",
+   "text": "Un *regalo* para ti",
+   "dur": 2.2
+  },
+  {
+   "type": "stories",
+   "at": "tocar mi foto de perfil",
+   "title": "Toca mi *foto de perfil*",
+   "sub": "el regalo está en mis historias"
+  }
+ ]
+}

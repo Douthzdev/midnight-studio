@@ -62,4 +62,11 @@ It was built as `auraly-lineart/tools/overlay.mjs <video> <Name> <slug> <script.
 - Spoken numbers ("five five five") → use `retext` to show "555" on the first word and hide the other two.
 - The pfp crop is now 700×700 at (190, 230).
 
+**Non-English videos (2026-11-26, Spanish "Arcángel Miguel", config `scripts/miguel.json`):**
+- All on-screen copy goes in the audio's language (headline, pops, list titles).
+- `S.ui {ph, post, badge}` localizes the comment bar and the stories badge, e.g. "Añade un comentario…" / "Publicar" / "NUEVO".
+- `S.pfpCrop` ("w:h:x:y" on 1080×1920) aims the profile-pic crop when the face isn't centred.
+- When the face sits high, use `pos` tl/ml (not top/tr) and put stats on `ml`.
+- The avatar wasn't in the roster, so the file was delivered as `？ (data).mp4`.
+
 **Verdict (2026-11-24): the user LOVED it** ("PERFEITO! DIVINO… cortes, popups, incrível qualidade"). This is now a proven format for multi-shot UGC ads: reuse overlay.mjs as is. Related: [[minimal-headline-format]], [[no-breaths-hard-cuts]], [[instagram-reels-ui-layout]].
