@@ -20,4 +20,4 @@
 - [Kinetic type + icon-map ref](kinetic-iconmap-format.md) — edit OPTION from "triple hook" ref: word-sized type is the art, line icons, 1 neon accent, step icon-map; ref-saveclip2/DECUPAGEM.md, not built yet
 - [Instagram Reels UI layout](instagram-reels-ui-layout.md) — where IG buttons sit (rail, profile pic bottom-left) for aiming taps/arrows/CTAs
 - [Glass Clean (overlay pop-ups)](overlay-popups-format.md) — edit OPTION, user loved it: footage untouched + dark-glass pop-ups, tools/overlay.mjs, template laura.json
-- [Midnight Studio repo + skill](midnight-studio-skill-repo.md) — private git repo + skill midnight-studio; run skill/sync.sh after every change
+- [Midnight Studio repo + skill](midnight-studio-skill-repo.md) — PUBLIC git repo + skill midnight-studio; run skill/sync.sh after every change

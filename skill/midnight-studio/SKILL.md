@@ -5,7 +5,7 @@ description: The Midnight / Auraly creative process for Instagram & Facebook Ree
 
 # Midnight Studio — how we make the videos
 
-Everything lives in `M:\Google\hyperframes\Midnight-Studio` (this git repo, private: github.com/Douthzdev/midnight-studio).
+Everything lives in `M:\Google\hyperframes\Midnight-Studio` (this git repo, PUBLIC: github.com/Douthzdev/midnight-studio — never commit secrets, keys or media).
 Inputs arrive in `M:\Google\hyperframes\VIDEOS PARA EDITAR`. The user writes in Portuguese; on-screen copy is English (the audio's language).
 
 Detailed notes per topic are in `references/` (synced from Claude's memory). Read the one for the format you use.
