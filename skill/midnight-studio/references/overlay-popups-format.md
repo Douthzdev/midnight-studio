@@ -69,4 +69,20 @@ It was built as `auraly-lineart/tools/overlay.mjs <video> <Name> <slug> <script.
 - When the face sits high, use `pos` tl/ml (not top/tr) and put stats on `ml`.
 - The avatar wasn't in the roster, so the file was delivered as `？ (data).mp4`.
 
+**Pick-a-card hook + colour tones (2026-11-27 test, verdict pending; config `scripts/mk_p.mjs` → `p1..p4_<avatar>.json`, `build_p.sh`, `prep_p.sh`):**
+- The user asked for two changes:
+  - **Tarot hooks** ("<Name> - Hook Tarot.mp4", 6 s, 720p/24 fps, silent, avatar holds two card backs then reveals one at ~5 s) get glowing **1** / **2** numbers on the cards plus "Pick a card." (white Inter 800, dark stroke), copied from their reference Reel. Then the body ("<Name> body.mp4") plays normally.
+  - Glass Clean **with colours that match what the copy says/promises**.
+- **Pick hook** (`S.pick {cards, corner?, head?, gap?, glow?}`, plus `hook: 6.0`):
+  - `scripts/cardtrack.py <hook>` tracks the purple card backs (mask r>g+35, b>g+12) every 0.1 s → `cards_<avatar>.json`.
+  - The numbers ride the tracked centres and burst away just before each card moves (>22 px). The headline sits ~200 px above the cards and replaces the normal headline. `corner: "222"` adds the reference's glowing corner number (use the CTA comment number).
+- **Tones** (`"tones": true` turns on the auto-guess; `pop.tone` = gold | green | red | pink | none overrides it):
+  - gold = abundance, blessings, luck, portals, angel numbers
+  - green = money, wealth, good news
+  - red = warnings, dates, scarcity, "don't skip/scroll"
+  - pink = love
+  - The glass gets a tinted gradient, border and glow; icons, `em` words, list titles and checks take the tone colour. Accent caption words are coloured by meaning (money → green, blessing → gold). `headTone` colours the headline underline.
+- Pitfall: in a `while read` loop, ffmpeg eats stdin. Use `-nostdin` and `</dev/null`.
+- Pitfall: tone regexes need word boundaries ("close" contains "lose").
+
 **Verdict (2026-11-24): the user LOVED it** ("PERFEITO! DIVINO… cortes, popups, incrível qualidade"). This is now a proven format for multi-shot UGC ads: reuse overlay.mjs as is. Related: [[minimal-headline-format]], [[no-breaths-hard-cuts]], [[instagram-reels-ui-layout]].

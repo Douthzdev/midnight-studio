@@ -1,0 +1,262 @@
+{
+ "hook": 6,
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Great Fairy's Fountain.mp3",
+ "tones": true,
+ "head": [
+  "Pick a card."
+ ],
+ "pick": {
+  "cards": "scripts/cards_selena.json",
+  "corner": "222"
+ },
+ "accent": [
+  "important",
+  "scroll",
+  "money",
+  "celebration",
+  "careful.",
+  "silent",
+  "coincidence",
+  "chosen",
+  "luckiest",
+  "worst",
+  "faith.",
+  "rich",
+  "illegal.",
+  "portal",
+  "33",
+  "seals",
+  "222",
+  "scarcity.",
+  "frequency.",
+  "aligner",
+  "stories"
+ ],
+ "pops": [
+  {
+   "type": "question",
+   "at": "Are you ready",
+   "text": "Are you *ready?*",
+   "dur": 1.6,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "extremely important message",
+   "icon": "bell",
+   "text": "An *important* message",
+   "dur": 2.4,
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "Don't you dare scroll",
+   "icon": "arrow",
+   "text": "Don't *scroll* past this",
+   "dur": 2.4,
+   "tone": "red"
+  },
+  {
+   "type": "card",
+   "at": "large amount of money",
+   "icon": "money",
+   "title": "A large amount of money",
+   "sub": "and a celebration",
+   "dur": 3,
+   "tone": "green",
+   "pos": "ml"
+  },
+  {
+   "type": "card",
+   "at": "Be very careful",
+   "icon": "calendar",
+   "title": "Nov 28 · 29",
+   "sub": "stay completely silent",
+   "dur": 3,
+   "tone": "red",
+   "end": "watching it"
+  },
+  {
+   "type": "chip",
+   "at": "no coincidence",
+   "icon": "spark",
+   "text": "No *coincidence*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "card",
+   "at": "luckiest days",
+   "icon": "star",
+   "title": "The luckiest days",
+   "sub": "of your entire life",
+   "dur": 3,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "worst is finally behind",
+   "icon": "sun",
+   "text": "The worst is *behind you*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "seen your faith",
+   "icon": "eye",
+   "text": "The universe *saw your faith*",
+   "dur": 2.4,
+   "tone": "gold"
+  },
+  {
+   "type": "card",
+   "at": "so rich",
+   "icon": "money",
+   "title": "So rich, so fast",
+   "sub": "people will wonder how",
+   "dur": 3,
+   "tone": "green"
+  },
+  {
+   "type": "card",
+   "at": "portal has just opened",
+   "icon": "portal",
+   "title": "The portal is open",
+   "sub": "it just opened in your life",
+   "dur": 3,
+   "tone": "gold",
+   "pos": "ml"
+  },
+  {
+   "type": "stats",
+   "at": "33 minutes",
+   "dur": 3.2,
+   "tone": "green",
+   "items": [
+    {
+     "at": "33 minutes",
+     "big": "33",
+     "small": "minutes",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "at": "Like this video",
+   "title": "3 MAGNETIC SEALS",
+   "check": true,
+   "end": "third seal",
+   "tone": "gold",
+   "items": [
+    {
+     "at": "Like this video",
+     "icon": "heart",
+     "text": "Like · 1st seal"
+    },
+    {
+     "at": "Save this video",
+     "icon": "save",
+     "text": "Save · 2nd seal"
+    },
+    {
+     "at": "Send this video",
+     "icon": "send",
+     "text": "Send · 3rd seal"
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "comment",
+   "text": "222",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "three seals activated",
+   "icon": "shield",
+   "text": "All 3 seals *activated*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "green"
+  },
+  {
+   "type": "chip",
+   "at": "one detail",
+   "icon": "question",
+   "text": "But there's *one detail*",
+   "dur": 2
+  },
+  {
+   "type": "card",
+   "at": "frequency is still",
+   "icon": "chain",
+   "title": "Still in scarcity",
+   "sub": "your frequency is off",
+   "dur": 3,
+   "tone": "red"
+  },
+  {
+   "type": "card",
+   "at": "money gets close",
+   "icon": "money",
+   "title": "Money comes… and goes",
+   "sub": "it slips through your fingers",
+   "dur": 3,
+   "tone": "red",
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "almost in your hands",
+   "icon": "money",
+   "text": "Almost in your *hands*…",
+   "dur": 2.4,
+   "tone": "red"
+  },
+  {
+   "type": "chip",
+   "at": "work harder",
+   "icon": "sun",
+   "text": "No need to *work harder*",
+   "dur": 2.2,
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "realign your frequency",
+   "icon": "spark",
+   "text": "Realign your *frequency*",
+   "dur": 2.4,
+   "tone": "gold"
+  },
+  {
+   "type": "card",
+   "at": "frequency aligner",
+   "icon": "bolt",
+   "title": "My frequency aligner",
+   "sub": "5 years using it",
+   "dur": 3,
+   "tone": "gold",
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "helped me manifest",
+   "icon": "spark",
+   "text": "It helped me *manifest*",
+   "dur": 2.4,
+   "tone": "gold"
+  },
+  {
+   "type": "stories",
+   "at": "my profile picture",
+   "title": "Tap my *profile picture*",
+   "sub": "the aligner is in my stories"
+  }
+ ]
+}

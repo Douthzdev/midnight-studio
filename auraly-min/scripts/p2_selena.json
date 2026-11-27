@@ -1,0 +1,369 @@
+{
+ "headDur": 2.4,
+ "headTone": "red",
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Snowfall.mp3",
+ "tones": true,
+ "head": [
+  "Does your name start",
+  "*with one of these?*"
+ ],
+ "accent": [
+  "careful.",
+  "coincidence.",
+  "warning",
+  "secret",
+  "fast.",
+  "luckiest",
+  "wealthy",
+  "illegal.",
+  "mistake",
+  "end",
+  "blessings",
+  "worst",
+  "faith.",
+  "money",
+  "special",
+  "chosen",
+  "portal",
+  "33",
+  "seals",
+  "222",
+  "scarcity.",
+  "frequency,",
+  "activator.",
+  "stories."
+ ],
+ "pops": [
+  {
+   "type": "letters",
+   "at": "letter",
+   "title": "YOUR NAME STARTS WITH",
+   "letters": [
+    "A",
+    "J",
+    "M",
+    "K",
+    "C",
+    "E",
+    "S",
+    "L",
+    "R",
+    "T",
+    "H"
+   ],
+   "end": "be very careful",
+   "tone": "gold"
+  },
+  {
+   "type": "card",
+   "at": "found you before",
+   "icon": "calendar",
+   "title": "Before Nov 29",
+   "sub": "it's not a coincidence",
+   "dur": 3,
+   "tone": "red"
+  },
+  {
+   "type": "chip",
+   "at": "final warning",
+   "icon": "bell",
+   "text": "Your *final warning*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "red"
+  },
+  {
+   "type": "chip",
+   "at": "Keep your mouth shut",
+   "icon": "lock",
+   "text": "Keep it *secret*",
+   "dur": 2.4
+  },
+  {
+   "type": "chip",
+   "at": "in your life before",
+   "icon": "calendar",
+   "text": "Before *Nov 29*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "red"
+  },
+  {
+   "type": "card",
+   "at": "Everything you've been asking",
+   "icon": "star",
+   "title": "Everything you asked for",
+   "sub": "is on its way",
+   "dur": 2.6,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "coming fast",
+   "icon": "spark",
+   "text": "It's coming *fast*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "card",
+   "at": "luckiest days",
+   "icon": "star",
+   "title": "The luckiest days",
+   "sub": "of your entire life",
+   "dur": 3,
+   "tone": "gold"
+  },
+  {
+   "type": "card",
+   "at": "so wealthy",
+   "icon": "money",
+   "title": "So wealthy, so fast",
+   "sub": "people will wonder how",
+   "dur": 3,
+   "tone": "green",
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "huge mistake",
+   "icon": "arrow",
+   "text": "Don't *skip* this video",
+   "dur": 2.4,
+   "tone": "red"
+  },
+  {
+   "type": "chip",
+   "at": "watch until the end",
+   "icon": "eye",
+   "text": "Watch *until the end*",
+   "dur": 2.4,
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "seal all these blessings",
+   "icon": "lock",
+   "text": "Blessings *sealed*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "The worst is",
+   "icon": "sun",
+   "text": "The worst is *behind you*",
+   "dur": 2.4,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "seen your faith",
+   "icon": "eye",
+   "text": "The universe *saw your faith*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "card",
+   "at": "unexpected money",
+   "icon": "money",
+   "title": "Unexpected money",
+   "sub": "landing in your bank account",
+   "dur": 3,
+   "tone": "green"
+  },
+  {
+   "type": "chip",
+   "at": "someone very special",
+   "icon": "heart",
+   "text": "Someone *special* is coming",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "pink"
+  },
+  {
+   "type": "chip",
+   "at": "meant for just anyone",
+   "icon": "eye",
+   "text": "Not meant for *just anyone*",
+   "dur": 2.2,
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "universe has chosen",
+   "icon": "spark",
+   "text": "The universe *chose you*",
+   "dur": 2.4,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "scroll to the next",
+   "icon": "arrow",
+   "text": "Don't *scroll* away",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "red"
+  },
+  {
+   "type": "card",
+   "at": "portal is still open",
+   "icon": "portal",
+   "title": "The portal is open",
+   "sub": "still open in your life",
+   "dur": 3,
+   "tone": "gold"
+  },
+  {
+   "type": "stats",
+   "at": "33 minutes",
+   "pos": "ml",
+   "dur": 3.2,
+   "tone": "green",
+   "items": [
+    {
+     "at": "33 minutes",
+     "big": "33",
+     "small": "minutes",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "three magnetic seals",
+   "icon": "lock",
+   "text": "Activate *3 magnetic seals*",
+   "dur": 2.4,
+   "tone": "gold"
+  },
+  {
+   "type": "list",
+   "at": "Like this video",
+   "title": "3 MAGNETIC SEALS",
+   "check": true,
+   "end": "third seal",
+   "tone": "gold",
+   "items": [
+    {
+     "at": "Like this video",
+     "icon": "heart",
+     "text": "Like · 1st seal"
+    },
+    {
+     "at": "Save this video",
+     "icon": "save",
+     "text": "Save · 2nd seal"
+    },
+    {
+     "at": "Share this video",
+     "icon": "send",
+     "text": "Share · 3rd seal"
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "comment",
+   "text": "222",
+   "dur": 3
+  },
+  {
+   "type": "chip",
+   "at": "good news in",
+   "icon": "bell",
+   "text": "Good news in *33 minutes*",
+   "dur": 2.4,
+   "tone": "green"
+  },
+  {
+   "type": "chip",
+   "at": "three seals activated",
+   "icon": "shield",
+   "text": "All 3 seals *activated*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "green"
+  },
+  {
+   "type": "chip",
+   "at": "one detail",
+   "icon": "question",
+   "text": "But there's *one detail*",
+   "dur": 2
+  },
+  {
+   "type": "card",
+   "at": "frequency is still",
+   "icon": "chain",
+   "title": "Still in scarcity",
+   "sub": "your frequency is off",
+   "dur": 3,
+   "tone": "red"
+  },
+  {
+   "type": "card",
+   "at": "money gets close",
+   "icon": "money",
+   "title": "Money comes… and goes",
+   "sub": "it slips through your fingers",
+   "dur": 3,
+   "tone": "red",
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "work harder",
+   "icon": "sun",
+   "text": "No need to *work harder*",
+   "dur": 2.2,
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "adjust your frequency",
+   "icon": "spark",
+   "text": "Adjust your *frequency*",
+   "dur": 2.4,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "all by yourself",
+   "icon": "heart",
+   "text": "You don't have to do it *alone*",
+   "dur": 1.9,
+   "pos": "ml",
+   "tone": "none"
+  },
+  {
+   "type": "card",
+   "at": "frequency activator",
+   "icon": "bolt",
+   "title": "A frequency activator",
+   "sub": "all you need",
+   "dur": 3,
+   "tone": "gold",
+   "pos": "ml"
+  },
+  {
+   "type": "stories",
+   "at": "Tap my profile picture",
+   "title": "Tap my *profile picture*",
+   "sub": "the activator is in my stories"
+  },
+  {
+   "type": "chip",
+   "at": "portal is about to close",
+   "icon": "clock",
+   "text": "Your portal is *closing*",
+   "dur": 2.4,
+   "tone": "red"
+  }
+ ]
+}

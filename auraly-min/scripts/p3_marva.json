@@ -1,0 +1,252 @@
+{
+ "headDur": 3.2,
+ "headTone": "gold",
+ "music": "C:/Users/Vinicius/Music/Songs Auraly UGC/Interistelar Theme Piano.mp3",
+ "tones": true,
+ "head": [
+  "Archangel Michael",
+  "*has a message for you*"
+ ],
+ "accent": [
+  "Michael",
+  "message",
+  "ready.",
+  "faith,",
+  "turning",
+  "abundance,",
+  "prosperity,",
+  "wonderful",
+  "blessings",
+  "seriously.",
+  "warning.",
+  "victory",
+  "worst",
+  "scarcity,",
+  "Doors",
+  "seven",
+  "abundance",
+  "yourself",
+  "seal.",
+  "believe",
+  "10",
+  "news.",
+  "chapter.",
+  "stories.",
+  "free",
+  "cry",
+  "forever."
+ ],
+ "pops": [
+  {
+   "type": "card",
+   "at": "Archangel Michael asked",
+   "icon": "wings",
+   "title": "Archangel Michael",
+   "sub": "a very important message",
+   "dur": 3,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "get ready",
+   "icon": "spark",
+   "text": "Get *ready*",
+   "dur": 2,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "universe saw your faith",
+   "icon": "eye",
+   "text": "The universe *saw your faith*",
+   "dur": 2.2,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "massive turning point",
+   "icon": "spark",
+   "text": "A massive *turning point*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "list",
+   "at": "Financial abundance",
+   "title": "COMING INTO YOUR LIFE",
+   "check": true,
+   "end": "unexpectedly",
+   "tone": "gold",
+   "items": [
+    {
+     "at": "Financial abundance",
+     "icon": "money",
+     "text": "Financial abundance"
+    },
+    {
+     "at": "true prosperity",
+     "icon": "star",
+     "text": "True prosperity"
+    },
+    {
+     "at": "someone incredibly wonderful",
+     "icon": "heart",
+     "text": "Someone wonderful"
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "at": "turn your back",
+   "icon": "lock",
+   "title": "Turn your back?",
+   "sub": "your blessings turn theirs",
+   "dur": 3,
+   "tone": "red",
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "sent a warning",
+   "icon": "bell",
+   "text": "A *warning* from Michael",
+   "dur": 2.4,
+   "tone": "red"
+  },
+  {
+   "type": "chip",
+   "at": "season of victory",
+   "icon": "star",
+   "text": "A season of *victory*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "card",
+   "at": "chains and scars",
+   "icon": "unlock",
+   "title": "The chains are breaking",
+   "sub": "no more scarcity",
+   "dur": 3,
+   "tone": "green"
+  },
+  {
+   "type": "chip",
+   "at": "Doors that wouldn't open",
+   "icon": "door",
+   "text": "Closed doors *open*",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "green"
+  },
+  {
+   "type": "stats",
+   "at": "next seven minutes",
+   "dur": 3.4,
+   "tone": "gold",
+   "items": [
+    {
+     "at": "seven minutes",
+     "big": "7",
+     "small": "minutes",
+     "ring": true
+    }
+   ]
+  },
+  {
+   "type": "chip",
+   "at": "send this video to yourself",
+   "icon": "send",
+   "text": "Send it to *yourself*",
+   "dur": 2.4,
+   "pos": "ml"
+  },
+  {
+   "type": "chip",
+   "at": "come back and confirm",
+   "icon": "clock",
+   "text": "Come back in *7 minutes*",
+   "dur": 2.4,
+   "tone": "gold"
+  },
+  {
+   "type": "list",
+   "at": "save this video",
+   "title": "2 SEALS",
+   "check": true,
+   "end": "second seal",
+   "tone": "gold",
+   "items": [
+    {
+     "at": "save this video",
+     "icon": "save",
+     "text": "Save · 1st seal"
+    },
+    {
+     "at": "Double tap",
+     "icon": "heart",
+     "text": "Double tap · 2nd seal"
+    }
+   ]
+  },
+  {
+   "type": "comment",
+   "at": "type",
+   "text": "I believe",
+   "dur": 3.2
+  },
+  {
+   "type": "card",
+   "at": "tomorrow morning",
+   "icon": "clock",
+   "title": "Tomorrow · 10 a.m.",
+   "sub": "unbelievably good news",
+   "dur": 3,
+   "tone": "green"
+  },
+  {
+   "type": "chip",
+   "at": "new chapter",
+   "icon": "book",
+   "text": "A *new chapter* begins",
+   "dur": 2.4,
+   "pos": "ml",
+   "tone": "gold"
+  },
+  {
+   "type": "stories",
+   "at": "tap my profile picture",
+   "title": "Tap my *profile picture*",
+   "sub": "a free card reading is there"
+  },
+  {
+   "type": "card",
+   "at": "free card reading",
+   "icon": "book",
+   "title": "A free card reading",
+   "sub": "starts with a 2-minute test",
+   "dur": 3,
+   "tone": "gold"
+  },
+  {
+   "type": "chip",
+   "at": "lot of people cry",
+   "icon": "heart",
+   "text": "Many people *cry*",
+   "dur": 2.4,
+   "pos": "tl",
+   "tone": "pink"
+  },
+  {
+   "type": "chip",
+   "at": "won't wait for you",
+   "icon": "clock",
+   "text": "It won't wait *forever*",
+   "dur": 2.4,
+   "tone": "red"
+  }
+ ]
+}
